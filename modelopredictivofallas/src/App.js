@@ -1,29 +1,16 @@
-import React from 'react';  // Importa React
-import { StyleSheet, Text, View } from 'react-native';  // Importa componentes y API de estilos de React Native
+import React, { useState } from 'react';
+import MapView from './views/MapView'; // Asegúrate de que la ruta es correcta
+import Menu from './views/Menu'; // Menú para seleccionar capas
 
-// Define el componente App
-export default function App() {
+function App() {
+  const [layer, setLayer] = useState('temperature'); // Estado para la capa seleccionada
+
   return (
-    // Usa el componente View como contenedor principal
-    <View style={styles.container}>
-      {/* Usa el componente Text para mostrar texto */}
-      <Text>¡Hola, React Native Web!</Text>
-    </View>
+    <div className="App">
+      <Menu setLayer={setLayer} /> {/* Pasamos la función para cambiar la capa */}
+      <MapView layer={layer} /> {/* Pasamos la capa seleccionada al MapView */}
+    </div>
   );
 }
 
-// Define estilos para los componentes usando StyleSheet de React Native
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,  // Hace que el contenedor ocupe todo el espacio disponible
-    justifyContent: 'center',  // Centra el contenido verticalmente
-    alignItems: 'center',  // Centra el contenido horizontalmente
-    backgroundColor: '#F5FCFF',  // Establece el color de fondo
-  },
-  welcome: {
-    fontSize: 20,  // Tamaño de fuente
-    textAlign: 'center',  // Alineación del texto
-    margin: 10,  // Margen alrededor del texto
-  },
-});
-
+export default App;
