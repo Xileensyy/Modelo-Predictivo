@@ -1,0 +1,12 @@
+#map {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  /* Estilo para mover los controles de zoom a la esquina inferior izquierda */
+  .leaflet-control-zoom {
+    position: absolute;
+    top: 550px; /* Ajusta la distancia desde el fondo */
+    left: 10px; /* Ajusta la distancia desde la izquierda */
+    margin: 0;
+  }
