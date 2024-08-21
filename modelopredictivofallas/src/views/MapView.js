@@ -76,7 +76,7 @@ const AddGeocoderControl = ({ setForecast }) => {
     const forecastPopup = document.getElementById('forecast-popup');
     if (forecastPopup) {
       forecastPopup.innerHTML = `
-        <div style="display: flex; justify-content: space-between; align-items: center; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.2);">
+        <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(255, 255, 255, 0.8); padding: 10px; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.2);">
           <span>Predicciones</span>
           <button id="minimize-btn" style="background: transparent; border: none; cursor: pointer; font-size: 14px;">&minus;</button>
         </div>
@@ -102,6 +102,44 @@ const AddGeocoderControl = ({ setForecast }) => {
   };
 
   return null;
+};
+
+// Componente para la leyenda de temperatura
+const Legend = () => {
+  return (
+    <div style={{
+      position: 'absolute',
+      bottom: '50px',
+      right: '10px',
+      background: 'rgba(255, 255, 255, 0.8)',
+      padding: '10px',
+      borderRadius: '5px',
+      boxShadow: '0 0 5px rgba(0,0,0,0.2)',
+      zIndex: 1000
+    }}>
+      <h4>Leyenda de Temperatura</h4>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <div style={{ width: '20px', height: '20px', background: '#0080ff', marginRight: '10px' }}></div>
+        <span>-30°C a 0°C</span>
+      </div>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <div style={{ width: '20px', height: '20px', background: '#00ffff', marginRight: '10px' }}></div>
+        <span>0°C a 10°C</span>
+      </div>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <div style={{ width: '20px', height: '20px', background: '#ffff00', marginRight: '10px' }}></div>
+        <span>10°C a 20°C</span>
+      </div>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <div style={{ width: '20px', height: '20px', background: '#ff8000', marginRight: '10px' }}></div>
+        <span>20°C a 30°C</span>
+      </div>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <div style={{ width: '20px', height: '20px', background: '#ff0000', marginRight: '10px' }}></div>
+        <span>30°C a 40°C</span>
+      </div>
+    </div>
+  );
 };
 
 const LayerControl = ({ selectedLayer }) => {
@@ -146,19 +184,23 @@ const LayerControl = ({ selectedLayer }) => {
         'https://tile.openweathermap.org/map/precipitation_new/{z}/{x}/{y}.png?appid=9051c7a0628cb29598922cf70f3bf23c',
         {
           attribution: '&copy; <a href="https://openweathermap.org">OpenWeatherMap</a>',
-          opacity: 2,
-        }
-      ).on('tileload', (event) => {
-        event.tile.style.filter = 'contrast(150%)';
-      });
-    } else if (selectedLayer === 'clouds') {
-      layer = L.tileLayer(
-        'https://tile.openweathermap.org/map/clouds_new/{z}/{x}/{y}.png?appid=9051c7a0628cb29598922cf70f3bf23c',
-        {
-          attribution: '&copy; <a href="https://openweathermap.org">OpenWeatherMap</a>',
-          opacity: 1, // Ajusta la opacidad si es necesario
         }
       );
+    } else if (selectedLayer === 'heat') {
+      layer = L.tileLayer(
+        'https://tile.openweathermap.org/map/heat_new/{z}/{x}/{y}.png?appid=9051c7a0628cb29598922cf70f3bf23c',
+        {
+          attribution: '&copy; <a href="https://openweathermap.org">OpenWeatherMap</a>',
+        }
+      );
+    }else if (selectedLayer === 'clouds') {
+        layer = L.tileLayer(
+          'https://tile.openweathermap.org/map/clouds_new/{z}/{x}/{y}.png?appid=9051c7a0628cb29598922cf70f3bf23c',
+          {
+            attribution: '&copy; <a href="https://openweathermap.org">OpenWeatherMap</a>',
+            opacity: 1, // Ajusta la opacidad si es necesario
+          }
+        );
     } else if (selectedLayer === 'satellite') {
       layer = L.tileLayer(
         'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
@@ -177,30 +219,30 @@ const LayerControl = ({ selectedLayer }) => {
 };
 
 const MapView = () => {
-  const [selectedLayer, setSelectedLayer] = useState(null);
+  const [selectedLayer, setSelectedLayer] = useState('normal');
 
   return (
-    <>
-      <MapContainer
-        center={[-33.0257, -71.5510]} 
-        zoom={13} 
-        style={{ height: '100vh', width: '100%' }} 
-      >
-        <LayerControl selectedLayer={selectedLayer} />
+    <div>
+      <MapContainer style={{ height: '100vh', width: '100%' }} center={[-33.0257, -71.5510]} zoom={13}>
         <AddGeocoderControl />
-        <Menu setLayer={setSelectedLayer} selectedLayer={selectedLayer} />
+        <LayerControl selectedLayer={selectedLayer} />
+        {selectedLayer === 'temperature' && <Legend />}
       </MapContainer>
-      <div id="forecast-popup" style={{
-        position: 'absolute',
-        top: '50px', // Ajusta la posición vertical
-        right: '10px',
-        background: 'background: rgba(255, 255, 255, 0.8)',
-        padding: '10px',
-        borderRadius: '5px',
-        boxShadow: '0 0 5px rgba(0,0,0,0.2)',
-        zIndex: 1000
-      }}></div>
-    </>
+      <Menu setSelectedLayer={setSelectedLayer} />
+      <div
+        id="forecast-popup"
+        style={{
+          position: 'absolute',
+          top: '50px',
+          right: '10px',
+          zIndex: 1000,
+          background: 'rgba(255, 255, 255, 0.8)',
+          padding: '10px',
+          borderRadius: '5px',
+          boxShadow: '0 0 5px rgba(0,0,0,0.2)',
+        }}
+      ></div>
+    </div>
   );
 };
 
