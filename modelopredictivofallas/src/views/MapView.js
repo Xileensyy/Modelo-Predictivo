@@ -43,6 +43,7 @@ const AddGeocoderControl = ({ setForecast }) => {
       map.setView(center, 13);
     });
 
+    // Coordenadas Viña del Mar
     map.setView([-33.0257, -71.5510], 13);
   }, [map]);
 
@@ -52,7 +53,7 @@ const AddGeocoderControl = ({ setForecast }) => {
       const data = await response.json();
       
       const currentWeather = data.list[0]; // El clima actual
-      const nextHoursForecast = data.list.slice(1, 5); // Las predicciones de las próximas horas
+      const nextHoursForecast = data.list.slice(1, 5); // Las predicciones de las proximas horas
   
       const temperature = currentWeather.main.temp; // Temperatura en grados Celsius
       const windSpeed = currentWeather.wind.speed * 3.6; // Velocidad del viento en km/h (convertir de m/s a km/h)
@@ -118,6 +119,10 @@ const Legend = () => {
       zIndex: 1000
     }}>
       <h4>Leyenda de Temperatura</h4>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <div style={{ width: '20px', height: '20px', background: "#DDA0DD", marginRight: '10px' }}></div>
+        <span>-90°C a -30°C</span>
+      </div>
       <div style={{ display: 'flex', alignItems: 'center' }}>
         <div style={{ width: '20px', height: '20px', background: '#0080ff', marginRight: '10px' }}></div>
         <span>-30°C a 0°C</span>
@@ -225,6 +230,7 @@ const MapView = () => {
     <div>
       <MapContainer style={{ height: '100vh', width: '100%' }} center={[-33.0257, -71.5510]} zoom={13}>
         <AddGeocoderControl />
+        <AddFailureMarkers />
         <LayerControl selectedLayer={selectedLayer} />
         {selectedLayer === 'temperature' && <Legend />}
       </MapContainer>
@@ -245,5 +251,56 @@ const MapView = () => {
     </div>
   );
 };
+
+const getElectricFailureData = async () => {
+  // Simula la obtención de datos de fallas eléctricas
+  return [
+    {
+      id: 1,
+      lat: -33.0257,
+      lng: -71.5510,
+      severity: 'Alta',
+      time: '23:00',
+      cause: 'Viento fuerte',
+    },
+    {
+      id: 2,
+      lat: -33.0357,
+      lng: -71.5610,
+      severity: 'Media',
+      time: '23:30',
+      cause: 'Sobrecalentamiento',
+    },
+    // Más fallas eléctricas...
+  ];
+};
+
+
+// PopUP De fallas Electricas
+const AddFailureMarkers = () => {
+  const map = useMap();
+
+  useEffect(() => {
+    const loadFailureMarkers = async () => {
+      const failures = await getElectricFailureData();
+      failures.forEach(failure => {
+        L.marker([failure.lat, failure.lng], { icon: customIcon })
+          .addTo(map)
+          .bindPopup(`
+            <b>Predicción Falla Eléctrica</b><br>
+            Severidad: ${failure.severity}<br>
+            Hora: ${failure.time}<br>
+            Causa: ${failure.cause}
+          `)
+          .openPopup();
+      });
+    };
+
+    loadFailureMarkers();
+  }, [map]);
+
+  return null;
+};
+
 
 export default MapView;
