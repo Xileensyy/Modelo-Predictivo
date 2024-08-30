@@ -262,6 +262,8 @@ const getElectricFailureData = async () => {
       severity: 'Alta',
       time: '23:00',
       cause: 'Viento fuerte',
+      probability:'999%',
+
     },
     {
       id: 2,
@@ -270,6 +272,7 @@ const getElectricFailureData = async () => {
       severity: 'Media',
       time: '23:30',
       cause: 'Sobrecalentamiento',
+      probability:'999%',
     },
     // Más fallas eléctricas...
   ];
@@ -290,7 +293,8 @@ const AddFailureMarkers = () => {
             <b>Predicción Falla Eléctrica</b><br>
             Severidad: ${failure.severity}<br>
             Hora: ${failure.time}<br>
-            Causa: ${failure.cause}
+            Causa: ${failure.cause}<br>
+            Probabilidad de ocurrencia: ${failure.probability}<br>
           `)
           .openPopup();
       });
