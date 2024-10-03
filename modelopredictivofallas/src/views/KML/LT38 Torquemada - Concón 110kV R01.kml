@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT38 Torquemada - Concón 110kV R01.kmz</name>
+	<StyleMap id="dot8044000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#dot80441610</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#dot80441170</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="dot804411600">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon49.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="dot8044116000">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon49.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="dot80441170">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon49.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="dot804412400">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#dot8044870</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#dot80441250</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="dot80441250">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon49.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="dot80441610">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon49.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="dot804418900">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#dot804442000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#dot804422800</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="dot8044189000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#dot80444200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#dot80442280</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="dot804420110">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon49.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="dot8044201100">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon49.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="dot80442280">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon49.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="dot804422800">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon49.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="dot80443500">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#dot8044116000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#dot804420110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="dot804435000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#dot804411600</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#dot8044201100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="dot80444200">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon49.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="dot804442000">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon49.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="dot8044870">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon49.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="inline251000">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2800000">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline33200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2800000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline251000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin821">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin79</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin81</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin83">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin77</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin79</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin79">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin81">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin77">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin79">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>LT38 Torquemada Concon 110kV</name>
+		<description>Coordenado por Oliver Cabezas
+Información Técnica de Transmisión</description>
+		<Folder>
+			<name>C1</name>
+			<Placemark>
+				<name>TORQUEMADA - CONCON 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		TORQUEMADA - CONCON 110KV
+Tramo:		TORQUEMADA - CONCON 110KV C1
+Nombre:		TORQUEMADA - CONCON 110KV C1
+Circuito:		C1
+ID Info:		821
+Tipo Conductor: 	466,3 MCM-Cairo. (AAAC CAIRO)
+Año PES: 		2007</description>
+				<styleUrl>#msn_ylw-pushpin83</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.47256785548548,-32.93479092834953,0 -71.47292678896643,-32.93472758626815,0 -71.47371049030235,-32.93391207894182,0 -71.47379079057612,-32.93373424407045,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>C2</name>
+			<Placemark>
+				<name>TORQUEMADA - CONCON 110KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		TORQUEMADA - CONCON 110KV
+Tramo:		TORQUEMADA - CONCON 110KV C2
+Nombre:		TORQUEMADA - CONCON 110KV C2
+Circuito:		C2
+ID Info:		921
+Tipo Conductor: 	466,3 MCM-Cairo. (AAAC CAIRO)
+Año PES: 		2007</description>
+				<styleUrl>#msn_ylw-pushpin821</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.47255789798666,-32.93470834548182,0 -71.47289975445614,-32.93469008785542,0 -71.47366707721898,-32.93390912552339,0 -71.47370821529577,-32.93373285333002,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eje Trazado APAGAR</name>
+			<Placemark>
+				<name>LT38 Torquemada Concon 110kV</name>
+				<styleUrl>#inline33200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.47376684652251,-32.93372529629785,0 -71.47368630613558,-32.93391465958453,0 -71.47291805945206,-32.93470655896339,0 -71.47256750275355,-32.93475224680396,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>ESTRUCUTRAS</name>
+			<Placemark>
+				<name>TO_CC-0001</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_CC-0001
+Tipo de estructura: SAE-D
+Cable de guardia: si aplica
+Clase: vértice de Remate</description>
+				<styleUrl>#dot8044000</styleUrl>
+				<Point>
+					<coordinates>-71.4729152454281,-32.93471284739893,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_CC-0002</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_CC-0002
+Tipo de estructura: SAE-D
+Cable de guardia: si aplica
+Clase: vértice de Remate</description>
+				<LookAt>
+					<gx:TimeStamp><when>2020-05-23</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-71.47367460137463</longitude>
+					<latitude>-32.93369195576274</latitude>
+					<altitude>0</altitude>
+					<heading>0.0002062740380138111</heading>
+					<tilt>0</tilt>
+					<range>186.0528521690506</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#dot804412400</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47368449317901,-32.93392215065751,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ML-H3-C1 Torquemada</name>
+				<LookAt>
+					<longitude>-71.4726322287664</longitude>
+					<latitude>-32.93460770201159</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0002568271338641928</heading>
+					<tilt>35.70928119860354</tilt>
+					<range>98.3025787901383</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#dot804435000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.4725648338699,-32.9348009383219,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ML-H4-C2 Torquemada</name>
+				<LookAt>
+					<longitude>-71.4726322287664</longitude>
+					<latitude>-32.93460770201159</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0002568271338641928</heading>
+					<tilt>35.70928119860354</tilt>
+					<range>98.3025787901383</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#dot80443500</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47256257578353,-32.93471982990354,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ML-BH1 Concon1</name>
+				<LookAt>
+					<longitude>-71.47338781399731</longitude>
+					<latitude>-32.93375470179</latitude>
+					<altitude>0</altitude>
+					<heading>0.0001539705119293935</heading>
+					<tilt>35.70928119860355</tilt>
+					<range>98.30257878994549</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#dot8044189000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47379677727433,-32.93373056943313,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ML-BH2 Concon2</name>
+				<open>1</open>
+				<LookAt>
+					<longitude>-71.47338781399731</longitude>
+					<latitude>-32.93375470179</latitude>
+					<altitude>0</altitude>
+					<heading>0.0001539705119293935</heading>
+					<tilt>35.70928119860355</tilt>
+					<range>98.30257878994549</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#dot804418900</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47370109779138,-32.9337504985599,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

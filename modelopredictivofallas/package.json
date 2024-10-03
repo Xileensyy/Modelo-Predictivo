@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^14.5.2",
     "leaflet": "^1.9.4",
     "leaflet-control-geocoder": "^2.4.0",
+    "leaflet-kml": "^1.0.1",
     "react": "^18.3.1",
     "react-art": "^18.3.1",
     "react-dom": "^18.3.1",

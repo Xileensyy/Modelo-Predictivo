@@ -7,6 +7,7 @@ import 'leaflet-control-geocoder';
 import Menu from './Menu';
 import './MapView.css';
 
+
 // Configura el icono del marcador personalizado
 const customIcon = new L.Icon({
   iconUrl: '/marker-icon.png', // Ruta a tu imagen personalizada

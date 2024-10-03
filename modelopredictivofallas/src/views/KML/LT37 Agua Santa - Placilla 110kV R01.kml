@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT37 Agua Santa - Placilla 110kV R01.kmz</name>
+	<StyleMap id="inline101210">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline851</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1231</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline1231">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline851">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_placemark_circle00000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_placemark_circle0002">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle600</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight700</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_placemark_circle210">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight1001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin810">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin76</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin78</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_placemark_circle_highlight1001">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_placemark_circle_highlight200">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_placemark_circle_highlight700">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin78">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_placemark_circle001">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_placemark_circle010">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_placemark_circle600">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin76">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>LT37 Agua Santa Placilla 110kV</name>
+		<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+		<Folder>
+			<name>C2</name>
+			<Placemark>
+				<name>AGUA SANTA - PLACILLA 110KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		AGUA SANTA - PLACILLA 110KV
+Tramo:	          	AGUA SANTA - PLACILLA 110KV C2
+Nombre: 	          	AGUA SANTA - PLACILLA 110KV C2
+Circuito:		C2
+ID Info:		874
+Tipo Conductor: 	312.8 AASC-Butte  (AAAC)
+Año PES: 		2007</description>
+				<styleUrl>#msn_ylw-pushpin810</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.54270570020326,-33.07659061553895,0 -71.54357845551939,-33.07655578081577,0 -71.54551667184715,-33.07881861121729,0 -71.54818630954586,-33.07988427164084,0 -71.55094324873639,-33.08296638582573,0 -71.55236803082536,-33.08463130020669,0 -71.55211942872744,-33.08514227400759,0 -71.55068029537436,-33.08812437789356,0 -71.54971339395789,-33.09010843524535,0 -71.55232665539704,-33.09403908596178,0 -71.55333873671117,-33.09553725255196,0 -71.55449143461351,-33.0982964607638,0 -71.5552411053928,-33.10004121921556,0 -71.55692442089756,-33.10134962400066,0 -71.55768402682989,-33.10279418743193,0 -71.55868719432121,-33.10466717899181,0 -71.56005452454178,-33.10725110854925,0 -71.55930469338625,-33.10779946361427,0 -71.55911007262948,-33.10822553567338,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eje Trazado APAGAR</name>
+			<Placemark>
+				<name>LT37 Agua Santa Placilla 110kV CTO2</name>
+				<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+				<styleUrl>#inline101210</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.54270906688177,-33.07659836169134,0 -71.54357303330951,-33.0765840282582,0 -71.54549279662672,-33.0788351062859,0 -71.54817289967582,-33.07990689099834,0 -71.55093277009264,-33.08299981595167,0 -71.55231194889947,-33.08463530645742,0 -71.55207789469596,-33.08513284604877,0 -71.5506589240624,-33.08810968524566,0 -71.54968849970594,-33.09011425276315,0 -71.55229820845599,-33.09405840080202,0 -71.55330103978029,-33.09554803367395,0 -71.55446021527534,-33.09830437796037,0 -71.55520631606136,-33.10006279572705,0 -71.55689149129358,-33.10137163298996,0 -71.5576621835589,-33.10280911689105,0 -71.55866303450604,-33.10467916210204,0 -71.56003154043744,-33.10724604525815,0 -71.55925627987099,-33.10778481170228,0 -71.55911213423839,-33.10821826107703,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>ESTRUCTURAS</name>
+			<Placemark>
+				<name>ML_Agua_Santa_110kV_CTO5</name>
+				<LookAt>
+					<longitude>-71.54312485883267</longitude>
+					<latitude>-33.07624325598658</latitude>
+					<altitude>0</altitude>
+					<heading>43.42527139532284</heading>
+					<tilt>10.67774509252513</tilt>
+					<range>165.0657109673854</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_placemark_circle210</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.54270315918653,-33.07660543551492,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AS_PL-0001</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: AS_PL-0001
+Tipo de estructura: 11AD65.1
+Cable de guardia: Si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.5436926295592</longitude>
+					<latitude>-33.07666987848179</latitude>
+					<altitude>110.0697457992964</altitude>
+					<heading>55.32529426123563</heading>
+					<tilt>0.04455933681274915</tilt>
+					<roll>90.03430037972994</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_placemark_circle00000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.54356988346085,-33.07657873074324,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AS_PL-0002</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: AS_PL-0002
+Tipo de estructura: 11AD65.1
+Cable de guardia: Si aplica
+Clase: Anclaje (Traccion)</description>
+				<LookAt>
+					<longitude>-71.54530836630913</longitude>
+					<latitude>-33.07867805512672</latitude>
+					<altitude>0</altitude>
+					<heading>76.63285577323882</heading>
+					<tilt>24.97401641429026</tilt>
+					<range>202.0316259164996</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_placemark_circle0002</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.54549851472242,-33.0788385929694,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AS_PL-0003</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: AS_PL-0003
+Tipo de estructura: 11AD65.1
+Cable de guardia: Si aplica
+Clase: Anclaje (Traccion)</description>
+				<LookAt>
+					<longitude>-71.54801048570836</longitude>
+					<latitude>-33.07967214457059</latitude>
+					<altitude>0</altitude>
+					<heading>76.6343305948041</heading>
+					<tilt>24.97401641429022</tilt>
+					<range>202.0316259180846</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_placemark_circle0002</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.54817483806745,-33.07991097199342,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AS_PL-0004</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: AS_PL-0004
+Tipo de estructura: 11AD.1+3
+Cable de guardia: Si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.55104105251087</longitude>
+					<latitude>-33.08304446675116</latitude>
+					<altitude>165.5177167785631</altitude>
+					<heading>55.32930509466843</heading>
+					<tilt>0.04455933681274915</tilt>
+					<roll>90.03430037977844</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_placemark_circle00000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.55093067838226,-33.08299236993819,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AS_PL-0005</name>
+				<description>Gestión de Información Transmisión
+
+Nomenclatura de estructura: AS_PL-0005
+Tipo de estructura: 11AD65.1
+Cable de guardia: Si aplica
+Clase: Anclaje (Traccion)</description>
+				<LookAt>
+					<longitude>-71.55214529631655</longitude>
+					<latitude>-33.08461551286343</latitude>
+					<altitude>0</altitude>
+					<heading>76.63658753132306</heading>
+					<tilt>24.97401641429133</tilt>
+					<range>202.0316259516945</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_placemark_circle0002</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.55231741022033,-33.08465007900624,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AS_PL-0006</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: AS_PL-0006
+Tipo de estructura: 11AD.1+3
+Cable de guardia: Si aplica
+Clase: De paso (Suspension)</description>
+				<LookAt>
+					<longitude>-71.55214529631657</longitude>
+					<latitude>-33.08461551286343</latitude>
+					<altitude>0</altitude>
+					<heading>76.636587531323</heading>
+					<tilt>24.97401641429132</tilt>
+					<range>202.0316259521027</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_placemark_circle0002</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.5520850127531,-33.0851327198171,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AS_PL-0007</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: AS_PL-0007
+Tipo de estructura: 11AD.1+3
+Cable de guardia: Si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.55062309416324</longitude>
+					<latitude>-33.08808644192033</latitude>
+					<altitude>159.3759379326497</altitude>
+					<heading>55.32907687148798</heading>
+					<tilt>0.04455933682092847</tilt>
+					<roll>90.03430037976271</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_placemark_circle00000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.55066080626757,-33.08811031646052,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AS_PL-0008</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: AS_PL-0008
+Tipo de estructura: 11AD65.1
+Cable de guardia: Si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.54984359850212</longitude>
+					<latitude>-33.09015725450093</latitude>
+					<altitude>135.5718451476835</altitude>
+					<heading>55.32865131201329</heading>
+					<tilt>0.04455933682092847</tilt>
+					<roll>90.0343003797487</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_placemark_circle00000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.54969013514902,-33.09010482315502,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AS_PL-0009</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: AS_PL-0009
+Tipo de estructura: 11AD.1+3
+Cable de guardia: Si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.55222491570375</longitude>
+					<latitude>-33.09406075544531</latitude>
+					<altitude>142.5947964400678</altitude>
+					<heading>55.32995148894015</heading>
+					<tilt>0.0445593368372871</tilt>
+					<roll>90.03430037977381</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_placemark_circle00000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.55230009534652,-33.09405475570397,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AS_PL-0010</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: AS_PL-0010
+Tipo de estructura: 11AD65.1
+Cable de guardia: Si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.55311189203333</longitude>
+					<latitude>-33.09550543124401</latitude>
+					<altitude>130.6713455542396</altitude>
+					<heading>55.33043580153304</heading>
+					<tilt>0.04455933682092847</tilt>
+					<roll>90.03430037977165</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_placemark_circle00000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.55329668063897,-33.09554912313231,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AS_PL-0011</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: AS_PL-0011
+Tipo de estructura: 11AD.1+3
+Cable de guardia: Si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.55443023421121</longitude>
+					<latitude>-33.09827254719776</latitude>
+					<altitude>109.4059642926706</altitude>
+					<heading>55.33115569175835</heading>
+					<tilt>0.0445593368372871</tilt>
+					<roll>90.03430037976717</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_placemark_circle00000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.55445854676321,-33.09831143178073,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AS_PL-0012</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: AS_PL-0012
+Tipo de estructura: 11AD65.1
+Cable de guardia: Si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.55522506872393</longitude>
+					<latitude>-33.09997817517152</latitude>
+					<altitude>80.64131531883045</altitude>
+					<heading>55.33158974370927</heading>
+					<tilt>0.04455933681274915</tilt>
+					<roll>90.03430037976953</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_placemark_circle00000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.5552055770254,-33.10006336236316,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AS_PL-0013</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: AS_PL-0013
+Tipo de estructura: 11AD65.1
+Cable de guardia: Si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.55688617001913</longitude>
+					<latitude>-33.10139972123768</latitude>
+					<altitude>45.59253195818613</altitude>
+					<heading>55.33249689305982</heading>
+					<tilt>0.04455933680456984</tilt>
+					<roll>90.03430037974177</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_placemark_circle00000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.55689324080546,-33.10137220361008,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AS_PL-0014</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: AS_PL-0014
+Tipo de estructura: 11AD.1+3
+Cable de guardia: Si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.55760042509132</longitude>
+					<latitude>-33.10264629460723</latitude>
+					<altitude>106.282028708035</altitude>
+					<heading>10.3137998277443</heading>
+					<tilt>0.06299513535538097</tilt>
+					<roll>45.01523035717381</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_placemark_circle00000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.55766332634522,-33.10280806321658,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AS_PL-0015</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: AS_PL-0015
+Tipo de estructura: 11AD.1+3
+Cable de guardia: Si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.55868517652763</longitude>
+					<latitude>-33.10465063163397</latitude>
+					<altitude>129.0554563369689</altitude>
+					<heading>10.3143922702359</heading>
+					<tilt>0.06299513534380978</tilt>
+					<roll>45.01523035717562</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_placemark_circle00000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.55867108393613,-33.1046808472018,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AS_PL-0016</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: AS_PL-0016
+Tipo de estructura: 11AD65.1
+Cable de guardia: Si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.55966377326632</longitude>
+					<latitude>-33.10676681687794</latitude>
+					<altitude>175.3047509144549</altitude>
+					<heading>10.3149267633992</heading>
+					<tilt>0.06299513533223856</tilt>
+					<roll>45.01523035715559</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_placemark_circle00000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.56003119864042,-33.10724967191145,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AS_PL-0017</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: AS_PL-0017
+Tipo de estructura: 11AD65.1
+Cable de guardia: Si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.55892338598416</longitude>
+					<latitude>-33.10767196771876</latitude>
+					<altitude>174.1062484745464</altitude>
+					<heading>10.31452234971555</heading>
+					<tilt>0.06299513532066736</tilt>
+					<roll>45.01523035717052</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_placemark_circle00000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.55926474329503,-33.10778838370552,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ML-HT2-C2 Placilla_110kV</name>
+				<LookAt>
+					<longitude>-71.55903118770246</longitude>
+					<latitude>-33.10793261811764</latitude>
+					<altitude>0</altitude>
+					<heading>0.004615746144364461</heading>
+					<tilt>30.65469587717656</tilt>
+					<range>127.9282008206313</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_placemark_circle0002</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.55911668308754,-33.10822422107813,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

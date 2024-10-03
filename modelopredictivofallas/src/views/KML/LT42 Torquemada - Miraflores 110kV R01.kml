@@ -1,0 +1,1626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT42 Torquemada - Miraflores 110kV R01.kmz</name>
+	<Schema name="Línea de Transmisión" id="Línea de Transmisión_schema000000">
+		<SimpleField type="Variant " name="Línea de Transmisión"><displayName>Lineas_de_Transmisión</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Longitud km"><displayName>Longitud km</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Voltaje kV"><displayName>Voltaje kV</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Conductor"><displayName>Conductor</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Capacidad MVA"><displayName>Capacidad MVA</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Propietario"><displayName>Propietario</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Circuito 1"><displayName>Circuito 1</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Circuito 2"><displayName>Circuito 2</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Información Técnica"><displayName>Información Técnica</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="Línea 110 kV20000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default_copy602102010000222000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#default_copy602700001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="default_copy602102010000222000">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon16.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ccffffff</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table WIDTH="200" border=0 cellpadding=0 cellspacing=1 bgcolor=#F3E2A9 summary="">
+				<tr>
+				<td width="100%" valign="middle" align="left">
+				<b>
+				<font face="Arial" color="#050000">
+				<h2.5>INFORMACIÓN DE INSTALACIONES</h2.5>
+				</font>
+				</b>
+				</td>
+				<td width="100%" valign="middle" align="right">
+				</tr>
+				</table>
+
+<table WIDTH="200" border=0 cellpadding=0 cellspacing=0
+
+<font face="Arial" size="3" color="#050000">   
+<table>
+ <tr>
+    <table border="1" padding="0">
+   <tr><td>Línea de Transmisión</td>=<td>$[Línea de Transmisión/Línea de Transmisión]</td></tr>
+   <tr><td>Longitud km</td>=<td>$[Línea de Transmisión/Longitud km]</td></tr>
+   <tr><td>Voltaje kV</td>=<td>$[Línea de Transmisión/Voltaje kV]</td></tr>
+    <tr><td>Conductor</td>=<td>$[Línea de Transmisión/Conductor]</td></tr>
+    <tr><td>Capacidad MVA</td>=<td>$[Línea de Transmisión/Capacidad MVA]</td></tr>
+    <tr><td>Propietario</td>=<td>$[Línea de Transmisión/Propietario]</td></tr>
+    <tr><td>Circuito 1</td>=<td>$[Línea de Transmisión/Circuito 1]</td></tr>	
+    <tr><td>Circuito 2</td>=<td>$[Línea de Transmisión/Circuito 2]</td></tr>
+	<tr><td>Información Técnica</td>=<td>$[Línea de Transmisión/Información Técnica]</td></tr>
+ </tr>
+</table></font>
+
+<table WIDTH="200" border=0 cellpadding=1 cellspacing=1 bgcolor=#F3E2A9 summary=""><tr>
+ <td width="100%" valign="middle" align="right"><img src="15ikvl_0_1.jpg" border="0" width="240" height="40" alt="" /></tr>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="default_copy602700001">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon16.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ccffffff</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table WIDTH="200" border=0 cellpadding=0 cellspacing=1 bgcolor=#F3E2A9 summary="">
+				<tr>
+				<td width="100%" valign="middle" align="left">
+				<b>
+				<font face="Arial" color="#050000">
+				<h2.5>INFORMACIÓN DE INSTALACIONES</h2.5>
+				</font>
+				</b>
+				</td>
+				<td width="100%" valign="middle" align="right">
+				</tr>
+				</table>
+
+<table WIDTH="200" border=0 cellpadding=0 cellspacing=0
+
+<font face="Arial" size="3" color="#050000">   
+<table>
+ <tr>
+    <table border="1" padding="0">
+   <tr><td>Línea de Transmisión</td>=<td>$[Línea de Transmisión/Línea de Transmisión]</td></tr>
+   <tr><td>Longitud km</td>=<td>$[Línea de Transmisión/Longitud km]</td></tr>
+   <tr><td>Voltaje kV</td>=<td>$[Línea de Transmisión/Voltaje kV]</td></tr>
+    <tr><td>Conductor</td>=<td>$[Línea de Transmisión/Conductor]</td></tr>
+    <tr><td>Capacidad MVA</td>=<td>$[Línea de Transmisión/Capacidad MVA]</td></tr>
+    <tr><td>Propietario</td>=<td>$[Línea de Transmisión/Propietario]</td></tr>
+    <tr><td>Circuito 1</td>=<td>$[Línea de Transmisión/Circuito 1]</td></tr>	
+    <tr><td>Circuito 2</td>=<td>$[Línea de Transmisión/Circuito 2]</td></tr>
+	<tr><td>Información Técnica</td>=<td>$[Línea de Transmisión/Información Técnica]</td></tr>
+ </tr>
+</table></font>
+
+<table WIDTH="200" border=0 cellpadding=1 cellspacing=1 bgcolor=#F3E2A9 summary=""><tr>
+ <td width="100%" valign="middle" align="right"><img src="15ikvl_0_1.jpg" border="0" width="240" height="40" alt="" /></tr>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin16000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin7230</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl10500</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin1601">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin7231</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl10501</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin9010">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin900</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl10111</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_picnic4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_picnic320</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_picnic313</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin52">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin55</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin43</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin53">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin54</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin42</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin7230">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/picnic.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin7231">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/picnic.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin900">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/picnic.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl10111">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/picnic.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl10500">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/picnic.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl10501">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/picnic.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_picnic313">
+		<IconStyle>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/picnic.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin42">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin43">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_picnic320">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/picnic.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin54">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin55">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>LT42 Torquemada-Miraflores 110kV</name>
+		<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+		<Folder>
+			<name>C1</name>
+			<Placemark>
+				<name>TORQUEMADA - MIRAFLORES 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	COMPAÑÍA TRANSMISORA DEL NORTE GRANDE S.A.
+Nombre   LT:		TORQUEMADA – MIRAFLORES 110KV
+Tramo:		TORQUEMADA - MIRAFLORES 110KV C1
+Nombre:		TORQUEMADA - MIRAFLORES 110KV C1
+Circuito:		C1
+ID Info:		84
+Tipo Conductor: 	AAAC - 800 MCM.
+Año PES: 		1976</description>
+				<styleUrl>#msn_ylw-pushpin53</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.52531743194571,-33.03447938563211,0 -71.52515531494396,-33.03455299947669,0 -71.52328285177086,-33.03432893965469,0 -71.52071830555306,-33.03402914996184,0 -71.51914951462076,-33.03382622662713,0 -71.51647433565684,-33.03271225072083,0 -71.51341251921552,-33.03136602708968,0 -71.50999335278915,-33.02993766278402,0 -71.50793477962601,-33.02906425638376,0 -71.50590803790655,-33.02824410121974,0 -71.50304138374364,-33.023645672373,0 -71.50138684931724,-33.02290976623969,0 -71.50031783105491,-33.02244609396705,0 -71.49653017029213,-33.02093533688074,0 -71.49384240457944,-33.01992590085544,0 -71.49097225726329,-33.01765796497597,0 -71.48831071068996,-33.0155521590493,0 -71.48713230214055,-33.01456063796345,0 -71.48420009118094,-33.01225062245145,0 -71.48025889583117,-33.00916141942272,0 -71.47858151633946,-33.00783287062861,0 -71.47622115015116,-33.00595509908121,0 -71.47370223448176,-33.0039647337337,0 -71.47187095014984,-33.00248992037339,0 -71.47050209200154,-33.00143065517287,0 -71.4708212907838,-32.99961929423472,0 -71.47147362652107,-32.99606659289275,0 -71.47215875857133,-32.99235994464222,0 -71.47271580869304,-32.98901679224694,0 -71.47310984635217,-32.987251615505,0 -71.47384541817304,-32.98308983083154,0 -71.47287756376355,-32.97983938157325,0 -71.47225816504448,-32.97782201132348,0 -71.47134280213575,-32.97487591726436,0 -71.47066884591044,-32.97266046417019,0 -71.46981328187961,-32.96988583275611,0 -71.46901086521258,-32.96742671297466,0 -71.46820106984516,-32.96479922971114,0 -71.46741294953011,-32.96219272882028,0 -71.46645745224181,-32.9592695469139,0 -71.46671555319533,-32.95774915084695,0 -71.46734206261979,-32.95414071715098,0 -71.46782637685543,-32.95142229841836,0 -71.46810592290441,-32.94965214337925,0 -71.46741035969481,-32.94566955342299,0 -71.46802787915273,-32.94044903965152,0 -71.46895288390022,-32.93928706654033,0 -71.47011754846667,-32.93795743464745,0 -71.47053197871332,-32.93647977831089,0 -71.47167720132138,-32.93571288851945,0 -71.47198870233704,-32.93568240495163,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>C2</name>
+			<Placemark>
+				<name>TORQUEMADA - MIRAFLORES 110KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	COMPAÑÍA TRANSMISORA DEL NORTE GRANDE S.A.
+Nombre   LT:		TORQUEMADA – MIRAFLORES 110KV
+Tramo:		TORQUEMADA - MIRAFLORES 110KV C2
+Nombre:		TORQUEMADA - MIRAFLORES 110KV C2
+Circuito:		C2
+ID Info:		170
+Tipo Conductor: 	AAAC - 800 MCM.
+Año PES: 		1976</description>
+				<styleUrl>#msn_ylw-pushpin52</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.47199002093355,-32.93576546687112,0 -71.47168440824511,-32.93578899083653,0 -71.47055718214573,-32.93653287910878,0 -71.47015488981407,-32.93799048832877,0 -71.46896920988725,-32.93936354648454,0 -71.46806659991324,-32.94044707831784,0 -71.46742860099111,-32.94563274525309,0 -71.46812862568858,-32.94970299814718,0 -71.46783428849302,-32.95134157408031,0 -71.46736595706321,-32.95406800773861,0 -71.46672556385241,-32.95781600622686,0 -71.46647136139231,-32.9592619126465,0 -71.46740718457181,-32.96210210286706,0 -71.46817780077802,-32.96471562944872,0 -71.46901535565031,-32.96742624000218,0 -71.46978462182017,-32.9697950299856,0 -71.47066404885933,-32.97261846055,0 -71.47131960444135,-32.97475094215793,0 -71.47224700068988,-32.97774223202928,0 -71.4728626292475,-32.97979429920939,0 -71.47385867413568,-32.98309142711718,0 -71.47312024705387,-32.98730423837961,0 -71.47274435116613,-32.98900262410552,0 -71.47217563317746,-32.99234083572242,0 -71.47152659694754,-32.99613651908498,0 -71.47087042242802,-32.99963795911463,0 -71.47054625465292,-33.00140284397639,0 -71.4717680747772,-33.00238574032833,0 -71.47361617852225,-33.00386638292094,0 -71.47622294485207,-33.00592738581752,0 -71.4785761858044,-33.00779859071297,0 -71.48026535012221,-33.00910951772465,0 -71.4842275934455,-33.0122235043609,0 -71.48713150293149,-33.01455863327577,0 -71.48831777436227,-33.0155166255406,0 -71.49094849105556,-33.0176249085552,0 -71.49384890562467,-33.01990509721008,0 -71.49654941182796,-33.0208892397982,0 -71.50035132896052,-33.02239240996995,0 -71.50138834720703,-33.02283696677019,0 -71.50303943076877,-33.0236009010416,0 -71.50593593385528,-33.02818575850407,0 -71.5079208535373,-33.02899929956092,0 -71.50997129296404,-33.02984319635297,0 -71.51340748182821,-33.03128135613289,0 -71.51644631336006,-33.03263757992983,0 -71.51913834870889,-33.0337515825876,0 -71.52071389301331,-33.03397041599418,0 -71.52331464937926,-33.03426958400287,0 -71.52514621659142,-33.03450915692793,0 -71.52525925815843,-33.03440466853029,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eje Trazado APAGAR</name>
+			<Placemark>
+				<name>LT Torquemada - Miraflores 110kV</name>
+				<styleUrl>#Línea 110 kV20000</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Línea de Transmisión_schema000000">
+						<SimpleData name="Línea de Transmisión">Torquemada - Miraflores</SimpleData>
+						<SimpleData name="Longitud km"></SimpleData>
+						<SimpleData name="Voltaje kV">110</SimpleData>
+						<SimpleData name="Conductor"></SimpleData>
+						<SimpleData name="Capacidad MVA"></SimpleData>
+						<SimpleData name="Propietario"></SimpleData>
+						<SimpleData name="Calificación"></SimpleData>
+						<SimpleData name="Circuito 1"></SimpleData>
+						<SimpleData name="Circuito 2"></SimpleData>
+						<SimpleData name="Información Técnica">http://bit.ly/1qKpTWr</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.52526043846878,-33.03445736115395,0 -71.52516609668096,-33.034528948264,0 -71.52332188869912,-33.03430433645867,0 -71.52072972424308,-33.03397981577645,0 -71.51918649668582,-33.03379107200229,0 -71.5165333328071,-33.03270476891229,0 -71.51349643102995,-33.03133634111944,0 -71.51002894381435,-33.02989483701086,0 -71.50796608470914,-33.02902056868385,0 -71.50593011650614,-33.02822062322159,0 -71.50457004608103,-33.02599597943254,0 -71.50306239011164,-33.02362389459779,0 -71.50142009348615,-33.02285548866351,0 -71.50036998628788,-33.02240376550967,0 -71.49657914649998,-33.02091916670909,0 -71.4938602984778,-33.01991569292849,0 -71.49098665433182,-33.01765924299358,0 -71.48833770441901,-33.01554714725169,0 -71.48715148224304,-33.014564925296,0 -71.48421448550133,-33.01223517802631,0 -71.48030759589197,-33.00916509757837,0 -71.4786066648056,-33.00783763417706,0 -71.47624170772721,-33.00595123101614,0 -71.47374727692164,-33.00398150799776,0 -71.47196498109309,-33.00254372279073,0 -71.47051867022248,-33.00142406870735,0 -71.47082913348267,-32.99972195726021,0 -71.47112434230523,-32.99794552456696,0 -71.47148788549551,-32.99616546102079,0 -71.47216182624518,-32.99242883113255,0 -71.4727304274804,-32.98904980215157,0 -71.47310157744199,-32.98733947138756,0 -71.47384546477386,-32.98308457422602,0 -71.47290423396257,-32.97988664930592,0 -71.4722900669244,-32.97784688141432,0 -71.4713689202397,-32.97490313677169,0 -71.47069801098219,-32.97270998216747,0 -71.46983957394825,-32.96991750486311,0 -71.46906046208683,-32.96750988870975,0 -71.46822427858778,-32.96485991205376,0 -71.46744519417631,-32.9622226328194,0 -71.46647296453699,-32.95926637026532,0 -71.46670818339942,-32.95780113957979,0 -71.46734217098111,-32.95420421479377,0 -71.46782245210099,-32.95146924734326,0 -71.46812005986419,-32.94967655737418,0 -71.46743483248549,-32.94566025916544,0 -71.46778285511751,-32.94278541125484,0 -71.46806486089784,-32.94045263570779,0 -71.46894723771318,-32.93933570689058,0 -71.47013892092723,-32.93798355287853,0 -71.47054736420704,-32.93650928795713,0 -71.47168132687051,-32.93574274013073,0 -71.47199656247042,-32.93572049884391,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>ESTRUCUTRAS</name>
+			<Placemark>
+				<name>ML-H11_C1</name>
+				<LookAt>
+					<longitude>-71.47194366420116</longitude>
+					<latitude>-32.93558787403081</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001719499855056723</heading>
+					<tilt>29.45723161498756</tilt>
+					<range>99.16375124642015</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_picnic4</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47199094604713,-32.9356959660591,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ML-H12_C2</name>
+				<LookAt>
+					<longitude>-71.47194366420116</longitude>
+					<latitude>-32.93558787403081</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001719499855056723</heading>
+					<tilt>29.45723161498756</tilt>
+					<range>99.16375124642015</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_picnic4</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47199320369594,-32.93577707449985,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-077B</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-077B
+Tipo de estructura: SAE-E
+Cable de guardia: si aplica
+Clase: Vértice de Remate</description>
+				<Camera>
+					<longitude>-71.47174730276468</longitude>
+					<latitude>-32.93571204338652</latitude>
+					<altitude>199.6183348847194</altitude>
+					<heading>61.38501229503774</heading>
+					<tilt>0.01728148821938897</tilt>
+					<roll>90.0078189550936</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin1601</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47167158759935,-32.93574737188329,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-077A</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-077A
+Tipo de estructura: SAE-E
+Cable de guardia: si aplica
+Clase: Vértice de Remate</description>
+				<Camera>
+					<longitude>-71.47045913499765</longitude>
+					<latitude>-32.93644913990984</latitude>
+					<altitude>197.8026703569454</altitude>
+					<heading>61.38431190660787</heading>
+					<tilt>0.01728148826156876</tilt>
+					<roll>90.00781895499841</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin1601</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.4705381895984,-32.93651821001014,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0077</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0077
+Tipo de estructura: SAE-D
+Cable de guardia: si aplica
+Clase: vértice de Remate</description>
+				<Camera>
+					<longitude>-71.46984395076116</longitude>
+					<latitude>-32.93792392706603</latitude>
+					<altitude>182.2390318453617</altitude>
+					<heading>61.38397741616345</heading>
+					<tilt>0.01728148819829908</tilt>
+					<roll>90.00781895506253</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47014062386016,-32.93798683082127,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0078</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0078
+Tipo de estructura: SAE-A
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.46861573278713</longitude>
+					<latitude>-32.93919525475786</latitude>
+					<altitude>185.8440116796581</altitude>
+					<heading>61.38330957267179</heading>
+					<tilt>0.01728148826156876</tilt>
+					<roll>90.00781895505112</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.46893772106547,-32.93933611926541,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0079</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0079
+Tipo de estructura: SAE-D
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.46762521364703</longitude>
+					<latitude>-32.9402538692431</latitude>
+					<altitude>183.5159666732074</altitude>
+					<heading>61.38277096633046</heading>
+					<tilt>0.01728148817720919</tilt>
+					<roll>90.00781895502965</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.46805983902209,-32.9404535483174,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0080</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0080
+Tipo de estructura: SAE-C Ext. 5.0
+Cable de guardia: si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.46714373559333</longitude>
+					<latitude>-32.94543549544181</latitude>
+					<altitude>166.9095231958141</altitude>
+					<heading>61.38250912246762</heading>
+					<tilt>0.01728148821938897</tilt>
+					<roll>90.00781895509699</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.46742389642117,-32.94565991749997,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0081</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0081
+Tipo de estructura: SAE-C Ext. 5.0
+Cable de guardia: si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.46780761637625</longitude>
+					<latitude>-32.94954570113438</latitude>
+					<altitude>135.5848973167774</altitude>
+					<heading>61.38287017828991</heading>
+					<tilt>0.01728148821938897</tilt>
+					<roll>90.00781895503437</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.4681133185442,-32.94968591368158,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0082</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0082
+Tipo de estructura: SAE-C Ext. 5.0
+Cable de guardia: si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.46750608182742</longitude>
+					<latitude>-32.95143734272551</latitude>
+					<altitude>108.3958836402665</altitude>
+					<heading>61.38270616502334</heading>
+					<tilt>0.01728148819829908</tilt>
+					<roll>90.00781895498683</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.46782088912104,-32.9514770612878,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0083</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0083
+Tipo de estructura: SAE-A Ext. 5.0
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.46726369973852</longitude>
+					<latitude>-32.95420427769153</latitude>
+					<altitude>101.3152253404805</altitude>
+					<heading>61.38257432829274</heading>
+					<tilt>0.01728148819829908</tilt>
+					<roll>90.00781896230235</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.46734072265919,-32.95420968681665,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0084</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0084
+Tipo de estructura: SAE-A Ext. 5.0
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.46655699948907</longitude>
+					<latitude>-32.95780778499948</latitude>
+					<altitude>112.7302741369066</altitude>
+					<heading>61.38218981487844</heading>
+					<tilt>0.01728148809284962</tilt>
+					<roll>90.00781889194687</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.46670260680035,-32.95780204642625,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0085</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0085
+Tipo de estructura: TO_MI85
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.46632854876806</longitude>
+					<latitude>-32.95911775002784</latitude>
+					<altitude>127.4782650226312</altitude>
+					<heading>61.38206552885642</heading>
+					<tilt>0.01728148809284962</tilt>
+					<roll>90.00781889188565</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.46647619468337,-32.95927629103276,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0086</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0086
+Tipo de estructura: SAE-D
+Cable de guardia: si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.46718458666393</longitude>
+					<latitude>-32.96207850922934</latitude>
+					<altitude>122.2417820660456</altitude>
+					<heading>61.38253126338957</heading>
+					<tilt>0.01728148811393951</tilt>
+					<roll>90.00781889179153</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.46744616726311,-32.96223273331332,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0087</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0087
+Tipo de estructura: SAE-A Ext. 5.0
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.46792832131041</longitude>
+					<latitude>-32.96486330962235</latitude>
+					<altitude>103.391248799594</altitude>
+					<heading>61.38293593811369</heading>
+					<tilt>0.01728148807175973</tilt>
+					<roll>90.00781889490133</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.46821450099665,-32.9648595234724,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0088</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0088
+Tipo de estructura: SAE-A Ext. 5.0
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.46901861862182</longitude>
+					<latitude>-32.96756996271009</latitude>
+					<altitude>86.98733662609803</altitude>
+					<heading>61.38352926854552</heading>
+					<tilt>0.01728148811393951</tilt>
+					<roll>90.00781894990109</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.4690587250717,-32.96752087363234,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0089</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0089
+Tipo de estructura: SAE-A
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.46962719308304</longitude>
+					<latitude>-32.96983095289475</latitude>
+					<altitude>77.91013776272523</altitude>
+					<heading>61.38386044224439</heading>
+					<tilt>0.01728148809284962</tilt>
+					<roll>90.00781894989187</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.46984227064742,-32.9699219239853,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0090</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0090
+Tipo de estructura: SAE-A Ext. 5.0
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.47057967895292</longitude>
+					<latitude>-32.97247547604248</latitude>
+					<altitude>143.0310442495826</altitude>
+					<heading>16.38040081201567</heading>
+					<tilt>0.02443758470838582</tilt>
+					<roll>45.00384355839979</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47069011617437,-32.97270942465404,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0091</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0091
+Tipo de estructura: SAE-A Ext. 5.0
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.47118956653773</longitude>
+					<latitude>-32.97469090901163</latitude>
+					<altitude>137.6036537911209</altitude>
+					<heading>16.38073274458199</heading>
+					<tilt>0.02443758467855761</tilt>
+					<roll>45.00384355839506</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47136081425253,-32.9748962878512,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0092</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0092
+Tipo de estructura: SAE-A Ext. 5.0
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.47202308867243</longitude>
+					<latitude>-32.97763867686102</latitude>
+					<altitude>106.9616237739693</altitude>
+					<heading>16.38118642155668</heading>
+					<tilt>0.02443758467855761</tilt>
+					<roll>45.00384355847529</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47228813288049,-32.97784450488982,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0093</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0093
+Tipo de estructura: SAE-A Ext. 5.0
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.47275096379335</longitude>
+					<latitude>-32.97977972421904</latitude>
+					<altitude>75.89370250230895</altitude>
+					<heading>16.38158262137632</heading>
+					<tilt>0.02443758467855761</tilt>
+					<roll>45.00384355836044</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47290143318797,-32.97988822182458,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0094</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0094
+Tipo de estructura: SAE-C
+Cable de guardia: si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.47391284861162</longitude>
+					<latitude>-32.98300997781401</latitude>
+					<altitude>112.2082467687686</altitude>
+					<heading>16.39229665167266</heading>
+					<tilt>0.02444149852754451</tilt>
+					<roll>45.01392510369704</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47383565582214,-32.98307974352612,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0095</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0095
+Tipo de estructura: SAE-D
+Cable de guardia: si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.47308135781772</longitude>
+					<latitude>-32.98724777370736</latitude>
+					<altitude>135.8536989870409</altitude>
+					<heading>16.39186980708925</heading>
+					<tilt>0.02444145273361601</tilt>
+					<roll>45.01395096435156</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47309890890755,-32.987350347343,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0096</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0096
+Tipo de estructura: SAE-C
+Cable de guardia: si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.47264700218008</longitude>
+					<latitude>-32.98914431536549</latitude>
+					<altitude>177.6639042828445</altitude>
+					<heading>16.3916335603777</heading>
+					<tilt>0.02444145274852776</tilt>
+					<roll>45.01395120932144</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.4727291383296,-32.98905286158246,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0097</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0097
+Tipo de estructura: SAE-A Ext. 2.5
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.47221757835263</longitude>
+					<latitude>-32.99224662856841</latitude>
+					<altitude>258.269256801043</altitude>
+					<heading>16.39139974956886</heading>
+					<tilt>0.02444145273361601</tilt>
+					<roll>45.01395121160004</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47214921536425,-32.99242767370796,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0098</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0098
+Tipo de estructura: SAE-C Ext. 5.0
+Cable de guardia: si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.47094259226307</longitude>
+					<latitude>-32.99587107789816</latitude>
+					<altitude>270.1351475429784</altitude>
+					<heading>16.39070527066726</heading>
+					<tilt>0.02444145352393853</tilt>
+					<roll>45.01395102445537</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47147261963497,-32.99617409247492,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0099</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0099
+Tipo de estructura: SAE-A Ext. 5.0
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.47043845989405</longitude>
+					<latitude>-32.9994817269827</latitude>
+					<altitude>237.3702375806276</altitude>
+					<heading>16.39043068380998</heading>
+					<tilt>0.02444145355376202</tilt>
+					<roll>45.01395102442123</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47082278314529,-32.99973062158844,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0100</name>
+				<description>Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0100
+Tipo de estructura: SAE-A Ext. 2.5
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.47024370524423</longitude>
+					<latitude>-33.00102572484563</latitude>
+					<altitude>227.589511754938</altitude>
+					<heading>16.39032460261261</heading>
+					<tilt>0.02444145353885027</tilt>
+					<roll>45.01395102444743</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_picnic4</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47050665884345,-33.00144108359811,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0101</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0101
+Tipo de estructura: SAE-A
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.47145830711891</longitude>
+					<latitude>-33.0021520529396</latitude>
+					<altitude>221.7658158524911</altitude>
+					<heading>16.39098615491661</heading>
+					<tilt>0.02444145356867377</tilt>
+					<roll>45.0139510244284</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47195008614815,-33.00254862712755,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0102</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0102
+Tipo de estructura: SAE-E
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.4739247048105</longitude>
+					<latitude>-33.0039926643005</latitude>
+					<altitude>203.6968940036992</altitude>
+					<heading>16.39232957031357</heading>
+					<tilt>0.02444145353885027</tilt>
+					<roll>45.01395102437448</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47374536145229,-33.00399182006453,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0103</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0103
+Tipo de estructura: SAE-A Ext. 2.5
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.4760506173489</longitude>
+					<latitude>-33.00592123064189</latitude>
+					<altitude>173.2408898019405</altitude>
+					<heading>16.3934875865941</heading>
+					<tilt>0.02444145352393853</tilt>
+					<roll>45.01395102436971</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47624032118924,-33.00596211452676,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0104</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0104
+Tipo de estructura: SAE-A
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.47855247998359</longitude>
+					<latitude>-33.00764424031635</latitude>
+					<altitude>132.3686412621978</altitude>
+					<heading>16.3948504580037</heading>
+					<tilt>0.02444145352393853</tilt>
+					<roll>45.01395102999232</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.47859357274572,-33.00783598502991,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0105</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0105
+Tipo de estructura: SAE-A Ext. 2.5
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.48014968182436</longitude>
+					<latitude>-33.0088654751185</latitude>
+					<altitude>158.3109211966782</altitude>
+					<heading>16.39572038810438</heading>
+					<tilt>0.02444145358358551</tilt>
+					<roll>45.01395086293483</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.48031141542496,-33.00918142892309,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0106</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0106
+Tipo de estructura: SAE-A Ext. 2.5
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.4839749108211</longitude>
+					<latitude>-33.01189947298621</latitude>
+					<altitude>163.4362710249721</altitude>
+					<heading>16.39780435542754</heading>
+					<tilt>0.02444145356867377</tilt>
+					<roll>45.01395086289853</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.48421806334508,-33.01225058865471,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0107</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0107
+Tipo de estructura: SAE-C Ext. 5.0
+Cable de guardia: si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.48712340810513</longitude>
+					<latitude>-33.0144254588505</latitude>
+					<altitude>116.738512535339</altitude>
+					<heading>16.39951976971965</heading>
+					<tilt>0.02444145355376202</tilt>
+					<roll>45.01395086291201</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.4871514701323,-33.01457259209141,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0108</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0108
+Tipo de estructura: SAE-C Ext. 5.0
+Cable de guardia: si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.48842065823909</longitude>
+					<latitude>-33.01558502292296</latitude>
+					<altitude>108.5731423945843</altitude>
+					<heading>16.40022659079688</heading>
+					<tilt>0.02444145356867377</tilt>
+					<roll>45.01395086291226</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.48833505403582,-33.01555887682908,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0109</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0109
+Tipo de estructura: SAE-A Ext. 2.5
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.49081813293203</longitude>
+					<latitude>-33.01746102091561</latitude>
+					<altitude>155.6129180366312</altitude>
+					<heading>16.4015329331596</heading>
+					<tilt>0.02444145355376202</tilt>
+					<roll>45.01395086288807</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.49097352422963,-33.01766124514747,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0110</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura:TO_MI-0110
+Tipo de estructura: SAE-A
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.49392477807099</longitude>
+					<latitude>-33.01968760620442</latitude>
+					<altitude>206.1022219479186</altitude>
+					<heading>16.40322579267433</heading>
+					<tilt>0.02444145358358551</tilt>
+					<roll>45.01395086288159</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.49385227798118,-33.0199300696213,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0111</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0111
+Tipo de estructura: SAE-C Ext. 5.0
+Cable de guardia: si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.49686217189556</longitude>
+					<latitude>-33.02084278998986</latitude>
+					<altitude>219.8210392741779</altitude>
+					<heading>16.40482649943984</heading>
+					<tilt>0.02444145356867377</tilt>
+					<roll>45.01395086289929</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.4965562752908,-33.02093094592772,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0112</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0112
+Tipo de estructura: SAE-D
+Cable de guardia: si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.50001233999436</longitude>
+					<latitude>-33.02207940727356</latitude>
+					<altitude>233.5860643438347</altitude>
+					<heading>16.40654321260712</heading>
+					<tilt>0.02444145358358551</tilt>
+					<roll>45.01395086290086</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.5003443110008,-33.02241497698051,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0113</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0113
+Tipo de estructura: SAE-A
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.50152312512594</longitude>
+					<latitude>-33.02276477024483</latitude>
+					<altitude>234.0969253113944</altitude>
+					<heading>16.40736565479865</heading>
+					<tilt>0.02444145268888077</tilt>
+					<roll>45.01394996997723</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.50140614402636,-33.02287157735288,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0114</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0114
+Tipo de estructura: SAE-C
+Cable de guardia: si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.50218914555114</longitude>
+					<latitude>-33.02469815796471</latitude>
+					<altitude>316.8049380561813</altitude>
+					<heading>-24.51099054090134</heading>
+					<tilt>26.34112675099933</tilt>
+					<roll>1.993228117100834</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.5030443789051,-33.02365022410038,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0115</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0115
+Tipo de estructura: SAE-D
+Cable de guardia: si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.50498515660057</longitude>
+					<latitude>-33.02907780723823</latitude>
+					<altitude>361.8236817185435</altitude>
+					<heading>-24.50946672067774</heading>
+					<tilt>26.34112675099933</tilt>
+					<roll>1.993228117100863</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.50590362698344,-33.02823646632066,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0116</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0116
+Tipo de estructura: SAE-D
+Cable de guardia: si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.50709491047014</longitude>
+					<latitude>-33.03009989264892</latitude>
+					<altitude>189.7334905719371</altitude>
+					<heading>-25.39249922578729</heading>
+					<tilt>44.42866208702831</tilt>
+					<roll>1.263189591736759</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.50793859373375,-33.02903412206228,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0117</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0117
+Tipo de estructura: SAE-A
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.50891937542563</longitude>
+					<latitude>-33.03107891525895</latitude>
+					<altitude>187.1876254492739</altitude>
+					<heading>-25.39150477223699</heading>
+					<tilt>44.4286620870898</tilt>
+					<roll>1.263189591900476</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.51000799040423,-33.02991220162743,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0118</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0118
+Tipo de estructura: SAE-D Ext. 2.5
+Cable de guardia: si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.51263087927974</longitude>
+					<latitude>-33.03266203103995</latitude>
+					<altitude>265.7437970725737</altitude>
+					<heading>-25.38948164338736</heading>
+					<tilt>44.42866208708688</tilt>
+					<roll>1.26318959190556</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.51347439083719,-33.03135720395495,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0119</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0119
+Tipo de estructura: SAE-A Ext. 2.5
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.51674789940442</longitude>
+					<latitude>-33.0328233989728</latitude>
+					<altitude>154.2209224048035</altitude>
+					<heading>50.86784604560279</heading>
+					<tilt>0.8842142778471758</tilt>
+					<roll>90.31658085402161</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.51647753537924,-33.03269423771452,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0120</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0120
+Tipo de estructura: SAE-A
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.51925464901481</longitude>
+					<latitude>-33.03353843096713</latitude>
+					<altitude>293.0468588038462</altitude>
+					<heading>5.707514357729314</heading>
+					<tilt>1.2469835709167</tilt>
+					<roll>45.16171719670466</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.51916383779515,-33.0338031616305,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0121</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0121
+Tipo de estructura: SAE-A Ext. 2.5
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.52105171485016</longitude>
+					<latitude>-33.03412159715922</latitude>
+					<altitude>304.3400945766521</altitude>
+					<heading>5.708494008408389</heading>
+					<tilt>1.246983570917285</tilt>
+					<roll>45.16171719670405</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.52069988769234,-33.03398852300343,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0122</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0122
+Tipo de estructura: SAE-C Ext. 5.0
+Cable de guardia: si aplica
+Clase: De paso (Suspension)</description>
+				<Camera>
+					<longitude>-71.52370109825949</longitude>
+					<latitude>-33.03430585192051</latitude>
+					<altitude>240.4782960555486</altitude>
+					<heading>42.96759622522238</heading>
+					<tilt>0.8844147958223959</tilt>
+					<roll>91.24840437586386</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.52329972443771,-33.03431464516483,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TO_MI-0123</name>
+				<description>Coordenado por Gestión de Información Transmisión
+
+Nomenclatura de estructura: TO_MI-0123
+Tipo de estructura: SAE-D Ext. 2.5
+Cable de guardia: si aplica
+Clase: Anclaje (Traccion)</description>
+				<Camera>
+					<longitude>-71.52503835484234</longitude>
+					<latitude>-33.03417324500708</latitude>
+					<altitude>261.6031926534225</altitude>
+					<heading>42.9683252279623</heading>
+					<tilt>0.8844147958236324</tilt>
+					<roll>91.24840437586565</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin16000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.52515803138756,-33.03453851329174,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ML-H6-C2</name>
+				<LookAt>
+					<longitude>-71.52515318168382</longitude>
+					<latitude>-33.03439421498864</latitude>
+					<altitude>0</altitude>
+					<heading>0.0009024360064325897</heading>
+					<tilt>31.46970956375502</tilt>
+					<range>93.68787932582626</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin9010</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.52526167317016,-33.03441919672186,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ML-H5-C1</name>
+				<LookAt>
+					<longitude>-71.52515318168382</longitude>
+					<latitude>-33.03439421498864</latitude>
+					<altitude>0</altitude>
+					<heading>0.0009024360064325897</heading>
+					<tilt>31.46970956375502</tilt>
+					<range>93.68787932582626</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin9010</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.52532792227125,-33.03448998906313,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
