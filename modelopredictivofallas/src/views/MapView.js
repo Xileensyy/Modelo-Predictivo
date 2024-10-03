@@ -1,11 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import { MapContainer, useMap } from 'react-leaflet';
+import React, { useState, useEffect, useRef} from 'react';
+import { MapContainer,TileLayer, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet-control-geocoder/dist/Control.Geocoder.css';
 import 'leaflet-control-geocoder';
 import Menu from './Menu';
 import './MapView.css';
+import omnivore from 'leaflet-omnivore';
+import KmlMap from './KmlMap'; // Ruta correcta si KmlMap.js está en la misma carpeta
+
 
 
 // Configura el icono del marcador personalizado
@@ -226,15 +229,73 @@ const LayerControl = ({ selectedLayer }) => {
 
 const MapView = () => {
   const [selectedLayer, setSelectedLayer] = useState('normal');
+  const mapRef = useRef(); // Usamos useRef para mantener la referencia del mapa
+  const kmlLayerRef1 = useRef(null); // Usamos un ref para almacenar la primera capa KML
+  const kmlLayerRef2 = useRef(null); // Usamos un ref para almacenar la segunda capa KML
+
+  const loadKML1 = () => {
+    if (mapRef.current) {
+      // Cargar el primer KML usando omnivore
+      const kmlLayer = omnivore.kml('/KML/LT26_Penablanca_-_Miraflores_C2_110kV_R01.kml')
+        .on('ready', function () {
+          // Ajusta los límites del mapa para que se ajusten a la capa KML
+          mapRef.current.fitBounds(kmlLayer.getBounds());
+        })
+        .on('error', function (e) {
+          console.error("Error loading KML 1: ", e); // Manejo de errores
+        });
+
+      // Si ya hay una capa KML existente, la eliminamos antes de agregar la nueva
+      if (kmlLayerRef1.current) {
+        mapRef.current.removeLayer(kmlLayerRef1.current);
+      }
+
+      kmlLayer.addTo(mapRef.current); // Agrega la capa KML al mapa
+      kmlLayerRef1.current = kmlLayer; // Guardar la referencia del KML
+    }
+  };
+
+  const loadKML2 = () => {
+    if (mapRef.current) {
+      // Cargar el segundo KML usando omnivore
+      const kmlLayer = omnivore.kml('/KML/LT35 Agua Santa - Miraflores 110kV R01.kml') // Reemplaza con la ruta de tu segundo archivo KML
+        .on('ready', function () {
+          // Ajusta los límites del mapa para que se ajusten a la capa KML
+          mapRef.current.fitBounds(kmlLayer.getBounds());
+        })
+        .on('error', function (e) {
+          console.error("Error loading KML 2: ", e); // Manejo de errores
+        });
+
+      // Si ya hay una capa KML existente, la eliminamos antes de agregar la nueva
+      if (kmlLayerRef2.current) {
+        mapRef.current.removeLayer(kmlLayerRef2.current);
+      }
+
+      kmlLayer.addTo(mapRef.current); // Agrega la capa KML al mapa
+      kmlLayerRef2.current = kmlLayer; // Guardar la referencia del KML
+    }
+  };
+
+  useEffect(() => {
+    loadKML1(); // Carga el primer KML cada vez que se cambia la capa seleccionada
+    loadKML2(); // Carga el segundo KML cada vez que se cambia la capa seleccionada
+  }, [selectedLayer]); // Se ejecuta cuando cambia selectedLayer
 
   return (
     <div>
-      <MapContainer style={{ height: '100vh', width: '100%' }} center={[-33.0257, -71.5510]} zoom={13}>
+      <MapContainer ref={mapRef} style={{ height: '100vh', width: '100%' }} center={[-33.0257, -71.5510]} zoom={13}>
+        <TileLayer
+          url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        />
+        
         <AddGeocoderControl />
         <AddFailureMarkers />
         <LayerControl selectedLayer={selectedLayer} />
         {selectedLayer === 'temperature' && <Legend />}
       </MapContainer>
+
       <Menu setSelectedLayer={setSelectedLayer} />
       <div
         id="forecast-popup"
@@ -252,6 +313,12 @@ const MapView = () => {
     </div>
   );
 };
+
+
+
+
+
+
 
 const getElectricFailureData = async () => {
   // Simula la obtención de datos de fallas eléctricas
