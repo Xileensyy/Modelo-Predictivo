@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT35 Agua Santa - Miraflores 110kV R01.kmz</name>
+	<StyleMap id="msn_ylw-pushpin690">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin69</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin74</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin72">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin68</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin76</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin73">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin72</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin75</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin74">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin74</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin73</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin75">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin73</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin72</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin72">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin73">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin74">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin75">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin76">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin68">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin69">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin72">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin73">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin74">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>LT35 Agua Santa a Miraflores 110kV</name>
+		<open>1</open>
+		<description>Coordenado por Oliver Cabezas
+Información Técnica de Transmisión</description>
+		<Folder>
+			<name>C3</name>
+			<open>1</open>
+			<Placemark>
+				<name>AGUA SANTA – EST. 54B 110KV C3</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		AGUA SANTA - MIRAFLORES 110KV
+Tramo:		AGUA SANTA - MIRAFLORES 110KV C3
+Nombre: 		AGUA SANTA – EST. 54B 110KV C3
+Circuito:		C3
+ID Info:		918
+Tipo Conductor: 	ACAR 1400
+Año PES: 		2001</description>
+				<styleUrl>#msn_ylw-pushpin75</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.54265607999342,-33.07640515012265,0 -71.54364990193918,-33.07629644820693,0 -71.54452496940304,-33.07408369965609,0 -71.54549159386471,-33.07162710995175,0 -71.54641108163725,-33.06928466837907,0 -71.54738904124419,-33.06815011110398,0 -71.54974002132826,-33.0654644690628,0 -71.55177764355919,-33.06313760500839,0 -71.55267401800047,-33.06156861543933,0 -71.55357116271585,-33.05992692731994,0 -71.55589245508048,-33.05563667481881,0 -71.5560832586978,-33.05523554591782,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. 54B - MIRAFLORES110KV C3</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		AGUA SANTA - MIRAFLORES 110KV
+Tramo:		AGUA SANTA - MIRAFLORES 110KV C3
+Nombre: 		EST. 54B - MIRAFLORES110KV C3
+Circuito:		C3
+ID Info:		919
+Tipo Conductor: 	ACAR 1400
+Año PES: 		1939</description>
+				<styleUrl>#msn_ylw-pushpin690</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.55608679666429,-33.05523704139509,0 -71.55348300255606,-33.05391690474532,0 -71.54931158894669,-33.05179533728943,0 -71.5466256168982,-33.050421874843,0 -71.54401841952921,-33.04911443189022,0 -71.54158868187376,-33.04787555699083,0 -71.54023480019835,-33.04718154899245,0 -71.53850641674229,-33.04629804821173,0 -71.53704368819353,-33.04555647128576,0 -71.53403798724747,-33.0440522438751,0 -71.53170101400302,-33.04285445599791,0 -71.52850819290684,-33.04119559342056,0 -71.52698186566816,-33.03813904086171,0 -71.52657173272793,-33.03741666477767,0 -71.52605118518865,-33.03625099639342,0 -71.52542697045017,-33.03480201426353,0 -71.52553138913305,-33.03465657734994,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. 54B - EST. 54A 110kV C3-C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		AGUA SANTA - MIRAFLORES y AGUA SANTA LA PÓLVORA 110KV
+Tramo:		AGUA SANTA - MIRAFLORES 110KV C3 Y AGUA SANTA LA PÓLVORA 110kV C2
+Nombre: 		EST. 54B - EST. 54A 110KV C3 - C2
+Circuito:		C3-C2
+ID Info:		0000
+Tipo Conductor: 	ACAR 1400
+Año PES: 		2001</description>
+				<styleUrl>#msn_ylw-pushpin72</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.5560832586978,-33.05523554591782,0 -71.55633885555764,-33.05536007388652,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>C4</name>
+			<Placemark>
+				<name>AGUA SANTA – EST. 54B 110KV C4</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		AGUA SANTA - MIRAFLORES 110KV
+Tramo:		AGUA SANTA - MIRAFLORES 110KV C4
+Nombre: 		AGUA SANTA – EST. 54B 110KV C4
+Circuito:		C4
+ID Info:		771
+Tipo Conductor: 	ACAR 1400
+Año PES: 		2001</description>
+				<styleUrl>#msn_ylw-pushpin73</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.54264910042716,-33.0762965201246,0 -71.54360702651073,-33.07627189505779,0 -71.54448390857023,-33.07406987984259,0 -71.54547047276587,-33.07163796842585,0 -71.54637520458601,-33.06927732801137,0 -71.54734882540383,-33.0681335284258,0 -71.5496788735649,-33.06543993324452,0 -71.55173985782613,-33.06311271793276,0 -71.55262063375915,-33.06157486936317,0 -71.55351342678595,-33.05992019615079,0 -71.55584399821338,-33.05561374601007,0 -71.55616926635321,-33.05517547824304,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. 54B - MIRAFLORES110KV C4</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		AGUA SANTA - MIRAFLORES 110KV
+Tramo:		AGUA SANTA - MIRAFLORES 110KV C4
+Nombre: 		EST. 54B - MIRAFLORES110KV C4
+Circuito:		C4
+ID Info:		772
+Tipo Conductor: 	ACAR 1400
+Año PES: 		1939</description>
+				<styleUrl>#msn_ylw-pushpin73</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.55616782835611,-33.05517547846253,0 -71.55350364320174,-33.05383953609164,0 -71.54935650307846,-33.05171387900728,0 -71.54666097078389,-33.05032929109398,0 -71.54405357443964,-33.04902594116716,0 -71.54165106376513,-33.04782932913572,0 -71.54027514235386,-33.04714567490803,0 -71.53853905731624,-33.04622683846789,0 -71.53703268518413,-33.04547056772174,0 -71.53408329655318,-33.04399444844967,0 -71.53173357066392,-33.04280180209293,0 -71.52853835411682,-33.04116111880965,0 -71.52703371739173,-33.0381183499297,0 -71.52664671639492,-33.03738054586064,0 -71.52611560885821,-33.03623474812165,0 -71.52546435366432,-33.0348093366961,0 -71.52559362719245,-33.03472215430477,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. 54B - EST.54C 110kV C4</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		AGUA SANTA - MIRAFLORES 110KV
+Tramo:		AGUA SANTA - MIRAFLORES 110KV C4
+Nombre: 		 EST. 54B - EST. 54C 110KV C4
+Circuito:		C4
+ID Info:		0000
+Tipo Conductor: 	ACAR 1400
+Año PES: 		2016</description>
+				<styleUrl>#msn_ylw-pushpin74</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.55616481744542,-33.05517676332031,0 -71.55626328759631,-33.05523614604628,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

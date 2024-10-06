@@ -7,22 +7,51 @@ import 'leaflet-control-geocoder';
 import Menu from './Menu';
 import './MapView.css';
 import omnivore from 'leaflet-omnivore';
-import KmlMap from './KmlMap'; // Ruta correcta si KmlMap.js está en la misma carpeta
 
 
 
-// Configura el icono del marcador personalizado
+// Icono del marcador personalizado
 const customIcon = new L.Icon({
-  iconUrl: '/marker-icon.png', // Ruta a tu imagen personalizada
+  iconUrl: '/marker-icon.png', // Ruta imagen personalizada
   iconSize: [32, 32], // Tamaño del icono
   iconAnchor: [16, 32], // Punto del icono que estará en la posición del marcador
   popupAnchor: [0, -32], // Punto desde el que se abrirá el popup en relación al icono
 });
 
+
+//Simulación de obtención de datos API
+const getElectricFailureData = async () => {
+  return [
+    {
+      id: 1,
+      lat: -33.0257,
+      lng: -71.5510,
+      severity: 'Alta',
+      time: '23:00',
+      cause: 'Viento fuerte',
+      probability:'999%',
+
+    },
+    {
+      id: 2,
+      lat: -33.0357,
+      lng: -71.5610,
+      severity: 'Media',
+      time: '23:30',
+      cause: 'Sobrecalentamiento',
+      probability:'999%',
+    },
+    // Más fallas eléctricas...
+  ];
+};
+
+
 const AddGeocoderControl = ({ setForecast }) => {
   const map = useMap();
 
   useEffect(() => {
+    map.zoomControl.remove(); //Eliminar botones control de zoom
+
     const geocoder = L.Control.Geocoder.nominatim();
     const control = L.Control.geocoder({
       geocoder,
@@ -69,42 +98,22 @@ const AddGeocoderControl = ({ setForecast }) => {
     }
   };
 
+  //Actualización predicciones siguientes 3 horas
   const updateForecastPopup = (forecast) => {
     if (!forecast || forecast.length === 0) return;
-
+  
     const popupContent = forecast.map(item => {
       const time = new Date(item.dt * 1000).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
       return `<div>Hora: ${time}<br>Temperatura: ${item.main.temp}°C<br>Viento: ${(item.wind.speed * 3.6).toFixed(2)} km/h</div>`;
     }).join('<hr>');
-
+  
     // Mostrar el contenido en el div del popup
-    const forecastPopup = document.getElementById('forecast-popup');
+    const forecastPopup = document.getElementById('forecast-content');
     if (forecastPopup) {
-      forecastPopup.innerHTML = `
-        <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(255, 255, 255, 0.8); padding: 10px; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.2);">
-          <span>Predicciones</span>
-          <button id="minimize-btn" style="background: transparent; border: none; cursor: pointer; font-size: 14px;">&minus;</button>
-        </div>
-        <div id="forecast-content" style="padding: 10px;">${popupContent}</div>
-      `;
-
-      // Agregar el evento para minimizar el popup
-      const minimizeBtn = document.getElementById('minimize-btn');
-      const forecastContent = document.getElementById('forecast-content');
-
-      if (minimizeBtn && forecastContent) {
-        minimizeBtn.addEventListener('click', () => {
-          if (forecastContent.style.display === 'none') {
-            forecastContent.style.display = 'block';
-            minimizeBtn.textContent = '−'; // Cambia el texto del botón a "+"
-          } else {
-            forecastContent.style.display = 'none';
-            minimizeBtn.textContent = '+'; // Cambia el texto del botón a "-"
-          }
-        });
-      }
+      forecastPopup.innerHTML = popupContent;
     }
   };
+  
 
   return null;
 };
@@ -114,7 +123,7 @@ const Legend = () => {
   return (
     <div style={{
       position: 'absolute',
-      bottom: '50px',
+      bottom: '200px',
       right: '10px',
       background: 'rgba(255, 255, 255, 0.8)',
       padding: '10px',
@@ -151,6 +160,7 @@ const Legend = () => {
   );
 };
 
+//Creditos
 const LayerControl = ({ selectedLayer }) => {
   const map = useMap();
 
@@ -227,63 +237,121 @@ const LayerControl = ({ selectedLayer }) => {
   return null;
 };
 
+//Vista de mapa principal
+
 const MapView = () => {
   const [selectedLayer, setSelectedLayer] = useState('normal');
-  const mapRef = useRef(); // Usamos useRef para mantener la referencia del mapa
-  const kmlLayerRef1 = useRef(null); // Usamos un ref para almacenar la primera capa KML
-  const kmlLayerRef2 = useRef(null); // Usamos un ref para almacenar la segunda capa KML
+  const [layerVisibility, setLayerVisibility] = useState({
+    layer1: false,
+    layer2: false,
+    layer3: false,
+    layer4: false,
+    layer5: false,
+    layer6: false,
+    layer7: false,
+  });
+  const mapRef = useRef();
 
-  const loadKML1 = () => {
+  const kmlLayerRefs = useRef([
+    null, // kmlLayerRef1
+    null, // kmlLayerRef2
+    null, // kmlLayerRef3
+    null, // kmlLayerRef4
+    null, // kmlLayerRef5
+    null, // kmlLayerRef6
+    null, // kmlLayerRef7
+  ]);
+
+  const kmlPaths = [
+    '/KML/LT26_Penablanca_-_Miraflores_C2_110kV_R01.kml',
+    '/KML/LT34 La Pólvora - Laguna Verde 110kV R01.kml',
+    '/KML/LT35_Agua_Santa_-_Miraflores_110kV_R01.kml',
+    '/KML/LT37 Agua Santa - Placilla 110kV R01.kml',
+    '/KML/LT38 Torquemada - Concón 110kV R01.kml',
+    '/KML/LT42 Torquemada - Miraflores 110kV R01.kml',
+    '/KML/LT74 Agua Santa - La Pólvora 110kV R01.kml',
+  ];
+
+  // Nombres personalizados para cada KML
+  const kmlNames = [
+    'Peñablanca - Miraflores',
+    'La Pólvora - Laguna Verde',
+    'Agua Santa - Miraflores',
+    'Agua Santa - Placilla',
+    'Torquemada - Concón',
+    'Torquemada - Miraflores',
+    'Agua Santa - La Pólvora',
+  ];
+
+  // Colores para cada KML
+  const kmlColors = [
+    'red',
+    'yellow',
+    'yellow',
+    'lime',
+    'yellow',
+    'yellow',
+    'yellow',
+  ];
+
+  const loadKML = (index, kmlPath, color) => {
     if (mapRef.current) {
-      // Cargar el primer KML usando omnivore
-      const kmlLayer = omnivore.kml('/KML/LT26_Penablanca_-_Miraflores_C2_110kV_R01.kml')
+      const kmlLayer = omnivore.kml(kmlPath)
         .on('ready', function () {
-          // Ajusta los límites del mapa para que se ajusten a la capa KML
-          mapRef.current.fitBounds(kmlLayer.getBounds());
+          kmlLayer.setStyle({ color, weight: 2, opacity: 1 });
         })
         .on('error', function (e) {
-          console.error("Error loading KML 1: ", e); // Manejo de errores
+          console.error(`Error loading KML: `, e);
         });
 
-      // Si ya hay una capa KML existente, la eliminamos antes de agregar la nueva
-      if (kmlLayerRef1.current) {
-        mapRef.current.removeLayer(kmlLayerRef1.current);
+      if (kmlLayerRefs.current[index]) {
+        mapRef.current.removeLayer(kmlLayerRefs.current[index]);
       }
 
-      kmlLayer.addTo(mapRef.current); // Agrega la capa KML al mapa
-      kmlLayerRef1.current = kmlLayer; // Guardar la referencia del KML
-    }
-  };
-
-  const loadKML2 = () => {
-    if (mapRef.current) {
-      // Cargar el segundo KML usando omnivore
-      const kmlLayer = omnivore.kml('/KML/LT35 Agua Santa - Miraflores 110kV R01.kml') // Reemplaza con la ruta de tu segundo archivo KML
-        .on('ready', function () {
-          // Ajusta los límites del mapa para que se ajusten a la capa KML
-          mapRef.current.fitBounds(kmlLayer.getBounds());
-        })
-        .on('error', function (e) {
-          console.error("Error loading KML 2: ", e); // Manejo de errores
-        });
-
-      // Si ya hay una capa KML existente, la eliminamos antes de agregar la nueva
-      if (kmlLayerRef2.current) {
-        mapRef.current.removeLayer(kmlLayerRef2.current);
+      // Añadir el KML solo si su capa está visible
+      if (layerVisibility[`layer${index + 1}`]) {
+        kmlLayer.addTo(mapRef.current);
       }
-
-      kmlLayer.addTo(mapRef.current); // Agrega la capa KML al mapa
-      kmlLayerRef2.current = kmlLayer; // Guardar la referencia del KML
+      kmlLayerRefs.current[index] = kmlLayer;
     }
   };
 
   useEffect(() => {
-    loadKML1(); // Carga el primer KML cada vez que se cambia la capa seleccionada
-    loadKML2(); // Carga el segundo KML cada vez que se cambia la capa seleccionada
-  }, [selectedLayer]); // Se ejecuta cuando cambia selectedLayer
+    // Limpiar capas KML existentes al cambiar de capa
+    kmlLayerRefs.current.forEach((layer) => {
+      if (layer) {
+        mapRef.current.removeLayer(layer);
+      }
+    });
+
+    // Cargar los KMLs según la visibilidad y el color correspondiente
+    kmlPaths.forEach((path, index) => {
+      loadKML(index, path, kmlColors[index]);
+    });
+  }, [selectedLayer, layerVisibility]);
+
+  const handleCheckboxChange = (layer) => {
+    setLayerVisibility((prev) => ({
+      ...prev,
+      [layer]: !prev[layer],
+    }));
+  };
+
+  useEffect(() => {
+    // Reiniciar la visibilidad al cargar el componente
+    setLayerVisibility({
+      layer1: false,
+      layer2: false,
+      layer3: false,
+      layer4: false,
+      layer5: false,
+      layer6: false,
+      layer7: false,
+    });
+  }, []);
 
   return (
-    <div>
+    <div style={{ position: 'relative' }}>
       <MapContainer ref={mapRef} style={{ height: '100vh', width: '100%' }} center={[-33.0257, -71.5510]} zoom={13}>
         <TileLayer
           url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
@@ -295,13 +363,32 @@ const MapView = () => {
         <LayerControl selectedLayer={selectedLayer} />
         {selectedLayer === 'temperature' && <Legend />}
       </MapContainer>
-
+  
       <Menu setSelectedLayer={setSelectedLayer} />
+  
+      {/* Contenedor para las predicciones meteorológicas */}
       <div
         id="forecast-popup"
         style={{
           position: 'absolute',
-          top: '50px',
+          top: '400px',
+          left: '10px', // Cambiado para que no se superponga
+          zIndex: 1000,
+          background: 'rgba(255, 255, 255, 0.8)',
+          padding: '10px',
+          borderRadius: '5px',
+          boxShadow: '0 0 5px rgba(0,0,0,0.2)',
+        }}
+      >
+        <div id="forecast-content"></div>
+      </div>
+  
+      {/* Contenedor para los filtros de selección de líneas */}
+      <div
+        id="line-selection-popup"
+        style={{
+          position: 'absolute',
+          bottom: '30px',  // Ajustado para evitar superposición
           right: '10px',
           zIndex: 1000,
           background: 'rgba(255, 255, 255, 0.8)',
@@ -309,42 +396,25 @@ const MapView = () => {
           borderRadius: '5px',
           boxShadow: '0 0 5px rgba(0,0,0,0.2)',
         }}
-      ></div>
+      >
+        {Object.keys(layerVisibility).map((layer, index) => (
+          <div key={layer}>
+            <input
+              type="checkbox"
+              checked={layerVisibility[layer]}
+              onChange={() => handleCheckboxChange(layer)}
+            />
+            <label>{kmlNames[index]}</label> {/* Usamos nombres personalizados aquí */}
+          </div>
+        ))}
+      </div>
     </div>
   );
+  
 };
 
 
 
-
-
-
-
-const getElectricFailureData = async () => {
-  // Simula la obtención de datos de fallas eléctricas
-  return [
-    {
-      id: 1,
-      lat: -33.0257,
-      lng: -71.5510,
-      severity: 'Alta',
-      time: '23:00',
-      cause: 'Viento fuerte',
-      probability:'999%',
-
-    },
-    {
-      id: 2,
-      lat: -33.0357,
-      lng: -71.5610,
-      severity: 'Media',
-      time: '23:30',
-      cause: 'Sobrecalentamiento',
-      probability:'999%',
-    },
-    // Más fallas eléctricas...
-  ];
-};
 
 
 // PopUP De fallas Electricas
