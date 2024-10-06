@@ -67,7 +67,8 @@ const AddGeocoderControl = ({ setForecast }) => {
       // Crear y añadir el marcador con el popup
       L.marker(center, { icon: customIcon })
         .addTo(map)
-        .bindPopup(`<b>${name}</b><br>Temperatura: ${temperature}°C<br>Velocidad del viento: ${windSpeed} km/h`)
+        .bindPopup(`<b>${name}</b><br>Temperatura: ${temperature}°C<br>Velocidad del viento: ${windSpeed.toFixed(3)} km/h`)
+
         .openPopup();
 
       // Actualiza las predicciones para mostrar en el popup de la esquina superior izquierda
