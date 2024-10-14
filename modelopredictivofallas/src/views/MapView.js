@@ -19,32 +19,6 @@ const customIcon = new L.Icon({
 });
 
 
-//Simulación de obtención de datos API
-const getElectricFailureData = async () => {
-  return [
-    {
-      id: 1,
-      lat: -33.0257,
-      lng: -71.5510,
-      severity: 'Alta',
-      time: '23:00',
-      cause: 'Viento fuerte',
-      probability:'999%',
-
-    },
-    {
-      id: 2,
-      lat: -33.0357,
-      lng: -71.5610,
-      severity: 'Media',
-      time: '23:30',
-      cause: 'Sobrecalentamiento',
-      probability:'999%',
-    },
-    // Más fallas eléctricas...
-  ];
-};
-
 
 const AddGeocoderControl = ({ setForecast }) => {
   const map = useMap();
@@ -243,13 +217,13 @@ const LayerControl = ({ selectedLayer }) => {
 const MapView = () => {
   const [selectedLayer, setSelectedLayer] = useState('normal');
   const [layerVisibility, setLayerVisibility] = useState({
-    layer1: false,
-    layer2: false,
-    layer3: false,
-    layer4: false,
-    layer5: false,
-    layer6: false,
-    layer7: false,
+    layer1: true,
+    layer2: true,
+    layer3: true,
+    layer4: true,
+    layer5: true,
+    layer6: true,
+    layer7: true,
   });
   const mapRef = useRef();
 
@@ -273,7 +247,6 @@ const MapView = () => {
     '/KML/LT74 Agua Santa - La Pólvora 110kV R01.kml',
   ];
 
-  // Nombres personalizados para cada KML
   const kmlNames = [
     'Peñablanca - Miraflores',
     'La Pólvora - Laguna Verde',
@@ -284,7 +257,6 @@ const MapView = () => {
     'Agua Santa - La Pólvora',
   ];
 
-  // Colores para cada KML
   const kmlColors = [
     'red',
     'yellow',
@@ -295,59 +267,88 @@ const MapView = () => {
     'yellow',
   ];
 
+  const probabilities = [0.5, 0.8, 0.0, 0.3, 0.1, 0.0, 0.7];
+  const lineColors = probabilities.map((prob, index) => (prob > 0 ? 'purple' : kmlColors[index]));
+
   const loadKML = (index, kmlPath, color) => {
     if (mapRef.current) {
       const kmlLayer = omnivore.kml(kmlPath)
         .on('ready', function () {
           kmlLayer.setStyle({ color, weight: 2, opacity: 1 });
+
+          const bounds = kmlLayer.getBounds();
+          const center = bounds.getCenter();
+          const probability = probabilities[index];
+
+          if (layerVisibility[`layer${index + 1}`]) {
+            const marker = L.marker(center, {
+              icon: L.divIcon({
+                className: 'custom-marker',
+                html: `<div style="color: ${probability > 0 ? 'red' : 'black'}; font-weight:semibold;">${(probability * 100).toFixed(0)}%</div>`,
+                iconSize: [30, 30]
+              })
+            });
+            marker.addTo(mapRef.current);
+            kmlLayerRefs.current[index].marker = marker; // Guardar referencia al marcador
+          }
         })
         .on('error', function (e) {
           console.error(`Error loading KML: `, e);
         });
 
       if (kmlLayerRefs.current[index]) {
-        mapRef.current.removeLayer(kmlLayerRefs.current[index]);
+        mapRef.current.removeLayer(kmlLayerRefs.current[index].layer);
+        if (kmlLayerRefs.current[index].marker) {
+          mapRef.current.removeLayer(kmlLayerRefs.current[index].marker);
+        }
       }
 
-      // Añadir el KML solo si su capa está visible
       if (layerVisibility[`layer${index + 1}`]) {
         kmlLayer.addTo(mapRef.current);
+        kmlLayerRefs.current[index] = { layer: kmlLayer }; // Guardar referencia de la capa
       }
-      kmlLayerRefs.current[index] = kmlLayer;
+    }
+  };
+
+  const handleCheckboxChange = (layer, index) => {
+    setLayerVisibility((prev) => ({
+      ...prev,
+      [layer]: !prev[layer],
+    }));
+
+    if (layerVisibility[layer]) {
+      // Si la capa estaba visible, la quitamos al desmarcar el checkbox
+      mapRef.current.removeLayer(kmlLayerRefs.current[index].layer);
+      if (kmlLayerRefs.current[index].marker) {
+        mapRef.current.removeLayer(kmlLayerRefs.current[index].marker);
+      }
+    } else {
+      // Si la capa no estaba visible, la añadimos al marcar el checkbox
+      loadKML(index, kmlPaths[index], lineColors[index]);
     }
   };
 
   useEffect(() => {
-    // Limpiar capas KML existentes al cambiar de capa
     kmlLayerRefs.current.forEach((layer) => {
       if (layer) {
         mapRef.current.removeLayer(layer);
       }
     });
 
-    // Cargar los KMLs según la visibilidad y el color correspondiente
     kmlPaths.forEach((path, index) => {
-      loadKML(index, path, kmlColors[index]);
+      loadKML(index, path, lineColors[index]);
     });
   }, [selectedLayer, layerVisibility]);
 
-  const handleCheckboxChange = (layer) => {
-    setLayerVisibility((prev) => ({
-      ...prev,
-      [layer]: !prev[layer],
-    }));
-  };
-
   useEffect(() => {
-    // Reiniciar la visibilidad al cargar el componente
     setLayerVisibility({
-      layer1: false,
-      layer2: false,
-      layer3: false,
-      layer4: false,
-      layer5: false,
-      layer6: false,
-      layer7: false,
+      layer1: true,
+      layer2: true,
+      layer3: true,
+      layer4: true,
+      layer5: true,
+      layer6: true,
+      layer7: true,
     });
   }, []);
 
@@ -360,20 +361,18 @@ const MapView = () => {
         />
         
         <AddGeocoderControl />
-        <AddFailureMarkers />
         <LayerControl selectedLayer={selectedLayer} />
         {selectedLayer === 'temperature' && <Legend />}
       </MapContainer>
-  
+
       <Menu setSelectedLayer={setSelectedLayer} />
   
-      {/* Contenedor para las predicciones meteorológicas */}
       <div
         id="forecast-popup"
         style={{
           position: 'absolute',
           top: '400px',
-          left: '10px', // Cambiado para que no se superponga
+          left: '10px',
           zIndex: 1000,
           background: 'rgba(255, 255, 255, 0.8)',
           padding: '10px',
@@ -384,12 +383,11 @@ const MapView = () => {
         <div id="forecast-content"></div>
       </div>
   
-      {/* Contenedor para los filtros de selección de líneas */}
       <div
         id="line-selection-popup"
         style={{
           position: 'absolute',
-          bottom: '30px',  // Ajustado para evitar superposición
+          bottom: '30px',
           right: '10px',
           zIndex: 1000,
           background: 'rgba(255, 255, 255, 0.8)',
@@ -403,47 +401,19 @@ const MapView = () => {
             <input
               type="checkbox"
               checked={layerVisibility[layer]}
-              onChange={() => handleCheckboxChange(layer)}
+              onChange={() => handleCheckboxChange(layer, index)}
             />
-            <label>{kmlNames[index]}</label> {/* Usamos nombres personalizados aquí */}
+            <label>{kmlNames[index]}</label>
           </div>
         ))}
       </div>
     </div>
   );
-  
 };
 
 
 
 
-
-// PopUP De fallas Electricas
-const AddFailureMarkers = () => {
-  const map = useMap();
-
-  useEffect(() => {
-    const loadFailureMarkers = async () => {
-      const failures = await getElectricFailureData();
-      failures.forEach(failure => {
-        L.marker([failure.lat, failure.lng], { icon: customIcon })
-          .addTo(map)
-          .bindPopup(`
-            <b>Predicción Falla Eléctrica</b><br>
-            Severidad: ${failure.severity}<br>
-            Hora: ${failure.time}<br>
-            Causa: ${failure.cause}<br>
-            Probabilidad de ocurrencia: ${failure.probability}<br>
-          `)
-          .openPopup();
-      });
-    };
-
-    loadFailureMarkers();
-  }, [map]);
-
-  return null;
-};
 
 
 export default MapView;
