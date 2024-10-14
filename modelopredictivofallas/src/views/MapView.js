@@ -384,29 +384,35 @@ const MapView = () => {
       </div>
   
       <div
-        id="line-selection-popup"
-        style={{
-          position: 'absolute',
-          bottom: '30px',
-          right: '10px',
-          zIndex: 1000,
-          background: 'rgba(255, 255, 255, 0.8)',
-          padding: '10px',
-          borderRadius: '5px',
-          boxShadow: '0 0 5px rgba(0,0,0,0.2)',
-        }}
-      >
-        {Object.keys(layerVisibility).map((layer, index) => (
-          <div key={layer}>
-            <input
-              type="checkbox"
-              checked={layerVisibility[layer]}
-              onChange={() => handleCheckboxChange(layer, index)}
-            />
-            <label>{kmlNames[index]}</label>
-          </div>
-        ))}
+  id="line-selection-popup"
+  style={{
+    position: 'absolute',
+    bottom: '30px',
+    right: '10px',
+    zIndex: 1000,
+    background: 'rgba(255, 255, 255, 0.8)',
+    padding: '10px',
+    borderRadius: '5px',
+    boxShadow: '0 0 5px rgba(0,0,0,0.2)',
+  }}
+>
+  {Object.keys(layerVisibility).map((layer, index) => {
+    const probability = probabilities[index]; // Obtener la probabilidad correspondiente
+    return (
+      <div key={layer}>
+        <input
+          type="checkbox"
+          checked={layerVisibility[layer]}
+          onChange={() => handleCheckboxChange(layer, index)}
+        />
+        <label style={{ color: probability > 0 ? 'red' : 'black' }}>
+          {kmlNames[index]}
+        </label>
       </div>
+    );
+  })}
+</div>
+
     </div>
   );
 };
