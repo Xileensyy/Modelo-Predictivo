@@ -260,11 +260,18 @@ const MapView = () => {
     'yellow',
   ];
 
- // Define inicialmente la constante probabilities vacía o con valores predeterminados
-let probabilities = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0];
+// Define inicialmente la constante probabilities vacía o con valores predeterminados
+let probabilities = [0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0];
 
+// Realiza la solicitud fetch a la API
 fetch('https://g87jo5nbme.execute-api.us-east-1.amazonaws.com/dev')
-  .then(response => response.json())
+  .then(response => {
+    // Verifica si la respuesta es exitosa
+    if (!response.ok) {
+      throw new Error('Network response was not ok ' + response.statusText);
+    }
+    return response.json();
+  })
   .then(data => {
     // Aquí extraemos el cuerpo (body) de la respuesta y actualizamos probabilities
     probabilities = data.body;
@@ -272,14 +279,24 @@ fetch('https://g87jo5nbme.execute-api.us-east-1.amazonaws.com/dev')
     // Ahora tienes las probabilidades actualizadas
     console.log('Probabilidades obtenidas:', probabilities);
 
+    // Mostrar las probabilidades después de actualizarlas
+    console.log('Probabilidades actualizadas:', probabilities);
+
     // Si necesitas hacer algo con ellas, puedes usar las probabilities aquí dentro
+    // Ejemplo: Procesar las probabilidades
+    processProbabilities(probabilities);
   })
   .catch(error => console.error('Error:', error));
 
 // Esta parte del código se ejecuta inmediatamente, pero no tiene los datos aún
-console.log('Probabilidades iniciales:', probabilities);
+// Si necesitas hacer algo después de la actualización, hazlo dentro del bloque `.then()`
 
-// El valor de `probabilities` se actualizará cuando se obtenga la respuesta de la API (asíncrono)
+// Función para procesar las probabilidades (puedes definirla según lo que necesites hacer)
+function processProbabilities(probabilities) {
+  // Aquí puedes hacer lo que necesites con las probabilidades
+  console.log('Procesando probabilidades:', probabilities);
+}
+
 
   
   
