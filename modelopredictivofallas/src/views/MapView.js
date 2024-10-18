@@ -98,7 +98,7 @@ const Legend = () => {
   return (
     <div style={{
       position: 'absolute',
-      bottom: '200px',
+      bottom: '400px',
       right: '10px',
       background: 'rgba(255, 255, 255, 0.8)',
       padding: '10px',
@@ -225,17 +225,10 @@ const MapView = () => {
     layer6: true,
     layer7: true,
   });
+  const [showKMLList, setShowKMLList] = useState(false); // Estado para mostrar la lista de KML
   const mapRef = useRef();
 
-  const kmlLayerRefs = useRef([
-    null, // kmlLayerRef1
-    null, // kmlLayerRef2
-    null, // kmlLayerRef3
-    null, // kmlLayerRef4
-    null, // kmlLayerRef5
-    null, // kmlLayerRef6
-    null, // kmlLayerRef7
-  ]);
+  const kmlLayerRefs = useRef([...Array(7)].map(() => null));
 
   const kmlPaths = [
     '/KML/LT26_Penablanca_-_Miraflores_C2_110kV_R01.kml',
@@ -267,14 +260,36 @@ const MapView = () => {
     'yellow',
   ];
 
-  const probabilities = [0.5, 0.8, 0.0, 0.3, 0.1, 0.0, 0.7];
-  const lineColors = probabilities.map((prob, index) => (prob > 0 ? 'purple' : kmlColors[index]));
+ // Define inicialmente la constante probabilities vacía o con valores predeterminados
+let probabilities = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0];
+
+fetch('https://g87jo5nbme.execute-api.us-east-1.amazonaws.com/dev')
+  .then(response => response.json())
+  .then(data => {
+    // Aquí extraemos el cuerpo (body) de la respuesta y actualizamos probabilities
+    probabilities = data.body;
+
+    // Ahora tienes las probabilidades actualizadas
+    console.log('Probabilidades obtenidas:', probabilities);
+
+    // Si necesitas hacer algo con ellas, puedes usar las probabilities aquí dentro
+  })
+  .catch(error => console.error('Error:', error));
+
+// Esta parte del código se ejecuta inmediatamente, pero no tiene los datos aún
+console.log('Probabilidades iniciales:', probabilities);
+
+// El valor de `probabilities` se actualizará cuando se obtenga la respuesta de la API (asíncrono)
+
+  
+  
+  const lineColors = probabilities.map((prob, index) => (prob > 0 ? 'red' : kmlColors[index])); //Color probabilidad
 
   const loadKML = (index, kmlPath, color) => {
     if (mapRef.current) {
       const kmlLayer = omnivore.kml(kmlPath)
         .on('ready', function () {
-          kmlLayer.setStyle({ color, weight: 2, opacity: 1 });
+          kmlLayer.setStyle({ color, weight: 3, opacity: 1 }); //Estilo del KMZ
 
           const bounds = kmlLayer.getBounds();
           const center = bounds.getCenter();
@@ -317,15 +332,33 @@ const MapView = () => {
     }));
 
     if (layerVisibility[layer]) {
-      // Si la capa estaba visible, la quitamos al desmarcar el checkbox
       mapRef.current.removeLayer(kmlLayerRefs.current[index].layer);
       if (kmlLayerRefs.current[index].marker) {
         mapRef.current.removeLayer(kmlLayerRefs.current[index].marker);
       }
     } else {
-      // Si la capa no estaba visible, la añadimos al marcar el checkbox
       loadKML(index, kmlPaths[index], lineColors[index]);
     }
+  };
+
+  const toggleKMLList = () => {
+    setShowKMLList(!showKMLList);
+  };
+
+  const handleSelectAll = (isSelected) => {
+    const newVisibility = { ...layerVisibility };
+    Object.keys(newVisibility).forEach((layer, index) => {
+      newVisibility[layer] = isSelected;
+      if (isSelected) {
+        loadKML(index, kmlPaths[index], lineColors[index]);
+      } else {
+        mapRef.current.removeLayer(kmlLayerRefs.current[index].layer);
+        if (kmlLayerRefs.current[index].marker) {
+          mapRef.current.removeLayer(kmlLayerRefs.current[index].marker);
+        }
+      }
+    });
+    setLayerVisibility(newVisibility);
   };
 
   useEffect(() => {
@@ -366,7 +399,7 @@ const MapView = () => {
       </MapContainer>
 
       <Menu setSelectedLayer={setSelectedLayer} />
-  
+
       <div
         id="forecast-popup"
         style={{
@@ -382,40 +415,53 @@ const MapView = () => {
       >
         <div id="forecast-content"></div>
       </div>
-  
-      <div
-  id="line-selection-popup"
-  style={{
-    position: 'absolute',
-    bottom: '30px',
-    right: '10px',
-    zIndex: 1000,
-    background: 'rgba(255, 255, 255, 0.8)',
-    padding: '10px',
-    borderRadius: '5px',
-    boxShadow: '0 0 5px rgba(0,0,0,0.2)',
-  }}
->
-  {Object.keys(layerVisibility).map((layer, index) => {
-    const probability = probabilities[index]; // Obtener la probabilidad correspondiente
-    return (
-      <div key={layer}>
-        <input
-          type="checkbox"
-          checked={layerVisibility[layer]}
-          onChange={() => handleCheckboxChange(layer, index)}
-        />
-        <label style={{ color: probability > 0 ? 'red' : 'black' }}>
-          {kmlNames[index]}
-        </label>
-      </div>
-    );
-  })}
-</div>
 
+      <div
+        id="line-selection-popup"
+        style={{
+          position: 'absolute',
+          bottom: '30px',
+          right: '10px',
+          zIndex: 1000,
+          background: 'rgba(255, 255, 255, 0.8)',
+          padding: '10px',
+          borderRadius: '5px',
+          boxShadow: '0 0 5px rgba(0,0,0,0.2)',
+        }}
+      >
+        <button onClick={toggleKMLList}>
+          {showKMLList ? 'Ocultar KML' : 'Chilquinta KML'}
+        </button>
+
+        {showKMLList && (
+          <div>
+            <input
+              type="checkbox"
+              onChange={(e) => handleSelectAll(e.target.checked)}
+            />
+            <label>Seleccionar/Deseleccionar Todos</label>
+            {Object.keys(layerVisibility).map((layer, index) => {
+              const probability = probabilities[index];
+              return (
+                <div key={layer}>
+                  <input
+                    type="checkbox"
+                    checked={layerVisibility[layer]}
+                    onChange={() => handleCheckboxChange(layer, index)}
+                  />
+                  <label style={{ color: probability > 0 ? 'red' : 'black' }}>
+                    {kmlNames[index]}
+                  </label>
+                </div>
+              );
+            })}
+          </div>
+        )}
+      </div>
     </div>
   );
 };
+
 
 
 
