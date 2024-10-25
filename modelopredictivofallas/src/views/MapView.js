@@ -261,10 +261,11 @@ const MapView = () => {
   ];
 
 // Define inicialmente la constante probabilities vacía o con valores predeterminados
-let probabilities = [0.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0];
+const [probabilities, setProbabilities] = useState([0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]);
 
-// Realiza la solicitud fetch a la API
-fetch('https://g87jo5nbme.execute-api.us-east-1.amazonaws.com/dev')
+useEffect(() => {
+  const intervalId = setInterval(() => {
+    fetch('https://g87jo5nbme.execute-api.us-east-1.amazonaws.com/dev')
   .then(response => {
     // Verifica si la respuesta es exitosa
     if (!response.ok) {
@@ -274,33 +275,14 @@ fetch('https://g87jo5nbme.execute-api.us-east-1.amazonaws.com/dev')
   })
   .then(data => {
     // Aquí extraemos el cuerpo (body) de la respuesta y actualizamos probabilities
-    probabilities = data.body;
-
-    // Ahora tienes las probabilidades actualizadas
-    console.log('Probabilidades obtenidas:', probabilities);
-
-    // Mostrar las probabilidades después de actualizarlas
-    console.log('Probabilidades actualizadas:', probabilities);
-
-    // Si necesitas hacer algo con ellas, puedes usar las probabilities aquí dentro
-    // Ejemplo: Procesar las probabilidades
-    processProbabilities(probabilities);
+    setProbabilities(data.body);
+    console.log('1')
   })
   .catch(error => console.error('Error:', error));
-
-// Esta parte del código se ejecuta inmediatamente, pero no tiene los datos aún
-// Si necesitas hacer algo después de la actualización, hazlo dentro del bloque `.then()`
-
-// Función para procesar las probabilidades (puedes definirla según lo que necesites hacer)
-function processProbabilities(probabilities) {
-  // Aquí puedes hacer lo que necesites con las probabilidades
-  console.log('Procesando probabilidades:', probabilities);
-}
-
-
-  
-  
-  const lineColors = probabilities.map((prob, index) => (prob > 0 ? 'red' : kmlColors[index])); //Color probabilidad
+  }, 5000)
+  return () => clearInterval(intervalId)
+}, []);
+  const lineColors = probabilities.map((prob, index) => (prob > 0.7 ? 'black' : kmlColors[index])); //Color linea de transmision dependiendo de la probabilidad 
 
   const loadKML = (index, kmlPath, color) => {
     if (mapRef.current) {
@@ -316,7 +298,7 @@ function processProbabilities(probabilities) {
             const marker = L.marker(center, {
               icon: L.divIcon({
                 className: 'custom-marker',
-                html: `<div style="color: ${probability > 0 ? 'red' : 'black'}; font-weight:semibold;">${(probability * 100).toFixed(0)}%</div>`,
+                html: `<div style="color: ${probability > 0.7 ? 'red' : 'black'}; font-weight:semibold;">${(probability * 100).toFixed(0)}%</div>`, //Color numero probabilidad
                 iconSize: [30, 30]
               })
             });
@@ -388,7 +370,7 @@ function processProbabilities(probabilities) {
     kmlPaths.forEach((path, index) => {
       loadKML(index, path, lineColors[index]);
     });
-  }, [selectedLayer, layerVisibility]);
+  }, [selectedLayer, layerVisibility, probabilities, lineColors]);
 
   useEffect(() => {
     setLayerVisibility({
