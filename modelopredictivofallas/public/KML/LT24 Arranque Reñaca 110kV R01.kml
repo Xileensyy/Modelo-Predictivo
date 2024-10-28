@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT24 Arranque Reñaca 110kV R01.kmz</name>
+	<StyleMap id="msn_ylw-pushpin54">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin49</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin53</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin90000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin9001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin9000000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin53">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin9000000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000055</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin49">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin9001">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000055</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>LT24 Arranque Reñaca110kV</name>
+		<open>1</open>
+		<description>Coordenado por Oliver Cabezas
+Información Técnica de Transmisión</description>
+		<Folder>
+			<name>C1</name>
+			<Placemark>
+				<name>TAP OFF REÑACA - REÑACA 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		TAP OFF ACHUPALLAS - CONCON 110KV
+Tramo:		TAP REÑACA - REÑACA 110KV C1
+Nombre: 		TAP OFF REÑACA - REÑACA 110KV C1
+Circuito:		C1
+ID Info:		820
+Tipo Conductor: 	2/0 AWG-Cu 
+Año PES: 		1979</description>
+				<styleUrl>#msn_ylw-pushpin54</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.49915921552672,-32.98173535397309,0 -71.49940229166937,-32.98174071147992,0 -71.50369339386967,-32.981526398543,0 -71.50582595097899,-32.98142738099076,0 -71.50798821633425,-32.98130888762182,0 -71.51051631542366,-32.98121910885757,0 -71.51284427286731,-32.98098254473327,0 -71.51797251774747,-32.98063645903802,0 -71.52414416400786,-32.9801926398045,0 -71.52819083841491,-32.97989762777841,0 -71.52885363298581,-32.98002040801835,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eje Trazado APAGAR</name>
+			<Placemark>
+				<name>LT24 ARRANQUE REÑACA 110 kV</name>
+				<styleUrl>#msn_ylw-pushpin90000</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.49916731611137,-32.98174452950165,0 -71.4993996609023,-32.98175319918034,0 -71.50367798620825,-32.9815475257444,0 -71.50582014056238,-32.98145382706912,0 -71.50797486356694,-32.98132786246517,0 -71.51051266384628,-32.98125311002279,0 -71.51282489183642,-32.98102382977186,0 -71.51797128754012,-32.98066424375951,0 -71.52412960994437,-32.98023800486517,0 -71.52818078797893,-32.97993536604628,0 -71.52884869920555,-32.98004994752295,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

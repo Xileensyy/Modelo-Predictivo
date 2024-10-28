@@ -98,7 +98,7 @@ const Legend = () => {
   return (
     <div style={{
       position: 'absolute',
-      bottom: '400px',
+      bottom: '130px',
       right: '10px',
       background: 'rgba(255, 255, 255, 0.8)',
       padding: '10px',
@@ -217,172 +217,250 @@ const LayerControl = ({ selectedLayer }) => {
 const MapView = () => {
   const [selectedLayer, setSelectedLayer] = useState('normal');
   const [layerVisibility, setLayerVisibility] = useState({
-    layer1: true,
-    layer2: true,
-    layer3: true,
-    layer4: true,
-    layer5: true,
-    layer6: true,
-    layer7: true,
+    Group1: false, //Chilquinta
+    Group2: false, //CTNG
+    Group3: false, // 44kV-66kV
+    Group4: false, // 110kV
+    Group5: false, // 220kV
   });
-  const [showKMLList, setShowKMLList] = useState(false); // Estado para mostrar la lista de KML
   const mapRef = useRef();
+  const kmlLayerRefs = useRef({
+    Group1: [...Array(39)].map(() => ({ layer: null, marker: null })),
+    Group2: [...Array(9)].map(() => ({ layer: null, marker: null })),
+    Group3: [...Array(15)].map(() => ({ layer: null, marker: null })), // Cantidad de KMZ en 44kV-66kV
+    Group4: [...Array(29)].map(() => ({ layer: null, marker: null })), // Cantidad de KMZ en 110kV
+    Group5: [...Array(1)].map(() => ({ layer: null, marker: null })), // Cantidad de KMZ en 220kV
+  });
 
-  const kmlLayerRefs = useRef([...Array(7)].map(() => null));
+  const [popupVisible, setPopupVisible] = useState(false);
+  const [popupContent, setPopupContent] = useState('');
 
-  const kmlPaths = [
-    '/KML/LT26_Penablanca_-_Miraflores_C2_110kV_R01.kml',
-    '/KML/LT34 La Pólvora - Laguna Verde 110kV R01.kml',
-    '/KML/LT35_Agua_Santa_-_Miraflores_110kV_R01.kml',
-    '/KML/LT37 Agua Santa - Placilla 110kV R01.kml',
-    '/KML/LT38 Torquemada - Concón 110kV R01.kml',
-    '/KML/LT42 Torquemada - Miraflores 110kV R01.kml',
-    '/KML/LT74 Agua Santa - La Pólvora 110kV R01.kml',
-  ];
+  const kmlGroups = {
+    Group1: [
+      { name: 'Las Vegas - Rungue LT01 44kV', path: '/KML/LT01 Las Vegas - FFCC.Rungue 44kV R01.kml', color: 'lime', probabilidad: 0.8},
+      { name: 'San Pedro - Miraflores 110kV', path: '/KML/LT02 San Pedro - Miraflores CTO N° 1 110 kV R01.kml' , color: 'yellow', probabilidad: 0.8},
+      { name: 'Las Vegas FFCC - San Pedro 44kV', path: '/KML/LT03 Las Vegas FFCC - San Pedro C1 y C2 44kV R01.kml' , color: 'lime', probabilidad: 0.8},
+      { name: 'Pachacama - La Calera 44kV', path: '/KML/LT04 Pachacama - La Calera 44kV R01.kml' , color: 'lime', probabilidad: 0.8},
+      { name: 'Las Vegas - Estancilla 44kV', path: '/KML/LT07 Las Vegas - Estancilla 44kV R01.kml', color: 'lime', probabilidad: 0.8 },
+      { name: 'Las Vegas FFCC - Los Andes', path: '/KML/LT07 Las Vegas FFCC - Los Andes C1 y C2 44kV R01.kml' , color: 'lime', probabilidad: 0.8},
+      { name: 'Los Andres - Hermanos Clark 44kV', path: '/KML/LT08 Los Andres - Hermanos Clark 44kV (Juncal) R01.kml' , color: 'lime', probabilidad: 0.8},
+      { name: 'La Calera - El Melon 44kV', path: '/KML/LT09 La Calera - El Melon 44kV R02.kml' , color: 'lime', probabilidad: 0.8},
+      { name: 'Catemu - Los Ángeles 44kV', path: '/KML/LT11 Catemu - Los Ángeles 44kV R01.kml' , color: 'lime', probabilidad: 0.8},
+      { name: 'Laguna Verde - San Antonio 66kV', path: '/KML/LT12 C2 Laguna Verde San Antonio 66KV R02.kml' , color: 'lime', probabilidad: 0.8}, // Inclui el guión en los nombres entre lineas en todos los que tienen (//)
+      { name: 'La Pólvora - Valparaíso 110kV', path: '/KML/LT13 La Pólvora - Valparaíso 110kV R01.kml' , color: 'yellow', probabilidad: 0.8},
+      { name: 'Achupallas - Concón 110kV', path: '/KML/LT14 Achupallas - Concón 110kV R01.kml' , color: 'yellow', probabilidad: 0.8},
+      { name: 'Arranque - San Sebastian 66kV', path: '/KML/LT15 Arranque San Sebastian C2 Y C1 66kV R01.kml', color: 'lime', probabilidad: 0.8 }, //
+      { name: 'Litoral Central - Casablanca C1 66kV', path: '/KML/LT16 Litoral Central Casablanca C1 66kV R01.kml' , color: 'lime', probabilidad: 0.8}, //
+      { name: 'Arranque - Placeres 110kV', path: '/KML/LT17 Arranque Placeres 110kV R00.kml' , color: 'yellow', probabilidad: 0.8}, //
+      { name: 'Arranque - Quilpué 110kV', path: '/KML/LT18 Arranque Quilpué 110kV R01.kml', color: 'yellow', probabilidad: 0.8 }, //
+      { name: 'Laguna Verde - Sa Antonio', path: '/KML/LT19 Laguna Verde Sa Antonio C1-R01.kml' , color: 'lime', probabilidad: 0.8}, // De cuantos KV es la liena
+      { name: 'Arranque - San Rafael 110kV', path: '/KML/LT21 Arranque San Rafael 110kV R00.kml' , color: 'yellow', probabilidad: 0.8}, //
+      { name: 'Arranque - San Felipe 44kV', path: '/KML/LT22 Arranque San Felipe 44kV R01.kml' , color: 'lime', probabilidad: 0.8}, //
+      { name: 'La Pólvora - Playa Ancha 110kV', path: '/KML/LT23 La Pólvora - Playa Ancha 110kV R01.kml' , color: 'yellow', probabilidad: 0.8},
+      { name: 'Arranque - Reñaca 110kV', path: '/KML/LT24 Arranque Reñaca 110kV R01.kml' , color: 'yellow', probabilidad: 0.8}, //
+      { name: 'El Melón - Túnel 44kV', path: '/KML/LT25 El Melón - Túnel El Melón 44kV R01.kml' , color: 'lime', probabilidad: 0.8},
+      { name: 'Peñablanca - Miraflores 110kV', path: '/KML/LT26 Peñablanca - Miraflores C2 110kV R01.kml' , color: 'yellow', probabilidad: 0.8},
+      { name: 'Melipilla - San Antonio 110kV', path: '/KML/LT28 Melipilla - San Antonio C1 Leyda C2 110kV R01.kml' , color: 'yellow', probabilidad: 0.8},
+      { name: 'Arranque - San Felipe 110kV', path: '/KML/LT29 Arranque San Felipe 110kV R01.kml' , color: 'yellow', probabilidad: 0.8}, //
+      { name: 'San Luis - Agua Santa 220kV', path: '/KML/LT30 San Luis - Agua Santa 220kV R01.kml' , color: 'red', probabilidad: 0.8},
+      { name: 'Litoral Central - Casablanca CT02 66kV', path: '/KML/LT32 Litoral Central - Casablanca CTO2 66kV R01.kml' , color: 'lime', probabilidad: 0.8},
+      { name: 'Arranque - Quintay 66kV', path: '/KML/LT33 Arranque Quintay 66kV R01.kml', color: 'lime', probabilidad: 0.8 }, //
+      { name: 'La Pólvora - Laguna Verde 110kV', path: '/KML/LT34 La Pólvora - Laguna Verde 110kV R01.kml' , color: 'yellow', probabilidad: 0.8},
+      { name: 'Agua Santa - Miraflores 110kV', path: '/KML/LT35 Agua Santa - Miraflores 110kV R01.kml' , color: 'yellow', probabilidad: 0.8},
+      { name: 'Las Vegas - Cristalería 110kV', path: '/KML/LT36 Las Vegas - Cristalería 110kV R01.kml' , color: 'yellow', probabilidad: 0.8},
+      { name: 'Agua Santa - Placilla 110kV', path: '/KML/LT37 Agua Santa - Placilla 110kV R01.kml' , color: 'yellow', probabilidad: 0 },
+      { name: 'Torquemada - Concón 110kV', path: '/KML/LT38 Torquemada - Concón 110kV R01.kml', color: 'yellow', probabilidad: 0.8 },
+      { name: 'Concón - Bosquemar 110kV', path: '/KML/LT39 Concón - Bosquemar 110kV R01.kml' , color: 'yellow', probabilidad: 0.8},
+      { name: 'San Pedro - Peñablanca 110kV', path: '/KML/LT40 San Pedro - Peñablanca C2 110kV R01.kml', color: 'yellow', probabilidad: 0.8 },
+      { name: 'Arranque - Mayaca 110kV', path: '/KML/LT51 Arranque Mayaca 110kV R01.kml' , color: 'yellow', probabilidad: 0.8}, //
+      { name: 'Estancilla - Catemu 44kV', path: '/KML/LT57 Estancilla - Catemu 44kV R01.kml' , color: 'lime', probabilidad: 0.8},
+      { name: 'Litoral Central - San Jerónimo 66kV', path: '/KML/LT63 Litoral Central San Jerónimo 66kV R01.kml' , color: 'lime', probabilidad: 0.8}, //
+      { name: 'Agua Santa - La Pólvora 110kV', path: '/KML/LT74 Agua Santa - La Pólvora 110kV R01.kml' , color: 'yellow', probabilidad: 0.8},
+    ],
+    Group2: [
+      { name: 'Ventanas - Torquemada 110kV', path: '/KML/LT41 Ventanas - Torquemada 110kV R01.kml', color: 'yellow', probabilidad: 0.8 },
+      { name: 'Torquemada - Miraflores 110kV', path: '/KML/LT42 Torquemada - Miraflores 110kV R01.kml' , color: 'yellow', probabilidad: 0.8},
+      { name: 'Subterránea Ventanas 110kV', path: '/KML/LT43 Subterránea Ventanas - Quintero R01.kml' , color: 'yellow', probabilidad: 0.8}, //110kv?
+      { name: 'Ventanas - San Pedro 110kV', path: '/KML/LT44 Ventanas - San Pedro 110kV R02.kml', color: 'yellow', probabilidad: 0.8 },
+      { name: 'Quillota - San Pedro 110kV', path: '/KML/LT45 Quillota - San Pedro 110kV R01.kml', color: 'yellow', probabilidad: 0.8 },
+      { name: 'San Pedro - Las Vegas 110kV', path: '/KML/LT46 San Pedro - Las Vegas 110kV R01.kml' , color: 'yellow', probabilidad: 0.8},
+      { name: 'Pachacama - La Calera 110kV', path: '/KML/LT47 Pachacama - La Calera 110kV R01.kml' , color: 'yellow', probabilidad: 0.8},
+      { name: 'Cerro Navia - Las Vegas 110kV', path: '/KML/LT48 Cerro Navia - Las Vegas 110kV R03.kml' , color: 'yellow', probabilidad: 0.8},
+      { name: 'Seccionadora Ventanas - Puchuncaví - Torquemada 110kV', path: '/KML/LT75 Seccionadora Ventanas - Puchuncaví - Torquemada (C2) 110kV R01.kml' , color: 'yellow', probabilidad: 0.8},
+    ],
+    Group3: [
+      { name: 'LT02 66kV', path: '/KML/LT01 Las Vegas - FFCC.Rungue 44kV R01.kml' },
+      { name: 'Las Vegas FFCC - San Pedro', path: '/KML/LT03 Las Vegas FFCC - San Pedro C1 y C2 44kV R01.kml' },
+      { name: 'Pachacama - La Calera 44kV', path: '/KML/LT04 Pachacama - La Calera 44kV R01.kml' },
+      { name: 'Las Vegas - Estancilla', path: '/KML/LT07 Las Vegas - Estancilla 44kV R01.kml' },
+      { name: 'Las Vegas FFCC - Los Andes', path: '/KML/LT07 Las Vegas FFCC - Los Andes C1 y C2 44kV R01.kml' },
+      { name: 'Los Andres - Hermanos Clark', path: '/KML/LT08 Los Andres - Hermanos Clark 44kV (Juncal) R01.kml' },
+      { name: 'La Calera - El Melon', path: '/KML/LT09 La Calera - El Melon 44kV R02.kml' },
+      { name: 'Catemu - Los Ángeles', path: '/KML/LT11 Catemu - Los Ángeles 44kV R01.kml' },
+      { name: 'Arranque - San Felipe 44kV', path: '/KML/LT22 Arranque San Felipe 44kV R01.kml' },
+      { name: 'El Melón - Túnel', path: '/KML/LT25 El Melón - Túnel El Melón 44kV R01.kml' },
+      { name: 'Estancilla - Catemu', path: '/KML/LT57 Estancilla - Catemu 44kV R01.kml' },
+      { name: 'Laguna Verde - San Antonio', path: '/KML/LT12 C2 Laguna Verde San Antonio 66KV R02.kml' }, 
+      { name: 'Arranque - San Sebastian', path: '/KML/LT15 Arranque San Sebastian C2 Y C1 66kV R01.kml' }, 
+      { name: 'Litoral Central - Casablanca C1', path: '/KML/LT16 Litoral Central Casablanca C1 66kV R01.kml' },
+      { name: 'Litoral Central - San Jerónimo', path: '/KML/LT63 Litoral Central San Jerónimo 66kV R01.kml' },
+      // Añade más elementos de 44kV-66kV según sea necesario
+    ],
+    Group4: [
+      { name: 'San Pedro - Miraflores', path: '/KML/LT02 San Pedro - Miraflores CTO N° 1 110 kV R01.kml' },
+      { name: 'La Pólvora - Valparaíso', path: '/KML/LT13 La Pólvora - Valparaíso 110kV R01.kml' },
+      { name: 'Achupallas - Concón', path: '/KML/LT14 Achupallas - Concón 110kV R01.kml' },
+      { name: 'Arranque - Placeres', path: '/KML/LT17 Arranque Placeres 110kV R00.kml' }, //
+      { name: 'Arranque - Quilpué', path: '/KML/LT18 Arranque Quilpué 110kV R01.kml' },
+      { name: 'Arranque - San Rafael', path: '/KML/LT21 Arranque San Rafael 110kV R00.kml' }, 
+      { name: 'La Pólvora - Playa Ancha', path: '/KML/LT23 La Pólvora - Playa Ancha 110kV R01.kml' },
+      { name: 'Arranque - Reñaca', path: '/KML/LT24 Arranque Reñaca 110kV R01.kml' }, //
+      { name: 'Peñablanca - Miraflores', path: '/KML/LT26 Peñablanca - Miraflores C2 110kV R01.kml' },
+      { name: 'Melipilla - San Antonio', path: '/KML/LT28 Melipilla - San Antonio C1 Leyda C2 110kV R01.kml' },
+      { name: 'Arranque - San Felipe 110kV', path: '/KML/LT29 Arranque San Felipe 110kV R01.kml' }, //
+      { name: 'La Pólvora - Laguna Verde', path: '/KML/LT34 La Pólvora - Laguna Verde 110kV R01.kml' },
+      { name: 'Agua Santa - Miraflores', path: '/KML/LT35 Agua Santa - Miraflores 110kV R01.kml' },
+      { name: 'Las Vegas - Cristalería', path: '/KML/LT36 Las Vegas - Cristalería 110kV R01.kml' },
+      { name: 'Agua Santa - Placilla', path: '/KML/LT37 Agua Santa - Placilla 110kV R01.kml' },
+      { name: 'Torquemada - Concón', path: '/KML/LT38 Torquemada - Concón 110kV R01.kml' },
+      { name: 'Concón - Bosquemar', path: '/KML/LT39 Concón - Bosquemar 110kV R01.kml' },
+      { name: 'San Pedro - Peñablanca', path: '/KML/LT40 San Pedro - Peñablanca C2 110kV R01.kml' },
+      { name: 'Arranque - Mayaca', path: '/KML/LT51 Arranque Mayaca 110kV R01.kml' }, //
+      { name: 'Agua Santa - La Pólvora', path: '/KML/LT74 Agua Santa - La Pólvora 110kV R01.kml' },
+      { name: 'Ventanas - Torquemada', path: '/KML/LT41 Ventanas - Torquemada 110kV R01.kml' },
+      { name: 'Torquemada - Miraflores', path: '/KML/LT42 Torquemada - Miraflores 110kV R01.kml' },
+      { name: 'Subterránea Ventanas', path: '/KML/LT43 Subterránea Ventanas - Quintero R01.kml' }, //110kv?
+      { name: 'Ventanas - San Pedro', path: '/KML/LT44 Ventanas - San Pedro 110kV R02.kml' },
+      { name: 'Quillota - San Pedro', path: '/KML/LT45 Quillota - San Pedro 110kV R01.kml' },
+      { name: 'San Pedro - Las Vegas', path: '/KML/LT46 San Pedro - Las Vegas 110kV R01.kml' },
+      { name: 'Pachacama - La Calera 110kV', path: '/KML/LT47 Pachacama - La Calera 110kV R01.kml' },
+      { name: 'Cerro Navia - Las Vegas', path: '/KML/LT48 Cerro Navia - Las Vegas 110kV R03.kml' },
+      { name: 'Seccionadora Ventanas - Puchuncaví - Torquemada', path: '/KML/LT75 Seccionadora Ventanas - Puchuncaví - Torquemada (C2) 110kV R01.kml' },
+       //
+      // Añade más elementos de 110kV según sea necesario
+    ],
+    Group5: [
+      { name: 'San Luis - Agua Santa', path: '/KML/LT30 San Luis - Agua Santa 220kV R01.kml' },
+      // Añade más elementos de 220kV según sea necesario
+    ],
+  };
 
-  const kmlNames = [
-    'Peñablanca - Miraflores',
-    'La Pólvora - Laguna Verde',
-    'Agua Santa - Miraflores',
-    'Agua Santa - Placilla',
-    'Torquemada - Concón',
-    'Torquemada - Miraflores',
-    'Agua Santa - La Pólvora',
-  ];
+  const kmlColors = (line) => {
+    const color = line.color || 'defaultColor'; // Si color no está definido, usa un color por defecto
+    const probabilidad = line.probabilidad || 0; // Si probabilidad no está definida, usa un valor predeterminado
+    return { color, probabilidad };
+  };
+ 
 
-  const kmlColors = [
-    'red',
-    'yellow',
-    'yellow',
-    'lime',
-    'yellow',
-    'yellow',
-    'yellow',
-  ];
+  const [probabilities, setProbabilities] = useState({
+    Group1: [0.8, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ,0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,0.0, 0.0,0.0, 0.0,0.0, 0.0, 0.0,0.0, 0.0,0.0, 0.0,0.0, 0.0,0.0, 0.0, 0.0,0.0, 0.0,0.0,],
+    Group2: [0.0, 0.0,0.0, 0.0,0.0, 0.0,0.0, 0.0, 0.0 ],
+    Group3: Array(15).fill(0.0), // Probabilidades para 44kV-66kV
+    Group4: Array(29).fill(0.0), // Probabilidades para 110kV
+    Group5: Array(1).fill(0.0),  // Probabilidades para 220kV
+  });
 
-// Define inicialmente la constante probabilities vacía o con valores predeterminados
-const [probabilities, setProbabilities] = useState([0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]);
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      fetch('https://g87jo5nbme.execute-api.us-east-1.amazonaws.com/dev')
+        .then(response => response.json())
+        .then(data => {
+          // Asegúrate de que los datos se ajusten a la estructura esperada
+          setProbabilities(data.body);
+        })
+        .catch(error => console.error('Error:', error));
+    }, 5000);
+    return () => clearInterval(intervalId);
+  }, []);
 
-useEffect(() => {
-  const intervalId = setInterval(() => {
-    fetch('https://g87jo5nbme.execute-api.us-east-1.amazonaws.com/dev')
-  .then(response => {
-    // Verifica si la respuesta es exitosa
-    if (!response.ok) {
-      throw new Error('Network response was not ok ' + response.statusText);
-    }
-    return response.json();
-  })
-  .then(data => {
-    // Aquí extraemos el cuerpo (body) de la respuesta y actualizamos probabilities
-    setProbabilities(data.body);
-    console.log('1')
-  })
-  .catch(error => console.error('Error:', error));
-  }, 5000)
-  return () => clearInterval(intervalId)
-}, []);
-  const lineColors = probabilities.map((prob, index) => (prob > 0.7 ? 'black' : kmlColors[index])); //Color linea de transmision dependiendo de la probabilidad 
+  //Color de linea
+const lineColors = Object.keys(kmlGroups).flatMap(group => {
+  return kmlGroups[group].map((line, index) => {
+      const probabilidad = probabilities[group] && probabilities[group][index] !== undefined 
+                           ? probabilities[group][index] 
+                           : 0; // Proporcionar un valor predeterminado si no existe
+      const color = probabilidad > 0.7 ? 'black' : kmlColors(line).color;
+      return color;
+  });
+});
 
-  const loadKML = (index, kmlPath, color) => {
+  const loadKML = (kmlPath, color, index, group) => {
     if (mapRef.current) {
       const kmlLayer = omnivore.kml(kmlPath)
         .on('ready', function () {
-          kmlLayer.setStyle({ color, weight: 3, opacity: 1 }); //Estilo del KMZ
-
+          kmlLayer.setStyle({ color, weight: 3, opacity: 1 });
           const bounds = kmlLayer.getBounds();
           const center = bounds.getCenter();
-          const probability = probabilities[index];
+          const probability = probabilities[group][index]; // Cambiado para acceder correctamente
 
-          if (layerVisibility[`layer${index + 1}`]) {
-            const marker = L.marker(center, {
-              icon: L.divIcon({
-                className: 'custom-marker',
-                html: `<div style="color: ${probability > 0.7 ? 'red' : 'black'}; font-weight:semibold;">${(probability * 100).toFixed(0)}%</div>`, //Color numero probabilidad
-                iconSize: [30, 30]
-              })
-            });
-            marker.addTo(mapRef.current);
-            kmlLayerRefs.current[index].marker = marker; // Guardar referencia al marcador
+          const marker = L.marker(center, {
+            icon: L.divIcon({
+              className: 'custom-marker',
+              html: `<div style="color: ${probability > 0.7 ? 'red' : 'black'}; font-weight:bold;">${(probability * 100).toFixed(0)}%</div>`,
+              iconSize: [30, 30]
+            })
+          });
+
+          marker.on('click', () => {
+            setPopupContent(`Probabilidad: ${(probability * 100).toFixed(0)}%`);
+            setPopupVisible(true);
+          });
+
+          marker.addTo(mapRef.current);
+          kmlLayerRefs.current[group][index].marker = marker;
+
+          kmlLayer.on('click', () => {
+            setPopupContent(`Capa: ${kmlGroups[group][index].name}, Probabilidad: ${(probability * 100).toFixed(0)}%`);
+            setPopupVisible(true);
+          });
+
+          if (layerVisibility[group]) {
+            kmlLayer.addTo(mapRef.current);
+            kmlLayerRefs.current[group][index].layer = kmlLayer;
           }
         })
         .on('error', function (e) {
-          console.error(`Error loading KML: `, e);
+          console.error("Error loading KML: ", e);
         });
 
-      if (kmlLayerRefs.current[index]) {
-        mapRef.current.removeLayer(kmlLayerRefs.current[index].layer);
-        if (kmlLayerRefs.current[index].marker) {
-          mapRef.current.removeLayer(kmlLayerRefs.current[index].marker);
+      if (kmlLayerRefs.current[group][index].layer) {
+        mapRef.current.removeLayer(kmlLayerRefs.current[group][index].layer);
+        if (kmlLayerRefs.current[group][index].marker) {
+          mapRef.current.removeLayer(kmlLayerRefs.current[group][index].marker);
         }
       }
-
-      if (layerVisibility[`layer${index + 1}`]) {
-        kmlLayer.addTo(mapRef.current);
-        kmlLayerRefs.current[index] = { layer: kmlLayer }; // Guardar referencia de la capa
-      }
     }
-  };
-
-  const handleCheckboxChange = (layer, index) => {
-    setLayerVisibility((prev) => ({
-      ...prev,
-      [layer]: !prev[layer],
-    }));
-
-    if (layerVisibility[layer]) {
-      mapRef.current.removeLayer(kmlLayerRefs.current[index].layer);
-      if (kmlLayerRefs.current[index].marker) {
-        mapRef.current.removeLayer(kmlLayerRefs.current[index].marker);
-      }
-    } else {
-      loadKML(index, kmlPaths[index], lineColors[index]);
-    }
-  };
-
-  const toggleKMLList = () => {
-    setShowKMLList(!showKMLList);
   };
 
   const handleSelectAll = (isSelected) => {
-    const newVisibility = { ...layerVisibility };
-    Object.keys(newVisibility).forEach((layer, index) => {
-      newVisibility[layer] = isSelected;
-      if (isSelected) {
-        loadKML(index, kmlPaths[index], lineColors[index]);
-      } else {
-        mapRef.current.removeLayer(kmlLayerRefs.current[index].layer);
-        if (kmlLayerRefs.current[index].marker) {
-          mapRef.current.removeLayer(kmlLayerRefs.current[index].marker);
-        }
-      }
-    });
+    const newVisibility = { Group1: isSelected, Group2: isSelected };
     setLayerVisibility(newVisibility);
   };
 
   useEffect(() => {
-    kmlLayerRefs.current.forEach((layer) => {
-      if (layer) {
-        mapRef.current.removeLayer(layer);
-      }
+    Object.keys(kmlGroups).forEach((group) => {
+      kmlGroups[group].forEach((kml, kmlIndex) => {
+        loadKML(kml.path, lineColors[kmlIndex], kmlIndex, group);
+      });
     });
-
-    kmlPaths.forEach((path, index) => {
-      loadKML(index, path, lineColors[index]);
-    });
-  }, [selectedLayer, layerVisibility, probabilities, lineColors]);
+  }, []); // Solo se ejecuta una vez al montar
 
   useEffect(() => {
-    setLayerVisibility({
-      layer1: true,
-      layer2: true,
-      layer3: true,
-      layer4: true,
-      layer5: true,
-      layer6: true,
-      layer7: true,
+    Object.keys(kmlGroups).forEach((group) => {
+      kmlGroups[group].forEach((kml, kmlIndex) => {
+        if (layerVisibility[group]) {
+          loadKML(kml.path, lineColors[kmlIndex], kmlIndex, group);
+        } else {
+          if (kmlLayerRefs.current[group][kmlIndex].layer) {
+            mapRef.current.removeLayer(kmlLayerRefs.current[group][kmlIndex].layer);
+          }
+          if (kmlLayerRefs.current[group][kmlIndex].marker) {
+            mapRef.current.removeLayer(kmlLayerRefs.current[group][kmlIndex].marker);
+          }
+        }
+      });
     });
-  }, []);
+  }, [layerVisibility, probabilities, lineColors]);
 
   return (
     <div style={{ position: 'relative' }}>
@@ -391,7 +469,6 @@ useEffect(() => {
           url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         />
-        
         <AddGeocoderControl />
         <LayerControl selectedLayer={selectedLayer} />
         {selectedLayer === 'temperature' && <Legend />}
@@ -399,6 +476,28 @@ useEffect(() => {
 
       <Menu setSelectedLayer={setSelectedLayer} />
 
+      {/* Popup liviano */}
+      {popupVisible && (
+        <div
+          id="popup"
+          style={{
+            position: 'absolute',
+            top: '5%',
+            left: '45%',
+            zIndex: 1000,
+            background: 'rgba(255, 255, 255, 0.8)',
+            padding: '10px',
+            borderRadius: '5px',
+            boxShadow: '0 0 5px rgba(0,0,0,0.2)',
+          }}
+        >
+          <h2>Información</h2>
+          <p>{popupContent}</p>
+          <button onClick={() => setPopupVisible(false)}>Cerrar</button>
+        </div>
+      )}
+
+      {/* Forecast Popup reintegrado */}
       <div
         id="forecast-popup"
         style={{
@@ -428,38 +527,62 @@ useEffect(() => {
           boxShadow: '0 0 5px rgba(0,0,0,0.2)',
         }}
       >
-        <button onClick={toggleKMLList}>
-          {showKMLList ? 'Ocultar KML' : 'Chilquinta KML'}
-        </button>
-
-        {showKMLList && (
-          <div>
-            <input
-              type="checkbox"
-              onChange={(e) => handleSelectAll(e.target.checked)}
-            />
-            <label>Seleccionar/Deseleccionar Todos</label>
-            {Object.keys(layerVisibility).map((layer, index) => {
-              const probability = probabilities[index];
-              return (
-                <div key={layer}>
-                  <input
-                    type="checkbox"
-                    checked={layerVisibility[layer]}
-                    onChange={() => handleCheckboxChange(layer, index)}
-                  />
-                  <label style={{ color: probability > 0 ? 'red' : 'black' }}>
-                    {kmlNames[index]}
-                  </label>
-                </div>
-              );
-            })}
-          </div>
-        )}
+        <div>
+          <input
+            type="checkbox"
+            onChange={(e) => handleSelectAll(e.target.checked)}
+            checked={layerVisibility.Group1 && layerVisibility.Group2}
+          />
+          <label>TODOS</label>
+          {Object.keys(kmlGroups).map((group) => (
+            <div key={group}>
+              <input
+                type="checkbox"
+                checked={layerVisibility[group]}
+                onChange={() =>
+                  setLayerVisibility((prev) => ({
+                    ...prev,
+                    [group]: !prev[group],
+                  }))
+                }
+              />
+               <label>
+    {(() => {
+      switch (group) {
+        case 'Group1':
+          return 'Chilquinta';
+        case 'Group2':
+          return 'CTNG';
+        case 'Group3':
+          return '44kV-66kV';
+        case 'Group4':
+          return '110kV';
+        case 'Group5':
+          return '220kV';
+        default:
+          return 'Grupo desconocido';
+      }
+    })()}
+  </label>
+              
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
 };
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT23 La Pólvora - Playa Ancha 110kV R01.kmz</name>
+	<Style id="inline1431">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline191001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline9301</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline52020</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline2241">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline52020">
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline5210">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1431</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2241</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline9301">
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin45">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin45</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin52</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin46">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin47</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin47</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin48">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin460</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin501</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin5100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin48</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin49</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin47">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin49">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin501">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin52">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin45">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin460">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin47">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin48">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>LT23 La Polvora Playa Ancha 110kV</name>
+		<open>1</open>
+		<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+		<Folder>
+			<name>C1</name>
+			<Placemark>
+				<name>PLAYA ANCHA – EST. E1 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		PLAYA ANCHA – LA POLVORA 110KV
+Tramo:	                           PLAYA ANCHA – LA POLVORA 110KV C1
+Nombre: 		PLAYA ANCHA – EST. E1 110KV C1
+Circuito:		C1
+ID Info:		3896
+Tipo Conductor: 	2/0 AWG-Cu  7 hebras
+Año PES: 		1980</description>
+				<styleUrl>#msn_ylw-pushpin5100</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.63005567373214,-33.07392846027035,0 -71.63104680947393,-33.07154881951407,0 -71.63080991068358,-33.07058319638655,0 -71.63291440211088,-33.06910419521947,0 -71.6356821865554,-33.06753159322716,0 -71.63762139769786,-33.06587889175118,0 -71.63916384273531,-33.0650461492428,0 -71.64058656912832,-33.06430484800322,0 -71.64383495086851,-33.0626076843622,0 -71.64542270002539,-33.06174494234156,0 -71.64713056287063,-33.06085095057276,0 -71.6499926705439,-33.05936533839019,0 -71.65128761295249,-33.05862013516904,0 -71.65349348895153,-33.0574324354335,0 -71.6554063230723,-33.05643937399572,0 -71.65576575180275,-33.05322941611031,0 -71.65590893188794,-33.05137001952005,0 -71.65607857867087,-33.04961285654792,0 -71.65625121909493,-33.04776698351227,0 -71.65484147145507,-33.0473440730703,0 -71.6531776148507,-33.04682121002406,0 -71.65089201651517,-33.0461167327648,0 -71.64984166801555,-33.04472543953472,0 -71.64912294320328,-33.04370479330952,0 -71.64827551073249,-33.04353111265428,0 -71.64813155090943,-33.04333745945534,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. E1 – LA POLVORA 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CASABLANCA TRANSMISORA DE ENERGÍA S.A
+Nombre   LT:		PLAYA ANCHA – LA POLVORA 110KV
+Tramo:	          	PLAYA ANCHA – LA POLVORA 110KV C1
+Nombre: 		EST. E1 – LA POLVORA 110KV C1
+Circuito:		C1
+ID Info:		3850
+Tipo Conductor: 	ACAR 500 MCM 253.06mm2
+Año PES: 		2022</description>
+				<styleUrl>#msn_ylw-pushpin46</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.62667062038642,-33.08642606679035,0 -71.62630407142167,-33.08593817404841,0 -71.62672542368428,-33.08479782214679,0 -71.62908481059537,-33.08372913823251,0 -71.63010585852982,-33.081284316357,0 -71.62910506898582,-33.07936222662817,0 -71.62846047313515,-33.07811879674383,0 -71.62947852397085,-33.07423798064827,0 -71.63005464921818,-33.07392845994146,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>C2</name>
+			<Placemark>
+				<name>PLAYA ANCHA – EST. E1 110KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		PLAYA ANCHA – LA POLVORA 110KV
+Tramo:	                           PLAYA ANCHA – LA POLVORA 110KV C2
+Nombre: 		PLAYA ANCHA – EST. E1 110KV C2
+Circuito:		C1
+ID Info:		3897
+Tipo Conductor: 	2/0 AWG-Cu 7 hebras
+Año PES: 		1980</description>
+				<styleUrl>#msn_ylw-pushpin45</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.6300283002027,-33.07390529436371,0 -71.63098463559118,-33.07154599358865,0 -71.63073702643408,-33.07055995595687,0 -71.63288136188605,-33.06903733313204,0 -71.63567452449151,-33.06746013386366,0 -71.63754591020228,-33.06581609183984,0 -71.63913420924308,-33.06497129413031,0 -71.64055220024345,-33.06422621504325,0 -71.6437928621865,-33.06250412039399,0 -71.64537003654125,-33.06166283086193,0 -71.64709845985806,-33.06075390227488,0 -71.64995471603268,-33.05922905061514,0 -71.6512462335842,-33.05850819208556,0 -71.65346297541798,-33.0573271715618,0 -71.6553010237686,-33.05637161070805,0 -71.65564484998914,-33.05324835401857,0 -71.6557948227659,-33.05140012144135,0 -71.65595835230566,-33.04964184821616,0 -71.6561492760087,-33.04783543273073,0 -71.65481773496046,-33.04752555101886,0 -71.65317548829354,-33.04694740607103,0 -71.65087937707465,-33.04619023671092,0 -71.64980564351187,-33.04475693173364,0 -71.64909292533594,-33.04376144247436,0 -71.64826225813896,-33.04357899109683,0 -71.64803377475532,-33.04338716696831,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. E1 – LA POLVORA 110KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CASABLANCA TRANSMISORA DE ENERGÍA S.A
+Nombre   LT:		PLAYA ANCHA – LA POLVORA 110KV
+Tramo:	         	 PLAYA ANCHA – LA POLVORA 110KV C2
+Nombre: 		EST. E1 – LA POLVORA 110KV C2
+Circuito:		C2
+ID Info:		3851
+Tipo Conductor: 	ACAR 500 MCM 253.06mm2
+Año PES: 		2022</description>
+				<styleUrl>#msn_ylw-pushpin48</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.62674586506266,-33.08638102217053,0 -71.6263158191251,-33.08593380734018,0 -71.62673754510928,-33.0848159295457,0 -71.6291072665486,-33.08373955734228,0 -71.63012960426069,-33.08128936670115,0 -71.62911745415434,-33.07934866844685,0 -71.62849190550331,-33.07811299278747,0 -71.62950012645297,-33.07424774061743,0 -71.6300305171162,-33.07390427835793,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eje Trazado APAGAR</name>
+			<Placemark>
+				<name>LT23 La Polvora Playa Ancha 110kV CTO2</name>
+				<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+				<styleUrl>#inline191001</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.62673670459954,-33.0863778647396,0 -71.62630080500109,-33.08593430884103,0 -71.62672304436454,-33.08479270839615,0 -71.62907446206231,-33.08371690114276,0 -71.63011628557442,-33.08128287915866,0 -71.62908645014853,-33.07936497137436,0 -71.628437719701,-33.07811664614584,0 -71.62947336915899,-33.07421997839473,0 -71.63001602617904,-33.073864001205,0 -71.63102414961241,-33.07155313415188,0 -71.63076629911066,-33.07056984884429,0 -71.63287755947886,-33.06907231905608,0 -71.63566571825794,-33.06747967514985,0 -71.63754720174974,-33.06584271657239,0 -71.63913456956463,-33.06500783732168,0 -71.64055321326759,-33.06424865248505,0 -71.64381028818525,-33.0625276331412,0 -71.64537593899568,-33.06169031870834,0 -71.64709518725995,-33.06078272403646,0 -71.64994471191943,-33.0592651216316,0 -71.65122780441978,-33.05856682169363,0 -71.65346490636227,-33.05738034984984,0 -71.65538126264946,-33.05635723431789,0 -71.65569589249215,-33.0532505650099,0 -71.65583969947619,-33.05140190775258,0 -71.6559921660271,-33.04966906865279,0 -71.65619248373412,-33.04780463416441,0 -71.65482446872474,-33.04737752103325,0 -71.65317670717462,-33.04685697930091,0 -71.65089000942412,-33.04614239272647,0 -71.64983616897595,-33.04475710270879,0 -71.64912038444034,-33.04374286577711,0 -71.64826747820835,-33.04356708949816,0 -71.64802599017791,-33.04338145137894,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>LT23 La Polvora Playa Ancha 110kV CTO1</name>
+				<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+				<styleUrl>#inline5210</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.62667488723214,-33.08642942639049,0 -71.62627879367332,-33.08593840307272,0 -71.62672196748944,-33.08479089414913,0 -71.62907219020518,-33.08371596232175,0 -71.63011099447272,-33.08128439410132,0 -71.62907780352168,-33.07935393956041,0 -71.62843184786853,-33.0781163310717,0 -71.62946632638905,-33.07422806052673,0 -71.6300290487024,-33.07387333225192,0 -71.63103012615078,-33.07155302920457,0 -71.63078183840254,-33.07057511750087,0 -71.63289129435435,-33.06907893384159,0 -71.63568332260961,-33.06749471684877,0 -71.63756087552825,-33.06586260153547,0 -71.63915487205992,-33.06501969218932,0 -71.64057283746332,-33.06426079722785,0 -71.64382200662074,-33.06255270107117,0 -71.64538990822584,-33.06171632079877,0 -71.64711907177673,-33.0608097179768,0 -71.6499662685717,-33.0592954628051,0 -71.65125503333702,-33.0585802299479,0 -71.65347255230182,-33.05740722485093,0 -71.65540130071892,-33.05637398511336,0 -71.65572073262096,-33.05325508711596,0 -71.65586361630926,-33.05140209056503,0 -71.65601779491604,-33.0496683712942,0 -71.65621035483207,-33.04779683087089,0 -71.65483138838229,-33.04735532314905,0 -71.65318567126319,-33.04684319162018,0 -71.65089753860516,-33.04612377653076,0 -71.64984946294545,-33.0447490141214,0 -71.64913412767287,-33.0437310842045,0 -71.64827591330074,-33.0435574435386,0 -71.6481301110023,-33.04334095065749,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

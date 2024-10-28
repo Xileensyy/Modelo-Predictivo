@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT09 La Calera - El Melon 44kV R02.kmz</name>
+	<StyleMap id="msn_ylw-pushpin0101">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin021</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin271">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin250</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin260</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin290">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin240</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin271</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin630">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin52000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin7100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin021">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000055</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin260">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin271">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin7100">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000055</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0100">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000055</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin240">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin250">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin52000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000055</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>LT09 La Calera - El Melon 44kV v2</name>
+		<open>1</open>
+		<Folder>
+			<name>C1</name>
+			<Placemark>
+				<name>LA CALERA - EST. 11 44 KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 		CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT: 			LA CALERA - EL MELON 44KV
+Tramo: 			LA CALERA - EL MELON 44KV C1
+Nombre: 			LA CALERA - EST. 11 44 KV C1
+Circuito: 			C1
+ID Info: 			824
+Tipo Conductor: 		cobre 2/0 AWG
+Año PES: 			1984</description>
+				<styleUrl>#msn_ylw-pushpin271</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.1955803336385,-32.79594310051767,0 -71.19581529006004,-32.79561704180895,0 -71.19571793163533,-32.79489930778092,0 -71.19553661893384,-32.79404308401747,0 -71.1953750312708,-32.79323266675719,0 -71.1952048716406,-32.79242785201477,0 -71.19465712505834,-32.79126951155588,0 -71.19500510038071,-32.79052681747239,0 -71.19525420683654,-32.7902912232908,0 -71.19608523495579,-32.7895064053465,0 -71.19692923898474,-32.78871424159215,0 -71.19785333443727,-32.78786478661544,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. 11 - EST. 17 44 KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 		CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT: 			LA CALERA - EL MELON 44KV
+Tramo: 			LA CALERA - EL MELON 44KV C1
+Nombre: 			EST. 11 - EST. 17 44 KV C1
+Circuito: 			C1
+ID Info: 			825
+Tipo Conductor: 		246,9 MCM AACS-Alliance
+Año PES: 			1984</description>
+				<styleUrl>#msn_ylw-pushpin271</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.19785707058506,-32.78786306587993,0 -71.1987880146673,-32.78707446556965,0 -71.19976285543419,-32.78637579377289,0 -71.2005470472793,-32.78554400068484,0 -71.2014207978808,-32.78476506372947,0 -71.20229589501517,-32.78394646996531,0 -71.20324539860403,-32.78270357983442,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. 17 - EST. 19 44KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 		CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT: 			LA CALERA - EL MELON 44KV
+Tramo: 			LA CALERA - EL MELON 44KV C1
+Nombre: 			EST. 17 - EST. 19 44KV C1
+Circuito: 			C1
+ID Info: 			826
+Tipo Conductor: 		AASC Butte
+Año PES: 			1984</description>
+				<styleUrl>#msn_ylw-pushpin271</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.20324200416898,-32.78270123565628,0 -71.20021700798954,-32.77792981163565,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. 19 - EL MELON 44 KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 		CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT: 			LA CALERA - EL MELON 44KV
+Tramo: 			LA CALERA - EL MELON 44KV C1
+Nombre: 			EST. 19 - EL MELON 44 KV C1
+Circuito: 			C1
+ID Info: 			827
+Tipo Conductor: 		246,9 MCM AACS-Alliance
+Año PES: 			1984</description>
+				<styleUrl>#msn_ylw-pushpin271</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.20021531521103,-32.77792722458585,0 -71.19944884685196,-32.77619269560359,0 -71.19905403286911,-32.775167080775,0 -71.19873320353402,-32.77425307872185,0 -71.19841853678386,-32.77351008271786,0 -71.19811264283678,-32.77273868070844,0 -71.19783101448787,-32.77202746001532,0 -71.19747916243831,-32.77118326729578,0 -71.19706565636403,-32.77020419505724,0 -71.19659802799546,-32.76917963477349,0 -71.19618577835217,-32.7682219656219,0 -71.19576524275696,-32.76719503349852,0 -71.19537752162191,-32.76627113909121,0 -71.19497168500544,-32.76526133581973,0 -71.19461648938271,-32.76426036262515,0 -71.19357178207188,-32.76339778294196,0 -71.19364704524047,-32.76185236777675,0 -71.19372902829046,-32.76077751669627,0 -71.19381614432984,-32.75982208531224,0 -71.19388781348505,-32.75874616930012,0 -71.19398623523345,-32.75767072495952,0 -71.19402168011594,-32.75689139853522,0 -71.19409583891219,-32.75544863452783,0 -71.19426564252555,-32.75334002311428,0 -71.19442176729753,-32.75128341003666,0 -71.1945984001008,-32.74932124933341,0 -71.19476075178828,-32.747360205406,0 -71.19492524245811,-32.74538944312405,0 -71.19512796637679,-32.74325164769621,0 -71.19538239208842,-32.74105036419149,0 -71.19564206471125,-32.73891097709397,0 -71.19591266163562,-32.7368764398686,0 -71.19611963761145,-32.73500304299958,0 -71.19633530877518,-32.73311649318114,0 -71.19661229742478,-32.73094835154367,0 -71.19687948478904,-32.72889114924856,0 -71.19700089367073,-32.727701711633,0 -71.19713797996717,-32.72658905714209,0 -71.19733130514577,-32.72487923149307,0 -71.19743857712615,-32.72399357048862,0 -71.19766084660485,-32.72229749190004,0 -71.1979098624728,-32.720140562301,0 -71.19817428240555,-32.71791559231418,0 -71.19830820762557,-32.71687903915488,0 -71.19841955331421,-32.71580774417578,0 -71.19856661234685,-32.71473962602696,0 -71.19869783525856,-32.71366029649727,0 -71.19895481531077,-32.71151837808834,0 -71.19921466515527,-32.70940569773768,0 -71.19932303437015,-32.70840879017926,0 -71.19945355672508,-32.70731326123055,0 -71.19963446029665,-32.70623127800685,0 -71.19971436112692,-32.70516440664353,0 -71.19993566389674,-32.70317562787337,0 -71.20015890510852,-32.70121757086805,0 -71.20039457820683,-32.69944641396555,0 -71.20060546122502,-32.69763431348812,0 -71.20066285597869,-32.69636577455104,0 -71.20085524974471,-32.69550700719802,0 -71.20108042408602,-32.69536969476928,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>CALERA CENTRO - CEMENTO MELON 66kV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 		MELON S.A
+Nombre LT: 			CALERA CENTRO - CEMENTO MELON 66kV
+Tramo: 			CALERA CENTRO - CEMENTO MELON 66kV C1
+Nombre: 			CALERA CENTRO - CEMENTO MELON 66kV C1
+Circuito: 			C1
+ID Info: 			4363
+Tipo Conductor: 		AASC Alliance
+Año PES: 			1984</description>
+				<styleUrl>#msn_ylw-pushpin271</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.19561942315801,-32.79597383687995,0 -71.19585759563826,-32.79563583972038,0 -71.19576164834622,-32.79489984353388,0 -71.19556856857066,-32.79402400178532,0 -71.19541020151486,-32.79323782414692,0 -71.19523869668504,-32.79243133937895,0 -71.19469272034584,-32.79127213302049,0 -71.19503689371714,-32.79053212949706,0 -71.19527098631937,-32.79032252689729,0 -71.19609843176119,-32.78953235294554,0 -71.19693857357765,-32.78874732267002,0 -71.19786057910574,-32.78789755982925,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>C2</name>
+			<Placemark>
+				<name>CALERA CENTRO - CEMENTO MELON 66kV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 		MELON S.A
+Nombre LT: 			CALERA CENTRO - CEMENTO MELON 66kV
+Tramo: 			CALERA CENTRO - CEMENTO MELON 66kV C2
+Nombre: 			CALERA CENTRO - CEMENTO MELON 66kV C2
+Circuito: 			C2
+ID Info: 			4364
+Tipo Conductor: 		AAAC 
+Año PES: 			1984</description>
+				<styleUrl>#msn_ylw-pushpin290</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.19786024755309,-32.78789298614167,0 -71.19817555266323,-32.78810705803187,0 -71.19861120137989,-32.78873352724877,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eje Trazado APAGAR</name>
+			<Placemark>
+				<name>C1 a SE La Calera 44kV</name>
+				<styleUrl>#msn_ylw-pushpin0101</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.1978639758476,-32.78788710596825,0 -71.19817163396959,-32.78810624269186,0 -71.19860085196557,-32.78874952376266,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>LA CALERA EL MELON 44 kV</name>
+				<styleUrl>#msn_ylw-pushpin630</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.19562378537161,-32.79597069684412,0 -71.19584091691401,-32.79562892350757,0 -71.19574998799618,-32.79492643500024,0 -71.19555460367744,-32.79403634620308,0 -71.19539859031305,-32.79324905881069,0 -71.19522595485759,-32.79242852455877,0 -71.19467474559188,-32.79126544108794,0 -71.1950219421735,-32.79053340928531,0 -71.19524492790119,-32.79032760632847,0 -71.19607592977546,-32.78953950242963,0 -71.19691686813702,-32.78875073628032,0 -71.19786580797135,-32.78788094578078,0 -71.19879154740451,-32.78709850717122,0 -71.19975421730986,-32.78639968620451,0 -71.20055473257375,-32.78555793735446,0 -71.2014128986817,-32.78479146879091,0 -71.20229710194519,-32.78396453018341,0 -71.20326281974748,-32.78270258937055,0 -71.20022689892255,-32.77791433885725,0 -71.19948557940519,-32.77621399844931,0 -71.19909089529597,-32.77520312602508,0 -71.19877532100963,-32.77429069503968,0 -71.19844708381413,-32.77353957537099,0 -71.19814951158756,-32.77277610528258,0 -71.19787006999469,-32.77207037013745,0 -71.19750100074204,-32.77118280948203,0 -71.19710652139298,-32.7702302041409,0 -71.19662943925479,-32.76919121744138,0 -71.1962205077897,-32.76825242368876,0 -71.19580524301426,-32.76723150925336,0 -71.1954094877421,-32.76630313314001,0 -71.19500236081318,-32.76528058307267,0 -71.19463842697287,-32.76425758106408,0 -71.19359018379591,-32.76339021511608,0 -71.19368817719248,-32.76189272620302,0 -71.1937596221693,-32.76081288479433,0 -71.1938441666221,-32.75984677650607,0 -71.19392354687804,-32.75878089878445,0 -71.19401996671608,-32.7576969073192,0 -71.19404984389173,-32.7569248118516,0 -71.19411982216386,-32.75548954644006,0 -71.19429485392483,-32.75336632880499,0 -71.1944477875092,-32.75129017189455,0 -71.19462675695587,-32.74936370793963,0 -71.19478304745471,-32.74737429386304,0 -71.19494818382145,-32.74542483478436,0 -71.19515096653687,-32.74329023830192,0 -71.19541368245045,-32.74108263550753,0 -71.19566755810594,-32.73894076376847,0 -71.19593047510985,-32.73691760252993,0 -71.1961446181692,-32.73503693498399,0 -71.19636205704091,-32.73314911525681,0 -71.19662984407755,-32.73099711582142,0 -71.19690557333118,-32.728917282159,0 -71.19702526767337,-32.72773439890699,0 -71.19715851750165,-32.72662111417346,0 -71.19736088375387,-32.72491251013707,0 -71.19745932131542,-32.72401762204044,0 -71.19768615828161,-32.72232791670795,0 -71.19793199131901,-32.72016363043751,0 -71.19820324437434,-32.71795121513848,0 -71.19833069304009,-32.71689759979449,0 -71.19844997647324,-32.71583576984834,0 -71.19859167157853,-32.71474674367025,0 -71.19871820075288,-32.71369238679387,0 -71.19898066773338,-32.71153579612637,0 -71.19924044862998,-32.70942410375076,0 -71.19935008020227,-32.70844210333694,0 -71.19947816943639,-32.70733651737437,0 -71.19965948943691,-32.7062417141827,0 -71.19973365962588,-32.70518087898412,0 -71.19995845843268,-32.70321466919471,0 -71.20017438295393,-32.70125374520119,0 -71.20041674155514,-32.69945528998066,0 -71.20062773642566,-32.69765374113192,0 -71.20068763537827,-32.69636880452014,0 -71.20086780343757,-32.69552057263628,0 -71.20107537637163,-32.69538777321334,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

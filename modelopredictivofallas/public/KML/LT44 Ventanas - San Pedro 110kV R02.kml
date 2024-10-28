@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT44 Ventanas - San Pedro 110kV R02.kmz</name>
+	<Schema name="Línea de Transmisión" id="Línea de Transmisión_schema0001">
+		<SimpleField type="Variant " name="Línea de Transmisión"><displayName>Lineas_de_Transmisión</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Longitud km"><displayName>Longitud km</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Voltaje kV"><displayName>Voltaje kV</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Conductor"><displayName>Conductor</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Capacidad MVA"><displayName>Capacidad MVA</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Propietario"><displayName>Propietario</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Circuito 1"><displayName>Circuito 1</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Circuito 2"><displayName>Circuito 2</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Información Técnica"><displayName>Información Técnica</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="Línea 110 kV001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default_copy60210201000000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#default_copy602700001000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="default_copy60210201000000">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon16.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ccffffff</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table WIDTH="200" border=0 cellpadding=0 cellspacing=1 bgcolor=#F3E2A9 summary="">
+				<tr>
+				<td width="100%" valign="middle" align="left">
+				<b>
+				<font face="Arial" color="#050000">
+				<h2.5>INFORMACIÓN DE INSTALACIONES</h2.5>
+				</font>
+				</b>
+				</td>
+				<td width="100%" valign="middle" align="right">
+				</tr>
+				</table>
+
+<table WIDTH="200" border=0 cellpadding=0 cellspacing=0
+
+<font face="Arial" size="3" color="#050000">   
+<table>
+ <tr>
+    <table border="1" padding="0">
+   <tr><td>Línea de Transmisión</td>=<td>$[Línea de Transmisión/Línea de Transmisión]</td></tr>
+   <tr><td>Longitud km</td>=<td>$[Línea de Transmisión/Longitud km]</td></tr>
+   <tr><td>Voltaje kV</td>=<td>$[Línea de Transmisión/Voltaje kV]</td></tr>
+    <tr><td>Conductor</td>=<td>$[Línea de Transmisión/Conductor]</td></tr>
+    <tr><td>Capacidad MVA</td>=<td>$[Línea de Transmisión/Capacidad MVA]</td></tr>
+    <tr><td>Propietario</td>=<td>$[Línea de Transmisión/Propietario]</td></tr>
+    <tr><td>Circuito 1</td>=<td>$[Línea de Transmisión/Circuito 1]</td></tr>	
+    <tr><td>Circuito 2</td>=<td>$[Línea de Transmisión/Circuito 2]</td></tr>
+	<tr><td>Información Técnica</td>=<td>$[Línea de Transmisión/Información Técnica]</td></tr>
+ </tr>
+</table></font>
+
+<table WIDTH="200" border=0 cellpadding=1 cellspacing=1 bgcolor=#F3E2A9 summary=""><tr>
+ <td width="100%" valign="middle" align="right"><img src="15ikvl_1.jpg" border="0" width="240" height="40" alt="" /></tr>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="default_copy602700001000">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon16.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ccffffff</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table WIDTH="200" border=0 cellpadding=0 cellspacing=1 bgcolor=#F3E2A9 summary="">
+				<tr>
+				<td width="100%" valign="middle" align="left">
+				<b>
+				<font face="Arial" color="#050000">
+				<h2.5>INFORMACIÓN DE INSTALACIONES</h2.5>
+				</font>
+				</b>
+				</td>
+				<td width="100%" valign="middle" align="right">
+				</tr>
+				</table>
+
+<table WIDTH="200" border=0 cellpadding=0 cellspacing=0
+
+<font face="Arial" size="3" color="#050000">   
+<table>
+ <tr>
+    <table border="1" padding="0">
+   <tr><td>Línea de Transmisión</td>=<td>$[Línea de Transmisión/Línea de Transmisión]</td></tr>
+   <tr><td>Longitud km</td>=<td>$[Línea de Transmisión/Longitud km]</td></tr>
+   <tr><td>Voltaje kV</td>=<td>$[Línea de Transmisión/Voltaje kV]</td></tr>
+    <tr><td>Conductor</td>=<td>$[Línea de Transmisión/Conductor]</td></tr>
+    <tr><td>Capacidad MVA</td>=<td>$[Línea de Transmisión/Capacidad MVA]</td></tr>
+    <tr><td>Propietario</td>=<td>$[Línea de Transmisión/Propietario]</td></tr>
+    <tr><td>Circuito 1</td>=<td>$[Línea de Transmisión/Circuito 1]</td></tr>	
+    <tr><td>Circuito 2</td>=<td>$[Línea de Transmisión/Circuito 2]</td></tr>
+	<tr><td>Información Técnica</td>=<td>$[Línea de Transmisión/Información Técnica]</td></tr>
+ </tr>
+</table></font>
+
+<table WIDTH="200" border=0 cellpadding=1 cellspacing=1 bgcolor=#F3E2A9 summary=""><tr>
+ <td width="100%" valign="middle" align="right"><img src="15ikvl_1.jpg" border="0" width="240" height="40" alt="" /></tr>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin27000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin24001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin43">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin54</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin41</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin49">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin512</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin410</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin52">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin56</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin45</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin24001">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin41">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin410">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin45">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1100">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin512">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin54">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin56">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>LT44 Ventanas San Pedro 110kV</name>
+		<open>1</open>
+		<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+		<Folder>
+			<name>C1</name>
+			<open>1</open>
+			<Placemark>
+				<name>TAP CODELCO VENTANAS - VENTANAS 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	COMPAÑÍA TRANSMISORA DEL NORTE GRANDE S.A.
+Nombre   LT:		SAN PEDRO - VENTANAS 110KV
+Tramo:		TAP CODELCO VENTANAS - VENTANAS 110KV C1
+Nombre:		TAP CODELCO VENTANAS - VENTANAS 110KV C1
+Circuito:		C1
+ID Info:		115
+Tipo Conductor: 	AAAC - 1400 MCM.
+Año PES: 		1964</description>
+				<styleUrl>#msn_ylw-pushpin27000</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.48120353153296,-32.74911266398605,0 -71.4810920865072,-32.74888899802411,0 -71.48018670415172,-32.74799294706261,0 -71.47824354557231,-32.74868338530943,0 -71.47615111987388,-32.74944041905441,0 -71.47435563993231,-32.75009857875874,0 -71.47285558788464,-32.75181194513335,0 -71.4716386259892,-32.75331926680418,0 -71.47029481269558,-32.75540883346714,0 -71.46887834857581,-32.75785209263977,0 -71.46737282941397,-32.76040892115036,0 -71.46681855763633,-32.76196395720643,0 -71.46599688641686,-32.76423878702099,0 -71.46578401771089,-32.76474955298779,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>SAN PEDRO - TAP CODELCO VENTANAS 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	COMPAÑÍA TRANSMISORA DEL NORTE GRANDE S.A.
+Nombre   LT:		SAN PEDRO - VENTANAS 110KV
+Tramo:		SAN PEDRO - TAP CODELCO VENTANAS 110KVC1
+Nombre:		SAN PEDRO - TAP CODELCO VENTANAS 110KV C1
+Circuito:		C1
+ID Info:		388
+Tipo Conductor: 	AAAC - 1400 MCM.
+Año PES: 		1964</description>
+				<styleUrl>#msn_ylw-pushpin43</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.46578366972213,-32.76474936637994,0 -71.46425654819446,-32.76639887700762,0 -71.46291495761757,-32.76779094406997,0 -71.46127781332147,-32.76947484270226,0 -71.46046053124932,-32.77031639041915,0 -71.45751376086727,-32.77342629146776,0 -71.45578830990651,-32.77517884127334,0 -71.45353773873143,-32.77753346473742,0 -71.45138566714073,-32.7797687504078,0 -71.44918443604203,-32.78204121520999,0 -71.44820333036377,-32.78306203229046,0 -71.4466206949911,-32.78469036649614,0 -71.44504874699159,-32.78633741514977,0 -71.44347413426061,-32.7879614155063,0 -71.44304597309984,-32.78844360535896,0 -71.44184688225111,-32.78970519960798,0 -71.44005708000407,-32.79153988972485,0 -71.43751456834825,-32.79419541574076,0 -71.43671610522415,-32.79504781934514,0 -71.43404657839133,-32.79779692128423,0 -71.43200195197691,-32.79995082772491,0 -71.43076929977079,-32.801202229971,0 -71.42815290035657,-32.80398291863752,0 -71.42642913058727,-32.80575493238272,0 -71.42457636957568,-32.80765367440132,0 -71.42344498330931,-32.8088300504117,0 -71.42195852051782,-32.81036713356031,0 -71.42062684629177,-32.81176735445526,0 -71.41836545329565,-32.81409764743195,0 -71.41663313401024,-32.8159133369392,0 -71.41512145675246,-32.81750207140158,0 -71.41370181282802,-32.81896990955156,0 -71.41177476254421,-32.8209688875242,0 -71.4091275285208,-32.82370389102131,0 -71.40814286102128,-32.82471714614391,0 -71.40612317381787,-32.82678949054789,0 -71.40365696587142,-32.82936864450588,0 -71.40306176017741,-32.82996119717623,0 -71.39821102802907,-32.83499829706552,0 -71.39780637471449,-32.83541478615145,0 -71.39520412249988,-32.83812708821414,0 -71.39383937008202,-32.83953750920213,0 -71.39277174041882,-32.84069314533094,0 -71.39064944452571,-32.84280660670531,0 -71.3892079471233,-32.84434945921095,0 -71.38771279060217,-32.84591272842069,0 -71.38432063807053,-32.84938152374855,0 -71.38310964152178,-32.85065586695713,0 -71.38247089817114,-32.85103959388785,0 -71.37680674179927,-32.85405785811469,0 -71.37612209846134,-32.8544426731966,0 -71.37382308128338,-32.85571442316806,0 -71.37086318853716,-32.85728198614556,0 -71.36738641310448,-32.8591703841937,0 -71.36656074238518,-32.85962971322886,0 -71.36265715918839,-32.86173749383364,0 -71.36001655213185,-32.86317486521727,0 -71.35534643659275,-32.86566422982937,0 -71.35306106671599,-32.86690475929099,0 -71.35127272436154,-32.8679049370875,0 -71.34998336289914,-32.86861967466623,0 -71.34616732602701,-32.8706361663713,0 -71.34086577373479,-32.87354739257449,0 -71.33939676936826,-32.87433421310707,0 -71.33610954562486,-32.87609203408238,0 -71.3331698569407,-32.87769382860844,0 -71.33110633472521,-32.87879417957154,0 -71.32938220691032,-32.88228756450128,0 -71.32820946985863,-32.88447830555354,0 -71.32710459632355,-32.886645271964,0 -71.32640287138403,-32.88799943750014,0 -71.32449575280341,-32.89177415763486,0 -71.32326942025085,-32.89410929411184,0 -71.32225231293148,-32.8961611242276,0 -71.32156445222142,-32.89756883681274,0 -71.31790060746442,-32.89973309298058,0 -71.31518453331114,-32.90128700789246,0 -71.31329804579794,-32.90238082637021,0 -71.31064629229208,-32.90390123398119,0 -71.30863244830678,-32.90503182389048,0 -71.30652928421165,-32.90623055233606,0 -71.3043299765822,-32.90752520593807,0 -71.30202791476215,-32.9088100184258,0 -71.298663060864,-32.91075775417064,0 -71.29584695406223,-32.91235099068958,0 -71.29286494557824,-32.91407818014519,0 -71.29025687835633,-32.91556406207469,0 -71.28813854349548,-32.91665774905277,0 -71.28595468818588,-32.91780909858529,0 -71.28376314963113,-32.91895705484399,0 -71.2818257191693,-32.91996201077146,0 -71.2803095234092,-32.92078020624388,0 -71.27900844771352,-32.92216785525059,0 -71.27735397702709,-32.92396368365073,0 -71.27606450860526,-32.92531564482241,0 -71.27454780548851,-32.92691135920737,0 -71.27295543172293,-32.92861653037211,0 -71.27107250764654,-32.93063984293502,0 -71.27027426882324,-32.93132076947869,0 -71.26855934586159,-32.93275348662812,0 -71.26684187437765,-32.93418745885445,0 -71.26514276884684,-32.93562833826468,0 -71.26483040854622,-32.93605053204348,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>C2</name>
+			<open>1</open>
+			<Placemark>
+				<name>SAN PEDRO - TAP CODELCO VENTANAS 110KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	COMPAÑÍA TRANSMISORA DEL NORTE GRANDE S.A.
+Nombre   LT:		SAN PEDRO - VENTANAS 110KV
+Tramo:		SAN PEDRO - TAP CODELCO VENTANAS 110KV C2
+Nombre:		SAN PEDRO - TAP CODELCO VENTANAS 110KV C2
+Circuito:		C2
+ID Info:		387
+Tipo Conductor: 	AAAC - 1400 MCM.
+Año PES: 		1964</description>
+				<styleUrl>#msn_ylw-pushpin52</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.46573145451087,-32.7647484690696,0 -71.46419882126631,-32.76636503392165,0 -71.46287834673325,-32.76776641042296,0 -71.46123116356186,-32.76944426364598,0 -71.4604091117222,-32.77029211276385,0 -71.45747999928484,-32.77339545783779,0 -71.45575328671053,-32.77516002623604,0 -71.45350037384064,-32.7775112372002,0 -71.45134900905418,-32.77974466537503,0 -71.44915866826801,-32.78203032914766,0 -71.44816621874755,-32.78305531305772,0 -71.44659064791949,-32.78468693084594,0 -71.4450140764134,-32.78633719853547,0 -71.44343867990564,-32.78796366891698,0 -71.44300063420241,-32.78843849335004,0 -71.44180973129635,-32.78970153097332,0 -71.44001164062288,-32.79152757360613,0 -71.43745611608291,-32.79415883572534,0 -71.43665266442225,-32.79502570623816,0 -71.43399210075204,-32.79777702686027,0 -71.43193485400944,-32.79992916328579,0 -71.43070303455067,-32.80119179271228,0 -71.42808695075881,-32.80394358816552,0 -71.42634994324064,-32.80573009841988,0 -71.42450921360884,-32.80765591210709,0 -71.4233832948748,-32.80882831015858,0 -71.42190898379538,-32.81035068520427,0 -71.42057959618981,-32.81174901046752,0 -71.41831391300549,-32.814083194178,0 -71.41658535077519,-32.81588653089073,0 -71.41509517525873,-32.81743720410469,0 -71.41366541935506,-32.81893666250247,0 -71.41172405143088,-32.82092543576191,0 -71.40909870577347,-32.82365472686262,0 -71.40811446812079,-32.82467516909401,0 -71.40608214920972,-32.82676042545313,0 -71.40363462462668,-32.82934941057884,0 -71.40303301870762,-32.82993932840727,0 -71.39818811083587,-32.83495625872148,0 -71.39778530812224,-32.83537877929627,0 -71.395166296696,-32.83810225060645,0 -71.3938045721882,-32.83951006189701,0 -71.39272105218134,-32.84066152673345,0 -71.39061861593352,-32.84278871868601,0 -71.38918254908268,-32.84432301059813,0 -71.38768502561219,-32.84588614834012,0 -71.38431260885262,-32.84937366631058,0 -71.38308921812121,-32.85063702285134,0 -71.38245765156425,-32.85101336712376,0 -71.37679511193156,-32.85403887720988,0 -71.37609789752609,-32.85441473699075,0 -71.37378164524927,-32.85566248868317,0 -71.37082848622529,-32.85722609505213,0 -71.36735953694952,-32.85911641872273,0 -71.36652791549309,-32.85958023818529,0 -71.36261728217544,-32.8616519082027,0 -71.35997855499387,-32.86308838161752,0 -71.35530845404317,-32.86561184093866,0 -71.35300758963984,-32.86681173579573,0 -71.35120787819513,-32.86781285303356,0 -71.3498790347235,-32.86854575802005,0 -71.34609808718132,-32.87055025044164,0 -71.34079711310014,-32.87346978348368,0 -71.33934754010238,-32.87426558287588,0 -71.3360793473007,-32.87601650239897,0 -71.33312666208749,-32.87759335138683,0 -71.3310204767679,-32.87871430949637,0 -71.32920180708152,-32.88221233453107,0 -71.328079417425,-32.88447133676893,0 -71.32701556770112,-32.88656284980365,0 -71.32629102557492,-32.88794019645362,0 -71.32438579342163,-32.89168164862528,0 -71.32318000899544,-32.89406946679049,0 -71.32216059761885,-32.89605465945962,0 -71.32143226334288,-32.89753564317988,0 -71.31786446775672,-32.89960646466,0 -71.31514750683699,-32.90108736853113,0 -71.31318459462072,-32.90223454190058,0 -71.31060875175666,-32.90371104935404,0 -71.30849882172708,-32.90494939154818,0 -71.30646364309652,-32.90612209076988,0 -71.30425182078464,-32.9074080918022,0 -71.30197845552686,-32.90877689863048,0 -71.29857796208735,-32.91067054386019,0 -71.29573744859961,-32.91230426281052,0 -71.29281218485386,-32.91398508284099,0 -71.29022060417523,-32.91546307212116,0 -71.28808044874575,-32.91660790807918,0 -71.28587065649435,-32.917722829221,0 -71.28367395769298,-32.91889913552347,0 -71.28174487038721,-32.91992367662856,0 -71.28021808084902,-32.9206827197668,0 -71.27885793024303,-32.92210157879438,0 -71.27715328704814,-32.92392860299813,0 -71.27588209215999,-32.92529039258756,0 -71.27441157162768,-32.92693711839609,0 -71.27282087069277,-32.92858899574669,0 -71.27102301480599,-32.9305552306441,0 -71.27022889950332,-32.93126266382909,0 -71.26852233735818,-32.93269316238023,0 -71.26680176426511,-32.93413001689169,0 -71.26511083899183,-32.93558079667513,0 -71.2647680646823,-32.93598654171593,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>TAP CODELCO VENTANAS - VENTANAS 110KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	COMPAÑÍA TRANSMISORA DEL NORTE GRANDE S.A.
+Nombre   LT:		SAN PEDRO - VENTANAS 110KV
+Tramo:		TAP CODELCO VENTANAS - VENTANAS 110KV C2
+Nombre:		TAP CODELCO VENTANAS - VENTANAS 110KV C2
+Circuito:		C2
+ID Info:		207
+Tipo Conductor: 	AAAC - 1400 MCM.
+Año PES: 		1964</description>
+				<styleUrl>#msn_ylw-pushpin49</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.48133664938993,-32.74905245388081,0 -71.48113254897252,-32.74885640995344,0 -71.48019747945092,-32.74794355491368,0 -71.47822910240093,-32.74864685596931,0 -71.47613944979932,-32.74940897327511,0 -71.47433201368634,-32.75007210873651,0 -71.47282702833934,-32.75178427669494,0 -71.47160477648366,-32.7532847831754,0 -71.47023712665857,-32.75535650037168,0 -71.46882844298065,-32.7577935104969,0 -71.46732694008432,-32.7603530305516,0 -71.46674750274316,-32.76188519959375,0 -71.46591860911272,-32.76425668546958,0 -71.46572981020711,-32.76474893258129,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eje Trazado APAGAR</name>
+			<open>1</open>
+			<Placemark>
+				<name>San Pedro - Ventanas</name>
+				<styleUrl>#Línea 110 kV001</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Línea de Transmisión_schema0001">
+						<SimpleData name="Línea de Transmisión">San Pedro - Ventanas</SimpleData>
+						<SimpleData name="Longitud km"></SimpleData>
+						<SimpleData name="Voltaje kV">110</SimpleData>
+						<SimpleData name="Conductor"></SimpleData>
+						<SimpleData name="Capacidad MVA"></SimpleData>
+						<SimpleData name="Propietario"></SimpleData>
+						<SimpleData name="Calificación"></SimpleData>
+						<SimpleData name="Circuito 1"></SimpleData>
+						<SimpleData name="Circuito 2"></SimpleData>
+						<SimpleData name="Información Técnica">http://bit.ly/1qKpTWr</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.48133932732608,-32.74919741686242,0 -71.48112478331203,-32.74888400605448,0 -71.48019516433595,-32.74795998666924,0 -71.47822317905528,-32.74867150275958,0 -71.47614257311292,-32.74942797116903,0 -71.47433930921872,-32.75008990300864,0 -71.47285113948506,-32.75179629754658,0 -71.47161782492967,-32.75332476796751,0 -71.47027632503317,-32.75539843889192,0 -71.46886329397485,-32.75784606552917,0 -71.46735482592811,-32.76040209282962,0 -71.46680069943804,-32.76196320312252,0 -71.46597244189256,-32.76424404870618,0 -71.46574631777911,-32.7647469200786,0 -71.46423469938463,-32.76636099938055,0 -71.46287845793913,-32.76778474625591,0 -71.46042349562835,-32.77030474964844,0 -71.45748420055206,-32.77342686600171,0 -71.45574186864226,-32.77519978320167,0 -71.45352487561078,-32.77750742892202,0 -71.45137091670877,-32.77974658587488,0 -71.44917608068266,-32.78203335481075,0 -71.44820768739191,-32.78303344502374,0 -71.44661692482549,-32.78467749088253,0 -71.44503562808826,-32.78633216741334,0 -71.44345632573209,-32.7879594611927,0 -71.44303448692399,-32.78842428709694,0 -71.44186521028178,-32.78966456482366,0 -71.44004510053288,-32.79152534355181,0 -71.43748468233798,-32.79417979431345,0 -71.43667577929682,-32.79503846206052,0 -71.43400226815486,-32.79780055660022,0 -71.4319696428247,-32.79993271891558,0 -71.43072416028868,-32.80120503439105,0 -71.42810765103638,-32.80395025217385,0 -71.42637101281331,-32.80574938228482,0 -71.42451593609182,-32.80767501563722,0 -71.42340108076934,-32.80884006076127,0 -71.42193035551335,-32.81035947101008,0 -71.42058784965738,-32.81177031124042,0 -71.4183376870928,-32.81409385256015,0 -71.41661334736192,-32.81589366537029,0 -71.415096531438,-32.81749298509743,0 -71.41174381166556,-32.82094792539499,0 -71.40909906040123,-32.82369182360451,0 -71.40811218561764,-32.82471016351963,0 -71.40608911208484,-32.82679057946202,0 -71.40363540220351,-32.82937447662624,0 -71.403032257295,-32.82995938269162,0 -71.39818896068014,-32.83498671006787,0 -71.39778727741209,-32.83540108084937,0 -71.39516891653226,-32.83812623287111,0 -71.39380521488445,-32.83954185811378,0 -71.39272616107155,-32.8406932421021,0 -71.39060267025889,-32.84282608715214,0 -71.38918330608864,-32.84433963703751,0 -71.38768679952288,-32.84591055581545,0 -71.38432036656457,-32.84937406051113,0 -71.3831115458151,-32.85063860925152,0 -71.38246328049725,-32.85103075509573,0 -71.37679969439813,-32.85405204437757,0 -71.37610778439638,-32.85443499041634,0 -71.37378831339771,-32.85570254714814,0 -71.37084938121751,-32.85727563964035,0 -71.36736149383738,-32.85915725210864,0 -71.36654898566638,-32.85960333983769,0 -71.36263303621455,-32.86170491088371,0 -71.35997939411861,-32.86313667873389,0 -71.35530692265941,-32.86566618657094,0 -71.35301062440141,-32.86687260086851,0 -71.35123823106788,-32.86786269372024,0 -71.34990073801936,-32.86859756752614,0 -71.34611744949558,-32.87060896047191,0 -71.34084851248575,-32.8735033934407,0 -71.33935850631512,-32.87428846205199,0 -71.33607447201399,-32.87607913930862,0 -71.33312949687115,-32.87767605324401,0 -71.33105170238984,-32.87876452831873,0 -71.32928538886439,-32.88228665590017,0 -71.32813657796933,-32.88452594505414,0 -71.32703514390472,-32.88668725774207,0 -71.32633833799282,-32.88802345400763,0 -71.32440396261144,-32.89180015558661,0 -71.32319732851946,-32.89415357007262,0 -71.32216729811147,-32.89618137274596,0 -71.32145235105146,-32.8976243275664,0 -71.31787331331029,-32.89967628609762,0 -71.31516360594323,-32.90122372057743,0 -71.31322536370541,-32.90233894107222,0 -71.31061893938364,-32.90381254348195,0 -71.30848547274276,-32.905061131937,0 -71.30646960064658,-32.90621470985765,0 -71.30426563027265,-32.90749477080274,0 -71.30199643952493,-32.9088078761455,0 -71.29860930189965,-32.91070839545242,0 -71.29576485386143,-32.91235305002453,0 -71.29280570781002,-32.91405032783032,0 -71.29024080196682,-32.91552975142625,0 -71.28808254891914,-32.91664702336417,0 -71.28588605386051,-32.91778595400591,0 -71.28368664220186,-32.91893414999456,0 -71.28175855933942,-32.91995779666964,0 -71.28024437558922,-32.92074475585517,0 -71.27891265496687,-32.92216640813825,0 -71.27723251675727,-32.92396310670966,0 -71.27593930285816,-32.92535268278004,0 -71.27442458728895,-32.9269823982826,0 -71.272871288177,-32.92863057596918,0 -71.2710413638606,-32.93060736067362,0 -71.27023809217815,-32.93129438803155,0 -71.26852370437661,-32.93273229354256,0 -71.26680136316875,-32.93417392459038,0 -71.2651147153454,-32.9356071688376,0 -71.26479369166481,-32.9360066073561,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

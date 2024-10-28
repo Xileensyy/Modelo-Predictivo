@@ -2,6 +2,34 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>LT38 Torquemada - Concón 110kV R01.kmz</name>
+	<Style id="inline251000">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2800000">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline33200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2800000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline251000</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin821">
 		<Pair>
 			<key>normal</key>
@@ -119,6 +147,19 @@ Año PES: 		2007</description>
 					<tessellate>1</tessellate>
 					<coordinates>
 						-71.47255789798666,-32.93470834548182,0 -71.47289975445614,-32.93469008785542,0 -71.47366707721898,-32.93390912552339,0 -71.47370821529577,-32.93373285333002,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eje Trazado APAGAR</name>
+			<Placemark>
+				<name>LT38 Torquemada Concon 110kV</name>
+				<styleUrl>#inline33200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.47376684652251,-32.93372529629785,0 -71.47368630613558,-32.93391465958453,0 -71.47291805945206,-32.93470655896339,0 -71.47256750275355,-32.93475224680396,0 
 					</coordinates>
 				</LineString>
 			</Placemark>

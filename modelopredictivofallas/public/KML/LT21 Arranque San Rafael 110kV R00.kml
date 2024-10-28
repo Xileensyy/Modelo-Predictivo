@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT21 Arranque San Rafael 110kV R00.kmz</name>
+	<Style id="inline1720">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline212">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline52">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline212</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1720</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_polygon">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_polygon</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_polygon</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_polygon">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<scale>0.827273</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/polygon.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_polygon">
+		<IconStyle>
+			<color>ff00ffaa</color>
+			<scale>0.7</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/polygon.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Folder>
+		<name>LT21 Arranque San Rafael 110kV</name>
+		<open>1</open>
+		<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+		<Placemark>
+			<name>LT21 Arranque San Rafael 110kV</name>
+			<description>Gestión de Información Transmisión
+Nombre Propietario: 		CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT: 			EST. 0001 - SAN RAFAEL C3 110KV
+Tramo: 			EST. 0001 - SAN RAFAEL C3 110KV C3
+Nombre: 			EST. 0001 - SAN RAFAEL C3 110KV C3
+Circuito: 			C3
+ID Info: 			0000
+Tipo Conductor: 		2 AWG Cu
+Año PES: 			2015</description>
+			<styleUrl>#inline52</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.61324298053246,-32.82401402532671,0 -70.61316028583315,-32.82387943259159,0 -70.61301832623587,-32.82396844105064,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>AR_SA-0001</name>
+			<description>Gestión de Información Transmision
+
+Nomenclatura de estructura: AR_SA-0001
+Tipo de estructura:Poste Tubular
+Cable de guardia: Si aplica
+Clase: Remate (Traccion)</description>
+			<LookAt>
+				<longitude>-70.61305570987527</longitude>
+				<latitude>-32.82387314979659</latitude>
+				<altitude>0</altitude>
+				<heading>0.01008846966319432</heading>
+				<tilt>24.95289715016861</tilt>
+				<range>118.9976693513721</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_polygon</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-70.6131637786994,-32.82388905331222,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

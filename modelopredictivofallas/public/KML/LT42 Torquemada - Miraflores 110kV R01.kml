@@ -2,6 +2,144 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>LT42 Torquemada - Miraflores 110kV R01.kmz</name>
+	<Schema name="Línea de Transmisión" id="Línea de Transmisión_schema000000">
+		<SimpleField type="Variant " name="Línea de Transmisión"><displayName>Lineas_de_Transmisión</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Longitud km"><displayName>Longitud km</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Voltaje kV"><displayName>Voltaje kV</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Conductor"><displayName>Conductor</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Capacidad MVA"><displayName>Capacidad MVA</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Propietario"><displayName>Propietario</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Circuito 1"><displayName>Circuito 1</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Circuito 2"><displayName>Circuito 2</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Información Técnica"><displayName>Información Técnica</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="Línea 110 kV20000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default_copy602102010000222000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#default_copy602700001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="default_copy602102010000222000">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon16.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ccffffff</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table WIDTH="200" border=0 cellpadding=0 cellspacing=1 bgcolor=#F3E2A9 summary="">
+				<tr>
+				<td width="100%" valign="middle" align="left">
+				<b>
+				<font face="Arial" color="#050000">
+				<h2.5>INFORMACIÓN DE INSTALACIONES</h2.5>
+				</font>
+				</b>
+				</td>
+				<td width="100%" valign="middle" align="right">
+				</tr>
+				</table>
+
+<table WIDTH="200" border=0 cellpadding=0 cellspacing=0
+
+<font face="Arial" size="3" color="#050000">   
+<table>
+ <tr>
+    <table border="1" padding="0">
+   <tr><td>Línea de Transmisión</td>=<td>$[Línea de Transmisión/Línea de Transmisión]</td></tr>
+   <tr><td>Longitud km</td>=<td>$[Línea de Transmisión/Longitud km]</td></tr>
+   <tr><td>Voltaje kV</td>=<td>$[Línea de Transmisión/Voltaje kV]</td></tr>
+    <tr><td>Conductor</td>=<td>$[Línea de Transmisión/Conductor]</td></tr>
+    <tr><td>Capacidad MVA</td>=<td>$[Línea de Transmisión/Capacidad MVA]</td></tr>
+    <tr><td>Propietario</td>=<td>$[Línea de Transmisión/Propietario]</td></tr>
+    <tr><td>Circuito 1</td>=<td>$[Línea de Transmisión/Circuito 1]</td></tr>	
+    <tr><td>Circuito 2</td>=<td>$[Línea de Transmisión/Circuito 2]</td></tr>
+	<tr><td>Información Técnica</td>=<td>$[Línea de Transmisión/Información Técnica]</td></tr>
+ </tr>
+</table></font>
+
+<table WIDTH="200" border=0 cellpadding=1 cellspacing=1 bgcolor=#F3E2A9 summary=""><tr>
+ <td width="100%" valign="middle" align="right"><img src="15ikvl_0_1.jpg" border="0" width="240" height="40" alt="" /></tr>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="default_copy602700001">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon16.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ccffffff</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table WIDTH="200" border=0 cellpadding=0 cellspacing=1 bgcolor=#F3E2A9 summary="">
+				<tr>
+				<td width="100%" valign="middle" align="left">
+				<b>
+				<font face="Arial" color="#050000">
+				<h2.5>INFORMACIÓN DE INSTALACIONES</h2.5>
+				</font>
+				</b>
+				</td>
+				<td width="100%" valign="middle" align="right">
+				</tr>
+				</table>
+
+<table WIDTH="200" border=0 cellpadding=0 cellspacing=0
+
+<font face="Arial" size="3" color="#050000">   
+<table>
+ <tr>
+    <table border="1" padding="0">
+   <tr><td>Línea de Transmisión</td>=<td>$[Línea de Transmisión/Línea de Transmisión]</td></tr>
+   <tr><td>Longitud km</td>=<td>$[Línea de Transmisión/Longitud km]</td></tr>
+   <tr><td>Voltaje kV</td>=<td>$[Línea de Transmisión/Voltaje kV]</td></tr>
+    <tr><td>Conductor</td>=<td>$[Línea de Transmisión/Conductor]</td></tr>
+    <tr><td>Capacidad MVA</td>=<td>$[Línea de Transmisión/Capacidad MVA]</td></tr>
+    <tr><td>Propietario</td>=<td>$[Línea de Transmisión/Propietario]</td></tr>
+    <tr><td>Circuito 1</td>=<td>$[Línea de Transmisión/Circuito 1]</td></tr>	
+    <tr><td>Circuito 2</td>=<td>$[Línea de Transmisión/Circuito 2]</td></tr>
+	<tr><td>Información Técnica</td>=<td>$[Línea de Transmisión/Información Técnica]</td></tr>
+ </tr>
+</table></font>
+
+<table WIDTH="200" border=0 cellpadding=1 cellspacing=1 bgcolor=#F3E2A9 summary=""><tr>
+ <td width="100%" valign="middle" align="right"><img src="15ikvl_0_1.jpg" border="0" width="240" height="40" alt="" /></tr>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
 	<StyleMap id="msn_ylw-pushpin52">
 		<Pair>
 			<key>normal</key>
@@ -119,6 +257,34 @@ Año PES: 		1976</description>
 					<tessellate>1</tessellate>
 					<coordinates>
 						-71.47199002093355,-32.93576546687112,0 -71.47168440824511,-32.93578899083653,0 -71.47055718214573,-32.93653287910878,0 -71.47015488981407,-32.93799048832877,0 -71.46896920988725,-32.93936354648454,0 -71.46806659991324,-32.94044707831784,0 -71.46742860099111,-32.94563274525309,0 -71.46812862568858,-32.94970299814718,0 -71.46783428849302,-32.95134157408031,0 -71.46736595706321,-32.95406800773861,0 -71.46672556385241,-32.95781600622686,0 -71.46647136139231,-32.9592619126465,0 -71.46740718457181,-32.96210210286706,0 -71.46817780077802,-32.96471562944872,0 -71.46901535565031,-32.96742624000218,0 -71.46978462182017,-32.9697950299856,0 -71.47066404885933,-32.97261846055,0 -71.47131960444135,-32.97475094215793,0 -71.47224700068988,-32.97774223202928,0 -71.4728626292475,-32.97979429920939,0 -71.47385867413568,-32.98309142711718,0 -71.47312024705387,-32.98730423837961,0 -71.47274435116613,-32.98900262410552,0 -71.47217563317746,-32.99234083572242,0 -71.47152659694754,-32.99613651908498,0 -71.47087042242802,-32.99963795911463,0 -71.47054625465292,-33.00140284397639,0 -71.4717680747772,-33.00238574032833,0 -71.47361617852225,-33.00386638292094,0 -71.47622294485207,-33.00592738581752,0 -71.4785761858044,-33.00779859071297,0 -71.48026535012221,-33.00910951772465,0 -71.4842275934455,-33.0122235043609,0 -71.48713150293149,-33.01455863327577,0 -71.48831777436227,-33.0155166255406,0 -71.49094849105556,-33.0176249085552,0 -71.49384890562467,-33.01990509721008,0 -71.49654941182796,-33.0208892397982,0 -71.50035132896052,-33.02239240996995,0 -71.50138834720703,-33.02283696677019,0 -71.50303943076877,-33.0236009010416,0 -71.50593593385528,-33.02818575850407,0 -71.5079208535373,-33.02899929956092,0 -71.50997129296404,-33.02984319635297,0 -71.51340748182821,-33.03128135613289,0 -71.51644631336006,-33.03263757992983,0 -71.51913834870889,-33.0337515825876,0 -71.52071389301331,-33.03397041599418,0 -71.52331464937926,-33.03426958400287,0 -71.52514621659142,-33.03450915692793,0 -71.52525925815843,-33.03440466853029,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eje Trazado APAGAR</name>
+			<open>1</open>
+			<Placemark>
+				<name>LT Torquemada - Miraflores 110kV</name>
+				<styleUrl>#Línea 110 kV20000</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Línea de Transmisión_schema000000">
+						<SimpleData name="Línea de Transmisión">Torquemada - Miraflores</SimpleData>
+						<SimpleData name="Longitud km"></SimpleData>
+						<SimpleData name="Voltaje kV">110</SimpleData>
+						<SimpleData name="Conductor"></SimpleData>
+						<SimpleData name="Capacidad MVA"></SimpleData>
+						<SimpleData name="Propietario"></SimpleData>
+						<SimpleData name="Calificación"></SimpleData>
+						<SimpleData name="Circuito 1"></SimpleData>
+						<SimpleData name="Circuito 2"></SimpleData>
+						<SimpleData name="Información Técnica">http://bit.ly/1qKpTWr</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.52526043846878,-33.03445736115395,0 -71.52516609668096,-33.034528948264,0 -71.52332188869912,-33.03430433645867,0 -71.52072972424308,-33.03397981577645,0 -71.51918649668582,-33.03379107200229,0 -71.5165333328071,-33.03270476891229,0 -71.51349643102995,-33.03133634111944,0 -71.51002894381435,-33.02989483701086,0 -71.50796608470914,-33.02902056868385,0 -71.50593011650614,-33.02822062322159,0 -71.50457004608103,-33.02599597943254,0 -71.50306239011164,-33.02362389459779,0 -71.50142009348615,-33.02285548866351,0 -71.50036998628788,-33.02240376550967,0 -71.49657914649998,-33.02091916670909,0 -71.4938602984778,-33.01991569292849,0 -71.49098665433182,-33.01765924299358,0 -71.48833770441901,-33.01554714725169,0 -71.48715148224304,-33.014564925296,0 -71.48421448550133,-33.01223517802631,0 -71.48030759589197,-33.00916509757837,0 -71.4786066648056,-33.00783763417706,0 -71.47624170772721,-33.00595123101614,0 -71.47374727692164,-33.00398150799776,0 -71.47196498109309,-33.00254372279073,0 -71.47051867022248,-33.00142406870735,0 -71.47082913348267,-32.99972195726021,0 -71.47112434230523,-32.99794552456696,0 -71.47148788549551,-32.99616546102079,0 -71.47216182624518,-32.99242883113255,0 -71.4727304274804,-32.98904980215157,0 -71.47310157744199,-32.98733947138756,0 -71.47384546477386,-32.98308457422602,0 -71.47290423396257,-32.97988664930592,0 -71.4722900669244,-32.97784688141432,0 -71.4713689202397,-32.97490313677169,0 -71.47069801098219,-32.97270998216747,0 -71.46983957394825,-32.96991750486311,0 -71.46906046208683,-32.96750988870975,0 -71.46822427858778,-32.96485991205376,0 -71.46744519417631,-32.9622226328194,0 -71.46647296453699,-32.95926637026532,0 -71.46670818339942,-32.95780113957979,0 -71.46734217098111,-32.95420421479377,0 -71.46782245210099,-32.95146924734326,0 -71.46812005986419,-32.94967655737418,0 -71.46743483248549,-32.94566025916544,0 -71.46778285511751,-32.94278541125484,0 -71.46806486089784,-32.94045263570779,0 -71.46894723771318,-32.93933570689058,0 -71.47013892092723,-32.93798355287853,0 -71.47054736420704,-32.93650928795713,0 -71.47168132687051,-32.93574274013073,0 -71.47199656247042,-32.93572049884391,0 
 					</coordinates>
 				</LineString>
 			</Placemark>

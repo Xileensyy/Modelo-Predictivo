@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT39 Concón - Bosquemar 110kV R01.kmz</name>
+	<StyleMap id="inline116100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline82000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline211001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline211001">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline82000">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin85">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin85</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin82</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin82">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin85">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>LT39 Concon Bosquemar 110kV</name>
+		<open>1</open>
+		<description>Coordenado por Oliver Cabezas
+Información Técnica de Transmisión</description>
+		<Folder>
+			<name>C1</name>
+			<Placemark>
+				<name>CON CON - EST. N°5 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		CONCON - BOSQUEMAR 110KV
+Tramo:		CONCON - BOSQUEMAR 110KV C1
+Nombre:		CON CON - EST. N°5 110KV C1
+Circuito:		C1
+ID Info:		1574
+Tipo Conductor: 	465,4 AAAC Cairo
+Año PES: 		2013</description>
+				<styleUrl>#msn_ylw-pushpin85</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.47420040185581,-32.93362946021058,0 -71.47437848276005,-32.93379545947852,0 -71.47529484780108,-32.93556307366412,0 -71.47744970996159,-32.93969228083733,0 -71.47886303666721,-32.94030268178574,0 -71.48203230993525,-32.94161908151039,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. 5 - BOSQUEMAR 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		CONCON - BOSQUEMAR 110KV
+Tramo:		CONCON - BOSQUEMAR 110KV C1
+Nombre:		EST. 5 - BOSQUEMAR 110KV C1
+Circuito:		C1
+ID Info:		4984
+Tipo Conductor: 	465,4 AAAC Cairo
+Año PES: 		2013</description>
+				<styleUrl>#msn_ylw-pushpin85</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.48203730149977,-32.94161865341376,0 -71.48524962174415,-32.94057029377782,0 -71.48889105036814,-32.94054994504486,0 -71.49092801416374,-32.94050194528762,0 -71.49258882374239,-32.94047762927999,0 -71.49967506591904,-32.94038431262778,0 -71.5017468709481,-32.94037220956498,0 -71.50486544476236,-32.94031631405641,0 -71.50684402355273,-32.94029645016369,0 -71.5093259122506,-32.94027745182453,0 -71.50995557591479,-32.93784136647399,0 -71.51029177584941,-32.93659368903983,0 -71.51081671571815,-32.93454405232081,0 -71.51396157917762,-32.9338291678628,0 -71.51574107412188,-32.93462505055466,0 -71.51599191936231,-32.93440453375341,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eje Trazado APAGAR</name>
+			<Placemark>
+				<name>LT39 Concon Bosquemar 110kV</name>
+				<styleUrl>#inline116100</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.47422603865705,-32.93365150318658,0 -71.47434933133012,-32.93378351712209,0 -71.47529470397713,-32.93556386499316,0 -71.47747253177852,-32.93967422244086,0 -71.47887966274524,-32.94025158498422,0 -71.48201247458178,-32.94158733240271,0 -71.48522049502375,-32.94059555630683,0 -71.48883699125136,-32.94056245863818,0 -71.4909413979839,-32.94053514361773,0 -71.49265203201823,-32.94050681830333,0 -71.49965670649962,-32.94041361846067,0 -71.50176850488369,-32.94042024831772,0 -71.50488345624349,-32.94033294083559,0 -71.50684146694105,-32.94031293676655,0 -71.50933729652614,-32.94030800418166,0 -71.51082036686785,-32.93456785041309,0 -71.51396224124214,-32.93384380569795,0 -71.51573107103974,-32.93463246699164,0 -71.51599362604229,-32.9343857321953,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

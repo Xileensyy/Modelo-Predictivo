@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT17 Arranque Placeres 110kV R00.kmz</name>
+	<StyleMap id="inline10301">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline19101</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline17101</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline1631">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline294</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2251</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline17101">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline19101">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline2251">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline294">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin390">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin380</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin360</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin400">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3700</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin37</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin360">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin37">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3700">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin380">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>C1</name>
+		<Placemark>
+			<name>TAP OFF PLACERES - PLACERES 110KV C1</name>
+			<description>Gestión de Información Transmisión
+Nombre Propietario: CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		TAP OFF PLACERES - PLACERES 110KV
+Tramo:	                           TAP PLACERES - PLACERES 110KV C1
+Nombre: 		TAP OFF PLACERES - PLACERES 110KV C1
+Circuito:		C1
+ID Info:		739
+Tipo Conductor: 	2/0 AWG-Cu (COBRE DESNUDO)
+Año PES: 		1940</description>
+			<styleUrl>#msn_ylw-pushpin400</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.57858440344918,-33.04917093631818,0 -71.57836880580449,-33.04921727059074,0 -71.57776399708295,-33.05074857502606,0 -71.57556922236151,-33.05334181301478,0 -71.57472027118007,-33.05457133944154,0 -71.5729547008042,-33.05723624189793,0 -71.57133106667392,-33.05963154417434,0 -71.56987495395327,-33.06183946917909,0 -71.56976697470337,-33.06200840611804,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>C2</name>
+		<Placemark>
+			<name>TAP OFF PLACERES - PLACERES 110KV C2</name>
+			<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		TAP OFF PLACERES - PLACERES 110KV
+Tramo:	                           TAP PLACERES - PLACERES 110KV C2
+Nombre: 		TAP OFF PLACERES - PLACERES 110KV C2
+Circuito:		C2
+ID Info:		1036
+Tipo Conductor: 	2/0 AWG-Cu (COBRE DESNUDO)
+Año PES: 		1940</description>
+			<styleUrl>#msn_ylw-pushpin390</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.5696904616006,-33.06204538206923,0 -71.56982987569721,-33.06181979994449,0 -71.57130680171619,-33.0595882518455,0 -71.57292455030208,-33.0572181027537,0 -71.57469174885077,-33.05454623413438,0 -71.57553095387001,-33.05330270161202,0 -71.5777225337124,-33.05071755533946,0 -71.57832836185253,-33.04919188351475,0 -71.57854674769132,-33.04909703745691,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Eje Trazado APAGAR</name>
+		<Placemark>
+			<name>LT17 Placeres 110kV CTO1</name>
+			<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+			<styleUrl>#inline1631</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.5697735316605,-33.06203550584976,0 -71.56989829362581,-33.06182894778419,0 -71.57136207791149,-33.05961702307586,0 -71.57293390967675,-33.05724646910066,0 -71.57475249988586,-33.05459868174995,0 -71.5755559522479,-33.05334069152069,0 -71.5777578913077,-33.05070631815368,0 -71.57844085665344,-33.04923512192672,0 -71.57859814625388,-33.04918796707528,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>LT17 Placeres 110kV CTO2</name>
+			<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+			<styleUrl>#inline10301</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.56973299695365,-33.06205175019615,0 -71.56987304642723,-33.06182188972286,0 -71.57134479106182,-33.05962444173685,0 -71.57292334649084,-33.05724045129592,0 -71.57474752788895,-33.0545776626025,0 -71.57554668503974,-33.05333092569601,0 -71.5777486603599,-33.05070213388863,0 -71.57843162585034,-33.04922961502762,0 -71.57854265261435,-33.04909783043289,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

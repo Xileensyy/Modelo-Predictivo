@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT 12 C2 Laguna Verde San Antonio 66KV R02.kmz</name>
+	<Style id="inline2500011">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="inline27012">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline29201</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2500011</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline29201">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin10000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin910</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin9000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin700</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1300</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin143</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1300">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1301</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1400">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin8000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin8000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1510">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1600</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin320">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin280</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin291</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin10001">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1200">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1301">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin143">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin291">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin8000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin9000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1300">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1600">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin280">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin6001">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin700">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin8000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin910">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>LT 12 C2 Laguna Verde San Antonio R02</name>
+		<open>1</open>
+		<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+		<Folder>
+			<name>C2</name>
+			<Placemark>
+				<name>LAGUNA VERDE – EST.30 66KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		CENTRAL LAGUNA VERDE - LITORAL CENTRAL 66KV
+Tramo:	          	LAGUNA VERDE – EST.30 66KV C2
+Nombre: 	          	LAGUNA VERDE – EST.30 66KV C2
+Circuito:		C2
+ID Info:		0000
+Tipo Conductor: 	AWG CU 1/0
+Año PES: 		1950</description>
+				<styleUrl>#msn_ylw-pushpin320</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.66283632980803,-33.1425403176885,0 -71.66410690140403,-33.13941133934697,0 -71.66435067538303,-33.13890154710991,0 -71.66495521145076,-33.13749402092873,0 -71.66585268866824,-33.13543146852519,0 -71.66625817809086,-33.13442359297447,0 -71.6668952876587,-33.13291130002809,0 -71.66734300621165,-33.13186018958234,0 -71.66789818560662,-33.13056600591258,0 -71.66848280608372,-33.12907920462115,0 -71.66892918835195,-33.12809000358268,0 -71.6693451956652,-33.12705532889578,0 -71.66977545375899,-33.12598774532413,0 -71.6703780584384,-33.12459065476511,0 -71.67101794739457,-33.12314228429076,0 -71.67144547905805,-33.12191873582021,0 -71.67184599266098,-33.12074679748351,0 -71.67220160554064,-33.1197165538162,0 -71.67257626988517,-33.11868317064322,0 -71.67303380143112,-33.11748197547725,0 -71.67385171693726,-33.11532082217865,0 -71.67429273195388,-33.11400228934711,0 -71.67464029989367,-33.11308967062592,0 -71.6750233814917,-33.11203832130183,0 -71.67604262786389,-33.10926311632331,0 -71.67637354627544,-33.10825941016247,0 -71.67667389664336,-33.10737196687829,0 -71.6770922744339,-33.10630459081816,0 -71.67759644415563,-33.10503527018079,0 -71.67815464774561,-33.10357579316776,0 -71.67789807616634,-33.10334071500413,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST.30 – EST.51 66KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		CENTRAL LAGUNA VERDE - LITORAL CENTRAL 66KV
+Tramo:	          	EST.30 – EST.51 66KV C2
+Nombre: 	          	EST.30 – EST.51 66KV C2
+Circuito:		C2
+ID Info:		0000
+Tipo Conductor: 	Alliance 246.9
+Año PES: 		1950</description>
+				<styleUrl>#msn_ylw-pushpin10000</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.6628343298177,-33.14249989137619,0 -71.66222803534222,-33.14396787620598,0 -71.66182444222217,-33.14487624179519,0 -71.66124918053289,-33.14634925923869,0 -71.66028977210173,-33.14848243079184,0 -71.6596989393115,-33.14990428096493,0 -71.65934473691684,-33.15074543353369,0 -71.6592101588935,-33.15112222966592,0 -71.65789318921662,-33.15418881328653,0 -71.65659393750636,-33.15739050053435,0 -71.65615915501661,-33.15840156769114,0 -71.65575984052325,-33.15937968466763,0 -71.6552972219929,-33.16046811184129,0 -71.65474436700984,-33.16184405899414,0 -71.65419426496074,-33.16315787525473,0 -71.65349633594418,-33.1648285499575,0 -71.65277481694501,-33.16658067748172,0 -71.65214456680791,-33.16801729095108,0 -71.65144524140939,-33.16975036378952,0 -71.65079583508404,-33.17117032833632,0 -71.65017591264058,-33.17301222630481,0 -71.64892584358175,-33.1769436239077,0 -71.64882641921056,-33.17735642382598,0 -71.64868052407112,-33.17775135096967,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST.51 – Tap Quitay 66KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		CENTRAL LAGUNA VERDE - LITORAL CENTRAL 66KV
+Tramo:	          	EST.51 – Tap Quitay 66KV C2
+Nombre: 	          	EST.51 – Tap Quitay 66KV C2
+Circuito:		C2
+ID Info:		0000
+Tipo Conductor: 	AWG CU 1/0
+Año PES: 		1950</description>
+				<styleUrl>#msn_ylw-pushpin1300</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.64868816068545,-33.17772513881535,0 -71.64776809339003,-33.18062688481188,0 -71.647634678554,-33.18112643673118,0 -71.64712789196749,-33.18274928533705,0 -71.64638859288702,-33.18496598773178,0 -71.64606077986878,-33.18608504490393,0 -71.64583485854634,-33.1867729282112,0 -71.64549319260389,-33.18784691227003,0 -71.64491302896958,-33.18954654495212,0 -71.64387399283437,-33.19317120641136,0 -71.64361991215641,-33.19374779166906,0 -71.6431017845055,-33.19544956933694,0 -71.64241988942878,-33.19754153891828,0 -71.64194447728381,-33.19912034323659,0 -71.64119672215318,-33.20145422947233,0 -71.6408630160672,-33.20245415384482,0 -71.6400729985168,-33.20502293316481,0 -71.63977231392116,-33.20596319855017,0 -71.63952260990975,-33.2067658211916,0 -71.63910849307373,-33.20806842590974,0 -71.6389709591203,-33.20855868568071,0 -71.63790862418541,-33.21181439959663,0 -71.63718070542136,-33.21416991965583,0 -71.63684265538397,-33.21529537570802,0 -71.63654681837347,-33.21617826699041,0 -71.63583389372711,-33.21835634194943,0 -71.63575678048173,-33.21874371137287,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>TAP QUINTAY - TAP ALGARROBO NORTE 66KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT:		CENTRAL LAGUNA VERDE - LITORAL CENTRAL 66KV
+Tramo:	          	TAP QUINTAY - TAP ALGARROBO NORTE 66KV C2
+Nombre: 	          	TAP QUINTAY - TAP ALGARROBO NORTE 66KV C2
+Circuito:		C2
+ID Info:		3863
+Tipo Conductor: 	AWG-CU 1/0
+Año PES: 		1950</description>
+				<styleUrl>#msn_ylw-pushpin1510</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.63575763004216,-33.21874054040462,0 -71.6351721306351,-33.22059449480646,0 -71.63469294855541,-33.22216682567162,0 -71.63418558618062,-33.22365096327413,0 -71.63375719271117,-33.22509748776879,0 -71.63326200343849,-33.22662062581114,0 -71.63300844744464,-33.22735451976173,0 -71.63282052771748,-33.22800920120703,0 -71.63192406445904,-33.23085848838223,0 -71.63144738668736,-33.23249777754263,0 -71.63110195606302,-33.23347089753079,0 -71.63086967275041,-33.23419649205218,0 -71.63036880335028,-33.23571940022748,0 -71.63006968680921,-33.2367983075175,0 -71.62960279963056,-33.23810285071441,0 -71.62916523716042,-33.239625253329,0 -71.62866598288528,-33.24108275447115,0 -71.62841696215361,-33.24205971876344,0 -71.62806617012588,-33.2431414225925,0 -71.62753730191821,-33.24467613855654,0 -71.6271514662466,-33.24594245581383,0 -71.62618032695157,-33.2490601213413,0 -71.62599209534773,-33.24956290761513,0 -71.62579571681242,-33.25029918902882,0 -71.62519328869396,-33.25238454904841,0 -71.62452382869446,-33.25421195879065,0 -71.62406024339128,-33.25565152857055,0 -71.62404536795709,-33.25569417338652,0 -71.62333321163815,-33.25811706028453,0 -71.62295289406894,-33.25917021794062,0 -71.6219856826991,-33.26228398077346,0 -71.62148804025335,-33.2638076605084,0 -71.62087351866965,-33.26549772455708,0 -71.62000079685589,-33.26873014622685,0 -71.61953976342083,-33.27007350413711,0 -71.61908624898541,-33.27147708424832,0 -71.61859465421294,-33.27294438261548,0 -71.61839644312465,-33.27362172604173,0 -71.61763497510874,-33.27599214645823,0 -71.61744919308016,-33.27659509684437,0 -71.61693094777422,-33.27817748953922,0 -71.61663276213608,-33.27921553085971,0 -71.61608785261376,-33.28081645656905,0 -71.61573209639698,-33.28198086808884,0 -71.61521561594205,-33.28346758405851,0 -71.61473749078873,-33.28495775061707,0 -71.61438758584632,-33.28621813436013,0 -71.61392995958562,-33.2877036730462,0 -71.6135181043294,-33.28892709187449,0 -71.61308727913247,-33.29033455973107,0 -71.61263689761647,-33.29176995332757,0 -71.61236224924681,-33.29270241078068,0 -71.61185461188005,-33.29422898144406,0 -71.61143654062934,-33.29561828623493,0 -71.61104956110763,-33.29682564860122,0 -71.61071587701869,-33.29793307277427,0 -71.61041412146915,-33.29880124888593,0 -71.61010680176018,-33.29988739928196,0 -71.6094633132091,-33.30185787728231,0 -71.60856914194621,-33.30477519111447,0 -71.60804655490442,-33.30634629266869,0 -71.60757501290097,-33.30784293339983,0 -71.60726352860955,-33.30879337413836,0 -71.60692055750457,-33.30989566597069,0 -71.60644236607082,-33.31140236052952,0 -71.60605649379656,-33.31267909660622,0 -71.60576466283064,-33.31362471181831,0 -71.6054579534884,-33.31460619493741,0 -71.60515069068531,-33.31584093284953,0 -71.60484602034984,-33.31718771437011,0 -71.60454391463077,-33.31868027611151,0 -71.60418547981595,-33.32029374320408,0 -71.60405502851228,-33.32083737948499,0 -71.60371320554435,-33.32244312532579,0 -71.60336664574056,-33.32396358063647,0 -71.60318058881867,-33.32499622020081,0 -71.60280387462248,-33.32654884538184,0 -71.60211466287608,-33.32972010425044,0 -71.60194767446281,-33.33056881276398,0 -71.60136110106862,-33.33303884673004,0 -71.60118546425126,-33.33397192628471,0 -71.60095921077621,-33.33496473575206,0 -71.60079404336425,-33.33580590637579,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>TAP ALGARROBO NORTE - EST.0179 66KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT:		CENTRAL LAGUNA VERDE - LITORAL CENTRAL 66KV
+Tramo:          	                  	 TAP ALGARROBO NORTE - EST.0179 66KV C2
+Nombre: 	                   	 TAP ALGARROBO NORTE - EST.0179 66KV C2
+Circuito:		C2
+ID Info:		3865
+Tipo Conductor: 	AWG-CU 1/0
+Año PES: 		1950</description>
+				<styleUrl>#msn_ylw-pushpin1510</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.60080039104426,-33.33580084645514,0 -71.6003870430887,-33.33752069403486,0 -71.60019122131898,-33.33850202556049,0 -71.59976862781392,-33.34046573118995,0 -71.59953161495656,-33.34155981450985,0 -71.59890111389744,-33.3443520834542,0 -71.59856399812195,-33.34610052051006,0 -71.59829520812241,-33.347198327741,0 -71.59795478614959,-33.34873450766413,0 -71.59780235750726,-33.34937021002232,0 -71.59763077712873,-33.35026645353524,0 -71.59741390149726,-33.35128655174275,0 -71.59718666421499,-33.35234815302481,0 -71.59695570563365,-33.35332250709639,0 -71.59643521120807,-33.35574530975123,0 -71.59598479250852,-33.35780540779268,0 -71.59565212691233,-33.35929980501098,0 -71.59549595455192,-33.36007805569989,0 -71.59532343664311,-33.3608490442879,0 -71.59451626939379,-33.36456127045954,0 -71.59423455413443,-33.36584062923753,0 -71.59384104016256,-33.36714743688314,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST.T179A - LITORAL CENTRAL 66KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT:		CENTRAL LAGUNA VERDE - LITORAL CENTRAL 66KV
+Tramo:          		TAP ALGARROBO NORTE - LITORAL CENTRAL 66KV C2
+Nombre: 		EST.T179A - LITORAL CENTRAL 66KV C2
+Circuito:		C2
+ID Info:		3869
+Tipo Conductor: 	AWG-CU 1/0
+Año PES: 		1950</description>
+				<styleUrl>#msn_ylw-pushpin1100</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.59383976225514,-33.36714611475746,0 -71.592568231184,-33.36746293193613,0 -71.59181160839468,-33.36761127535411,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>LITORAL CENTRAL - EST. T181 66KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT:		LITORAL CENTRAL - SAN ANTONIO 66KV
+Tramo:          		LITORAL CENTRAL - TAP SAN SEBASTIAN 66KV C2
+Nombre: 		LITORAL CENTRAL - EST. T181 66KV C2
+Circuito:		C2
+ID Info:		3872
+Tipo Conductor: 	AWG-CU 1/0
+Año PES: 		1950</description>
+				<styleUrl>#msn_ylw-pushpin1100</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.59177403112649,-33.36792488386848,0 -71.59239186930324,-33.36797343323711,0 -71.59356052685318,-33.36858161209442,0 -71.59353886283583,-33.36903769520488,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. T181A - T201 66KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT:		LITORAL CENTRAL - SAN ANTONIO 66KV
+Tramo:         		EST. T181A - T201 66KV C2
+Nombre: 		EST. T181A - T201 66KV C2
+Circuito:		C2
+ID Info:		3873
+Tipo Conductor: 	Cu 1/0 AWG
+Año PES: 		1950</description>
+				<styleUrl>#msn_ylw-pushpin1200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.59354753246079,-33.36901042059001,0 -71.59331441072413,-33.37010854642047,0 -71.59298459446086,-33.37146772612635,0 -71.59229138967802,-33.37458514259198,0 -71.59208920551714,-33.37554730710786,0 -71.59187629322437,-33.37653667824539,0 -71.59162248679476,-33.37764374080614,0 -71.59138706272405,-33.3788198546788,0 -71.59084547646957,-33.38126061070543,0 -71.59062904918785,-33.38220139873417,0 -71.59039089946033,-33.38330574814857,0 -71.58978211022419,-33.38595732516523,0 -71.58893204113799,-33.38972847326576,0 -71.58878098833995,-33.39053561996768,0 -71.58860407354342,-33.39129942223217,0 -71.58849402445844,-33.39220963354985,0 -71.58850404571061,-33.3929968101573,0 -71.5886279470179,-33.3943686276637,0 -71.5888508401482,-33.39602942428287,0 -71.58891167806722,-33.39736325780903,0 -71.58905391057199,-33.39879598342288,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. T201 - T213 66KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT:		LITORAL CENTRAL - SAN ANTONIO 66KV
+Tramo:         		EST. T201 - T213 66KV C2
+Nombre: 		EST. T201 - T213 66KV C2
+Circuito:		C2
+ID Info:		0000
+Tipo Conductor: 	Alliance 246.9
+Año PES: 		1950</description>
+				<styleUrl>#msn_ylw-pushpin1200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.58905551767388,-33.39879290141756,0 -71.58911909853595,-33.39971268010625,0 -71.58921886778333,-33.4005315587162,0 -71.58934273719571,-33.40201435538491,0 -71.58946479078185,-33.4034806568319,0 -71.58961511902615,-33.4050132388487,0 -71.58974803299752,-33.40658751116641,0 -71.58986865928047,-33.40794622921709,0 -71.58994845924703,-33.4088859685961,0 -71.59008169491563,-33.41006393177221,0 -71.59016282354395,-33.41127182197695,0 -71.59025943114749,-33.41221488319963,0 -71.59036922984993,-33.41343594531635,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. T213 - TAP SAN SEBASTIAN 66KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT:		LITORAL CENTRAL - SAN ANTONIO 66KV
+Tramo:         		EST. T213 - TAP SAN SEBASTIAN 66KV C2
+Nombre: 		EST. T213 - TAP SAN SEBASTIAN 66KV C2
+Circuito:		C2
+ID Info:		0000
+Tipo Conductor: 	AWG CU 1/0
+Año PES: 		1950</description>
+				<styleUrl>#msn_ylw-pushpin1200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.59037659848647,-33.41342075257358,0 -71.59003111375827,-33.41485808969029,0 -71.58978320043829,-33.41601670837185,0 -71.58929684443967,-33.41831351180996,0 -71.58889142001436,-33.42018200302607,0 -71.58851186805151,-33.42149839576489,0 -71.58780890736999,-33.42504070256198,0 -71.58751785697683,-33.42649952982759,0 -71.58723423080683,-33.42775013026689,0 -71.5869043502488,-33.42914903172171,0 -71.58664620325114,-33.43033608271323,0 -71.58645219949025,-33.43113482628347,0 -71.58612011374436,-33.4327228997527,0 -71.58560705472946,-33.43506940885374,0 -71.58535067979426,-33.43629518260948,0 -71.58517824272161,-33.43720513080959,0 -71.58473684265549,-33.43910381496763,0 -71.58454790323096,-33.44005430521491,0 -71.58418062712744,-33.44170004438918,0 -71.5838362183143,-33.4433558809713,0 -71.58360686025881,-33.44443835810715,0 -71.58333332037266,-33.44558736669131,0 -71.58311383841189,-33.44677310590724,0 -71.58280475396928,-33.44803526184737,0 -71.58244127229254,-33.44972782286138,0 -71.58203813048165,-33.45143189698157,0 -71.58149277969456,-33.45403381164527,0 -71.58125160808524,-33.45519599475337,0 -71.58094950168733,-33.45656845615124,0 -71.58074175794385,-33.457536583841,0 -71.58015765649962,-33.45999491529724,0 -71.57953505518344,-33.46297743278343,0 -71.57920308371082,-33.46473318173272,0 -71.57896849385894,-33.46585195732703,0 -71.57855560589424,-33.46768815875624,0 -71.57831548126438,-33.46871904056793,0 -71.57815487862365,-33.46946950738615,0 -71.57796512218385,-33.47042273885676,0 -71.57752639368559,-33.47243360549954,0 -71.57721533018017,-33.47387339490643,0 -71.57694104760193,-33.47515215091765,0 -71.57671214787344,-33.47623923154269,0 -71.57601417194437,-33.47937752122626,0 -71.57575139657034,-33.48051040954304,0 -71.57541741575098,-33.48214758196976,0 -71.57511083833576,-33.48347828195063,0 -71.5748213362892,-33.48477746471665,0 -71.57450666064736,-33.48629466626734,0 -71.57426208646261,-33.48739319357075,0 -71.5737409415016,-33.48984655258113,0 -71.5732968611667,-33.49184726510905,0 -71.57297332959921,-33.49336847052732,0 -71.57245558731599,-33.49561333326397,0 -71.5717680670105,-33.49889204074681,0 -71.57151849009666,-33.50012013870204,0 -71.57095238982559,-33.50267683654393,0 -71.57084523230155,-33.50319344488695,0 -71.57000157474964,-33.50699850883963,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>TAP SAN SEBASTIAN - EST.296 66KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT: 		LITORAL CENTRAL - SAN ANTONIO 66KV
+Tramo: 		TAP SAN SEBASTIAN - EST.296 66KV C2
+Nombre: 		TAP SAN SEBASTIAN - EST.296 66KV C2
+Circuito: 		C2
+ID Info: 		0000
+Tipo Conductor: 	AWG CU 1/0
+Año PES: 		1950</description>
+				<styleUrl>#msn_ylw-pushpin1200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.57001955832139,-33.50699337783352,0 -71.5699015665566,-33.50740526553202,0 -71.5696605290692,-33.50848073006373,0 -71.56925310201524,-33.51043107865812,0 -71.56896814927926,-33.51176350084575,0 -71.56859673543839,-33.51342559298835,0 -71.56842340260532,-33.51422282773648,0 -71.56815887345321,-33.5154322210449,0 -71.56760099029682,-33.51806597177792,0 -71.56728483045428,-33.51954073264604,0 -71.56716495307383,-33.52007647286355,0 -71.56647503655594,-33.5231032360849,0 -71.56611942191248,-33.52482438856878,0 -71.56593622105844,-33.52579407585258,0 -71.56516418552194,-33.52920735610634,0 -71.56447005556235,-33.53261328537126,0 -71.56414312567543,-33.53419438248086,0 -71.56393166182853,-33.53510176936443,0 -71.56371004229396,-33.53607543251081,0 -71.56344418223595,-33.53732878140366,0 -71.56271830642257,-33.54061103189001,0 -71.56247558161827,-33.54167619988854,0 -71.56181326227372,-33.54467959311798,0 -71.56165375187211,-33.5455217066408,0 -71.56350765733424,-33.54776840963773,0 -71.56400494660467,-33.54838088557466,0 -71.56579075853919,-33.55050891710275,0 -71.56683079844716,-33.55179271151349,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST.296  - EST.298 66KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT: 		LITORAL CENTRAL - SAN ANTONIO 66KV
+Tramo: 		EST.296  - EST.298 66KV C2
+Nombre: 		EST.296  - EST.298 66KV C2
+Circuito: 		C2
+ID Info: 		0000
+Tipo Conductor: 	Alliance 246.9
+Año PES: 		1950</description>
+				<styleUrl>#msn_ylw-pushpin1200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.56683251620304,-33.55178852979277,0 -71.56757817759892,-33.55268717557658,0 -71.56852956452369,-33.55386243623926,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST.298 - EST.319 66KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT: 		LITORAL CENTRAL - SAN ANTONIO 66KV
+Tramo: 		 EST.298 - EST.319 66KV C2
+Nombre: 		 EST.298 - EST.319 66KV C2
+Circuito: 		C2
+ID Info: 		0000
+Tipo Conductor: 	AWG CU 1/0
+Año PES: 		1950</description>
+				<styleUrl>#msn_ylw-pushpin1200</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.56853567919615,-33.55386708674614,0 -71.56923219493402,-33.55471669530792,0 -71.57000153733031,-33.55564053974349,0 -71.57114085340851,-33.55695909774083,0 -71.57217231290589,-33.55822764626009,0 -71.57278235870977,-33.55898936461418,0 -71.57411757961233,-33.5605759077192,0 -71.57517414895251,-33.56184595917415,0 -71.57621602216501,-33.56311912936575,0 -71.57730431806692,-33.56442088315839,0 -71.57791353832516,-33.56524095703499,0 -71.57888560879201,-33.56636519081556,0 -71.58029844507934,-33.56809953100404,0 -71.58078420609598,-33.56868148230081,0 -71.58361866366221,-33.57204386434602,0 -71.5859992914732,-33.57488468578199,0 -71.58661595403774,-33.57554010225065,0 -71.58707687201215,-33.57626032974159,0 -71.58808585322593,-33.57698177510594,0 -71.58977492247253,-33.5782499730415,0 -71.59064996999483,-33.57961275106402,0 -71.59178726311241,-33.58183087658571,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST.319 - SAN ANTONIO 66KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT:		LITORAL CENTRAL - SAN ANTONIO 66KV
+Tramo:         		EST.319 - SAN ANTONIO 66KV C2
+Nombre: 		EST.319 - SAN ANTONIO 66KV C2
+Circuito:		C2
+ID Info:		0000
+Tipo Conductor: 	AWG CU 1/0
+Año PES: 		1969</description>
+				<styleUrl>#msn_ylw-pushpin1400</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.59179871498864,-33.58181082474006,0 -71.59284759246586,-33.5835125127258,0 -71.59355291416135,-33.58464451474407,0 -71.59494561640041,-33.58694768059148,0 -71.59657029416857,-33.58962409375942,0 -71.59716484227538,-33.59065687320842,0 -71.59807115626845,-33.59215723825771,0 -71.59896492318158,-33.59365009703673,0 -71.6001554546794,-33.59566559590978,0 -71.60121511296722,-33.59737272485125,0 -71.60173139541686,-33.59820689035958,0 -71.60327662776108,-33.60072482700128,0 -71.6034695655791,-33.60110673508813,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Interferencia MT</name>
+			<open>1</open>
+			<Placemark>
+				<name>MT 12kV</name>
+				<styleUrl>#inline27012</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.65205692150214,-33.16762884435325,499.3002728963041 -71.65234756556725,-33.16804047131443,498.0476152176493 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

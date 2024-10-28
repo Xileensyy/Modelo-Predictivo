@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT46 San Pedro - Las Vegas 110kV R01.kmz</name>
+	<Schema name="Línea de Transmisión" id="Línea de Transmisión_schema00000">
+		<SimpleField type="Variant " name="Línea de Transmisión"><displayName>Lineas_de_Transmisión</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Longitud km"><displayName>Longitud km</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Voltaje kV"><displayName>Voltaje kV</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Conductor"><displayName>Conductor</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Capacidad MVA"><displayName>Capacidad MVA</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Propietario"><displayName>Propietario</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Circuito 1"><displayName>Circuito 1</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Circuito 2"><displayName>Circuito 2</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Información Técnica"><displayName>Información Técnica</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="Línea 110 kV200000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default_copy602102010000222</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#default_copy6027000011</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="default_copy602102010000222">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon16.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ccffffff</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table WIDTH="200" border=0 cellpadding=0 cellspacing=1 bgcolor=#F3E2A9 summary="">
+				<tr>
+				<td width="100%" valign="middle" align="left">
+				<b>
+				<font face="Arial" color="#050000">
+				<h2.5>INFORMACIÓN DE INSTALACIONES</h2.5>
+				</font>
+				</b>
+				</td>
+				<td width="100%" valign="middle" align="right">
+				</tr>
+				</table>
+
+<table WIDTH="200" border=0 cellpadding=0 cellspacing=0
+
+<font face="Arial" size="3" color="#050000">   
+<table>
+ <tr>
+    <table border="1" padding="0">
+   <tr><td>Línea de Transmisión</td>=<td>$[Línea de Transmisión/Línea de Transmisión]</td></tr>
+   <tr><td>Longitud km</td>=<td>$[Línea de Transmisión/Longitud km]</td></tr>
+   <tr><td>Voltaje kV</td>=<td>$[Línea de Transmisión/Voltaje kV]</td></tr>
+    <tr><td>Conductor</td>=<td>$[Línea de Transmisión/Conductor]</td></tr>
+    <tr><td>Capacidad MVA</td>=<td>$[Línea de Transmisión/Capacidad MVA]</td></tr>
+    <tr><td>Propietario</td>=<td>$[Línea de Transmisión/Propietario]</td></tr>
+    <tr><td>Circuito 1</td>=<td>$[Línea de Transmisión/Circuito 1]</td></tr>	
+    <tr><td>Circuito 2</td>=<td>$[Línea de Transmisión/Circuito 2]</td></tr>
+	<tr><td>Información Técnica</td>=<td>$[Línea de Transmisión/Información Técnica]</td></tr>
+ </tr>
+</table></font>
+
+<table WIDTH="200" border=0 cellpadding=1 cellspacing=1 bgcolor=#F3E2A9 summary=""><tr>
+ <td width="100%" valign="middle" align="right"><img src="C:/Users/Diegou/Desktop/KMZ FINALES/KMZ CTNG/files/15ikvl.jpg" border="0" width="240" height="40" alt="" /></tr>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="default_copy6027000011">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon16.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ccffffff</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table WIDTH="200" border=0 cellpadding=0 cellspacing=1 bgcolor=#F3E2A9 summary="">
+				<tr>
+				<td width="100%" valign="middle" align="left">
+				<b>
+				<font face="Arial" color="#050000">
+				<h2.5>INFORMACIÓN DE INSTALACIONES</h2.5>
+				</font>
+				</b>
+				</td>
+				<td width="100%" valign="middle" align="right">
+				</tr>
+				</table>
+
+<table WIDTH="200" border=0 cellpadding=0 cellspacing=0
+
+<font face="Arial" size="3" color="#050000">   
+<table>
+ <tr>
+    <table border="1" padding="0">
+   <tr><td>Línea de Transmisión</td>=<td>$[Línea de Transmisión/Línea de Transmisión]</td></tr>
+   <tr><td>Longitud km</td>=<td>$[Línea de Transmisión/Longitud km]</td></tr>
+   <tr><td>Voltaje kV</td>=<td>$[Línea de Transmisión/Voltaje kV]</td></tr>
+    <tr><td>Conductor</td>=<td>$[Línea de Transmisión/Conductor]</td></tr>
+    <tr><td>Capacidad MVA</td>=<td>$[Línea de Transmisión/Capacidad MVA]</td></tr>
+    <tr><td>Propietario</td>=<td>$[Línea de Transmisión/Propietario]</td></tr>
+    <tr><td>Circuito 1</td>=<td>$[Línea de Transmisión/Circuito 1]</td></tr>	
+    <tr><td>Circuito 2</td>=<td>$[Línea de Transmisión/Circuito 2]</td></tr>
+	<tr><td>Información Técnica</td>=<td>$[Línea de Transmisión/Información Técnica]</td></tr>
+ </tr>
+</table></font>
+
+<table WIDTH="200" border=0 cellpadding=1 cellspacing=1 bgcolor=#F3E2A9 summary=""><tr>
+ <td width="100%" valign="middle" align="right"><img src="C:/Users/Diegou/Desktop/KMZ FINALES/KMZ CTNG/files/15ikvl.jpg" border="0" width="240" height="40" alt="" /></tr>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin57">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin59</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin51</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin62">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin56</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin48</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin48">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin51">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin56">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin59">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>LT46 San Pedro Las Vegas 110kV</name>
+		<open>1</open>
+		<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+		<Folder>
+			<name>C1</name>
+			<Placemark>
+				<name>SAN PEDRO - TAP OFF LA PALMA 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: COMPAÑÍA TRANSMISORA DEL NORTE GRANDE S.A
+Nombre LT: 			SAN PEDRO - LAS VEGAS 110KV
+Tramo: 			SAN PEDRO - TAP LA PALMA 110KV C1
+Nombre: 			SAN PEDRO - TAP OFF LA PALMA 110KV C1
+Circuito: 			C1
+ID Info: 			3377
+Tipo Conductor: 		ACAR 1100 MCM
+Año PES: 			1938</description>
+				<styleUrl>#msn_ylw-pushpin62</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.26468289507801,-32.93614855657265,0 -71.26434845778583,-32.93640053792426,0 -71.26315114374854,-32.93810292675163,0 -71.26195335095761,-32.93977251881627,0 -71.26079796489576,-32.94141383328441,0 -71.25937567546983,-32.94310825439718,0 -71.25656839190077,-32.94130770216975,0 -71.25334750297938,-32.93921892776144,0 -71.25166132979538,-32.93811942454222,0 -71.24856077505099,-32.93614904402044,0 -71.24543691049945,-32.93453004600686,0 -71.24308699463117,-32.93332427504002,0 -71.24000578669923,-32.93173987933798,0 -71.23729397160936,-32.93035608055099,0 -71.23258828480381,-32.92797649004184,0 -71.23074279411387,-32.9269983016864,0 -71.22750867163795,-32.92533862513682,0 -71.22464304724296,-32.92388606140637,0 -71.22165592859827,-32.9217699435565,0 -71.21749465464164,-32.91881314694182,0 -71.21614046370833,-32.9180589784098,0 -71.21162426126037,-32.91576108824175,0 -71.20973995817818,-32.9147904742165,0 -71.20586555753719,-32.91282400021505,0 -71.20195041508197,-32.91084076031132,0 -71.19979300621029,-32.90975941213854,0 -71.19778170124306,-32.90872627919966,0 -71.19559788568068,-32.90762117759963,0 -71.19489004957936,-32.9055130356664,0 -71.19384269459228,-32.90234348866362,0 -71.19249757241349,-32.89835575835056,0 -71.19127927788904,-32.89468181748767,0 -71.18990151493212,-32.89150767814507,0 -71.18860181516551,-32.88838569338676,0 -71.18821241717291,-32.88747210629226,0 -71.18693404847573,-32.88445305761128,0 -71.18549490945126,-32.88114656258866,0 -71.18440076806085,-32.87858157823032,0 -71.18338589988355,-32.87618231815492,0 -71.18246428507013,-32.87400739924797,0 -71.1810052775504,-32.87062282605783,0 -71.17980692080386,-32.86774814571429,0 -71.17911318774374,-32.86614888955081,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>TAP LA PALMA – PACHACAMA 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario:        		COMPAÑÍA TRANSMISORA DEL NORTE GRANDE S.A
+Nombre LT: 			SAN PEDRO - LAS VEGAS 110KV
+Tramo: 			TAP LA PALMA – PACHACAMA 110KV C1
+Nombre: 			TAP LA PALMA – PACHACAMA 110KV C1
+Circuito: 			C1
+ID Info: 			0000
+Tipo Conductor: 		ACAR 1100 MCM
+Año PES: 			1938</description>
+				<styleUrl>#msn_ylw-pushpin62</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.17911372702332,-32.86614866906602,0 -71.17788653523834,-32.8632488774151,0 -71.17703506877713,-32.86129684371515,0 -71.17640547678364,-32.85976322978674,0 -71.17397466123865,-32.85846630229665,0 -71.17041116734607,-32.85656949793368,0 -71.16736343471237,-32.85641561893788,0 -71.16244296731753,-32.8561235215525,0 -71.15858605151682,-32.85588586297497,0 -71.15442774662135,-32.85564217975583,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>TAP PACHACAMA - LAS VEGAS 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 		COMPAÑÍA TRANSMISORA DEL NORTE GRANDE S.A
+Nombre LT: 			SAN PEDRO - LAS VEGAS 110KV
+Tramo: 			TAP PACHACAMA - LAS VEGAS 110KV C1
+Nombre: 			TAP OFF PACHACAMA - LAS VEGAS 110KV C1
+Circuito: 			C1
+ID Info: 			1147
+Tipo Conductor: 		ACAR 1100 MCM
+Año PES: 			1938</description>
+				<styleUrl>#msn_ylw-pushpin62</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.15442883679087,-32.85563842844714,0 -71.15070324126913,-32.85539041430253,0 -71.14819861059631,-32.85525719051191,0 -71.14578196079822,-32.85505064639972,0 -71.14276611288911,-32.85489850678393,0 -71.14103131944853,-32.85480417273192,0 -71.13963713303743,-32.8550866585886,0 -71.13577376927249,-32.85584817988993,0 -71.13131832075798,-32.85671271432559,0 -71.12909031368636,-32.85714728677137,0 -71.12470087218523,-32.85801485361331,0 -71.12154436153305,-32.85862656938824,0 -71.11841931474834,-32.85922245743286,0 -71.11587537709487,-32.85816264709503,0 -71.11324135600908,-32.85707169731928,0 -71.109279042171,-32.85542168090153,0 -71.10652198157246,-32.8542385682285,0 -71.10357775682654,-32.85367033385459,0 -71.10033458388253,-32.85297357608941,0 -71.09716693675752,-32.85235904625628,0 -71.09401151996764,-32.85173243800828,0 -71.09093182514512,-32.85109590311269,0 -71.08785414275218,-32.85047903780054,0 -71.08471393664752,-32.84985864308678,0 -71.08140547912738,-32.84916260178959,0 -71.07846197150916,-32.84855398632673,0 -71.07535655227426,-32.84790394943181,0 -71.07218946293436,-32.84725288834242,0 -71.0691521543709,-32.84667050843286,0 -71.06609683276027,-32.84601801771005,0 -71.06300013020673,-32.84540881392003,0 -71.0598028626361,-32.84472664665151,0 -71.05675560258545,-32.84411689573068,0 -71.05357624676073,-32.84345142973295,0 -71.05051356036918,-32.84284192875192,0 -71.04737642829588,-32.84221242332764,0 -71.04302030891644,-32.84126272375593,0 -71.03874890925938,-32.84035252474285,0 -71.03616507384476,-32.84079617836834,0 -71.03168037450942,-32.84138778723342,0 -71.02854060368047,-32.84180234631813,0 -71.02580885229543,-32.84217610087962,0 -71.02123648311871,-32.84275966386448,0 -71.01911930207048,-32.84306572182603,0 -71.01597320672066,-32.84344402983287,0 -71.01330261551834,-32.84350442329666,0 -71.01294219608812,-32.84329914715525,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>C2</name>
+			<Placemark>
+				<name>SAN PEDRO - TAP OFF LA PALMA 110KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 		COMPAÑÍA TRANSMISORA DEL NORTE GRANDE S.A
+Nombre LT: 			SAN PEDRO - LAS VEGAS 110KV
+Tramo: 			SAN PEDRO - TAP LA PALMA 110KV C2
+Nombre: 			SAN PEDRO - TAP OFF LA PALMA 110KV C2
+Circuito: 			C2
+ID Info: 			3378
+Tipo Conductor: 		ACAR 1100 MCM
+Año PES: 			1938</description>
+				<styleUrl>#msn_ylw-pushpin57</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.26477097457703,-32.9362174778907,0 -71.26437083503676,-32.93641538440865,0 -71.26317421143932,-32.93811526721019,0 -71.26197394325324,-32.93978768461024,0 -71.26081066601392,-32.94143468856144,0 -71.25938851906598,-32.94314123237977,0 -71.2565505322396,-32.9413116991846,0 -71.25333665171455,-32.9392365907141,0 -71.25169294042429,-32.93818974725634,0 -71.24841456519245,-32.93611676837538,0 -71.24543334718653,-32.93459090674381,0 -71.24315146843206,-32.93340781086415,0 -71.23999680730549,-32.93177749432361,0 -71.23731689516069,-32.93044402911526,0 -71.2325901115927,-32.9280471480954,0 -71.23071959209452,-32.92706545307244,0 -71.22750954140612,-32.92541747697076,0 -71.2245797786811,-32.92391627897093,0 -71.22166729130625,-32.92185041048744,0 -71.21750180633306,-32.918857437478,0 -71.21609501737433,-32.91808322957095,0 -71.21161134821465,-32.91581590639186,0 -71.20971144045387,-32.91483561678382,0 -71.20599478613842,-32.91294242064144,0 -71.20192054936014,-32.91088255947485,0 -71.19981391210338,-32.90980297244505,0 -71.19778365122023,-32.90877882244401,0 -71.19555581025197,-32.9076463104268,0 -71.19486086458532,-32.90555979126299,0 -71.19381881364652,-32.90238254728973,0 -71.19247560189683,-32.89838687812187,0 -71.1912527308867,-32.89473009752932,0 -71.18986687053759,-32.89152673713222,0 -71.1885571753409,-32.88844239560675,0 -71.18818433153179,-32.88750009830888,0 -71.18688900153575,-32.88448434084027,0 -71.18546541303071,-32.88118933948088,0 -71.18436007562049,-32.87860364358651,0 -71.18335132999898,-32.8762287720077,0 -71.18242632402836,-32.87403267601797,0 -71.1809663128972,-32.8706491909608,0 -71.17976607848574,-32.86777683087684,0 -71.17908556685963,-32.86618323565364,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>TAP LA PALMA – PACHACAMA 110KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario:        COMPAÑÍA TRANSMISORA DEL NORTE GRANDE S.A
+Nombre LT: 			SAN PEDRO - LAS VEGAS 110KV
+Tramo: 			TAP LA PALMA – PACHACAMA 110KV C2
+Nombre: 			TAP LA PALMA – PACHACAMA 110KV C2
+Circuito: 			C2
+ID Info: 			0000
+Tipo Conductor: 		ACAR 1100 MCM
+Año PES: 			1938</description>
+				<styleUrl>#msn_ylw-pushpin57</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.17908629504758,-32.8661808729012,0 -71.17789257747415,-32.86340929349269,0 -71.17699563055494,-32.86134005610651,0 -71.17636637275102,-32.85980265346354,0 -71.17401555837937,-32.85856783431971,0 -71.17042140899517,-32.85664935912541,0 -71.16740190704819,-32.85648123537551,0 -71.16243852188852,-32.85614946854611,0 -71.15860445033753,-32.85591159121874,0 -71.15447539086699,-32.8556898648329,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>TAP PACHACAMA - LAS VEGAS 110KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 		COMPAÑÍA TRANSMISORA DEL NORTE GRANDE S.A
+Nombre LT: 			SAN PEDRO - LAS VEGAS 110KV
+Tramo: 			TAP PACHACAMA - LAS VEGAS 110KV C2
+Nombre: 			TAP OFF PACHACAMA - LAS VEGAS 110KV C2
+Circuito: 			C2
+ID Info: 			1148
+Tipo Conductor: 		ACAR 1100 MCM
+Año PES: 			1938</description>
+				<styleUrl>#msn_ylw-pushpin57</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.1544756389585,-32.85568804377203,0 -71.15074784733744,-32.85549282999117,0 -71.14824397646733,-32.85534006204936,0 -71.14568197039461,-32.85523291893499,0 -71.14282938768034,-32.85500015071039,0 -71.14103657444502,-32.85485783014428,0 -71.13967656557088,-32.85513334467646,0 -71.13581585922587,-32.85590150672432,0 -71.13138007592509,-32.85681593755987,0 -71.12911680544472,-32.8572297106797,0 -71.12474143519786,-32.85811180835539,0 -71.12157323746285,-32.85872052996175,0 -71.11844424477009,-32.85932542752718,0 -71.11586506861295,-32.85829233049617,0 -71.11324272812189,-32.85719829246721,0 -71.10929656026553,-32.85557885319112,0 -71.10652437011713,-32.85440630943518,0 -71.10351703211936,-32.85380251934524,0 -71.10035993737603,-32.85313421768863,0 -71.09722823503694,-32.85249572003151,0 -71.09408134672779,-32.85186254562879,0 -71.0909385923506,-32.85124949322128,0 -71.08785343942874,-32.85063925580556,0 -71.08473413755283,-32.84996542858475,0 -71.08144854049876,-32.84930194218352,0 -71.07846905332835,-32.84869441684541,0 -71.07537003368854,-32.84804958107055,0 -71.07225254306887,-32.84742011289099,0 -71.06917900724218,-32.84680876605837,0 -71.06612191110653,-32.84615506529428,0 -71.06297055450177,-32.84552847244965,0 -71.05984050027378,-32.84490311792094,0 -71.05677487382461,-32.84428998670239,0 -71.05360397303116,-32.84361999121898,0 -71.05051455716865,-32.84298617542831,0 -71.04743727160619,-32.84238798194708,0 -71.04295575746995,-32.84146821316997,0 -71.03880092232886,-32.84062925166305,0 -71.03617689735141,-32.84091482532981,0 -71.03173137959611,-32.841498065416,0 -71.02858451858989,-32.84191457689769,0 -71.02588520440415,-32.84225953045765,0 -71.02129375294383,-32.84286051418813,0 -71.01917555802402,-32.8432007181795,0 -71.01602345307965,-32.84354316539641,0 -71.01330891893272,-32.84354132083913,0 -71.01293796461165,-32.84339509694731,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eje Trazado APAGAR</name>
+			<Placemark>
+				<name>San Pedro - Las Vegas 110kV</name>
+				<styleUrl>#Línea 110 kV200000</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Línea de Transmisión_schema00000">
+						<SimpleData name="Línea de Transmisión">San Pedro - Las Vegas</SimpleData>
+						<SimpleData name="Longitud km"></SimpleData>
+						<SimpleData name="Voltaje kV">110</SimpleData>
+						<SimpleData name="Conductor"></SimpleData>
+						<SimpleData name="Capacidad MVA"></SimpleData>
+						<SimpleData name="Propietario"></SimpleData>
+						<SimpleData name="Calificación"></SimpleData>
+						<SimpleData name="Circuito 1"></SimpleData>
+						<SimpleData name="Circuito 2"></SimpleData>
+						<SimpleData name="Información Técnica">http://bit.ly/1qKpTWr</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.26472638797259,-32.93619392863091,0 -71.2643623414628,-32.93640797292243,0 -71.26315754122956,-32.93811426448688,0 -71.26196342735362,-32.93977784852373,0 -71.26080526338538,-32.94141750437178,0 -71.25938195250284,-32.94312082978745,0 -71.25656695192312,-32.94131236485082,0 -71.25338546692039,-32.93925303255396,0 -71.25169116953022,-32.93815470274957,0 -71.2485811742575,-32.93616981448749,0 -71.24542412185818,-32.93454146995062,0 -71.24316830424999,-32.93338723013488,0 -71.24005877355603,-32.93178459870863,0 -71.23731277385409,-32.9303850166539,0 -71.23263803553841,-32.92802144201783,0 -71.23076218808649,-32.92702913753994,0 -71.22756194411356,-32.9253864202474,0 -71.22463946760591,-32.92390591465168,0 -71.22167654982373,-32.92180106462064,0 -71.21751948074886,-32.91883609186746,0 -71.21611552011633,-32.91805812189367,0 -71.21166346713653,-32.9158017167197,0 -71.2097790678979,-32.91482385728482,0 -71.20599832320856,-32.91290113086311,0 -71.20193012665653,-32.91085042193251,0 -71.19980645503476,-32.90977726905975,0 -71.1978088568853,-32.90875673634682,0 -71.19558551137368,-32.90763488648175,0 -71.19489642855353,-32.9055800059456,0 -71.19382938676816,-32.902349512596,0 -71.19249252272989,-32.89838635912079,0 -71.19127435216679,-32.89473392550442,0 -71.18989281984931,-32.891529179766,0 -71.18858259354529,-32.88843404663758,0 -71.18820144951133,-32.88750245114304,0 -71.18691134023872,-32.88447708113231,0 -71.18548720256931,-32.88118895891753,0 -71.18437882140336,-32.87858550513423,0 -71.18337491645723,-32.87622267299368,0 -71.18245216802622,-32.87403009957843,0 -71.18099608843335,-32.87065586491696,0 -71.17979314509391,-32.86778214735794,0 -71.1791073652516,-32.86619576522808,0 -71.17791788264174,-32.86338782685958,0 -71.17702142273761,-32.86133181078719,0 -71.17638327454924,-32.85978092237585,0 -71.17405550824287,-32.85854691971165,0 -71.17042027024318,-32.85661984692114,0 -71.16739892448797,-32.85644924441339,0 -71.16243379717356,-32.85613252089274,0 -71.15859501001732,-32.85589414007495,0 -71.15446089005418,-32.8556616000679,0 -71.15073540961374,-32.85542318783434,0 -71.14821476762911,-32.85528921468916,0 -71.14573969588355,-32.85512962571459,0 -71.14281286507823,-32.85495140251624,0 -71.14104422571347,-32.85482731449735,0 -71.13966822884056,-32.85510962801477,0 -71.13587609319897,-32.85585462462884,0 -71.13137935871731,-32.85676579336521,0 -71.12909835855098,-32.85719442753086,0 -71.124708272112,-32.85805962238956,0 -71.12153226506872,-32.85867284111943,0 -71.11842092097653,-32.85927727189945,0 -71.11588572830649,-32.85823697514028,0 -71.11323434458393,-32.85713003726762,0 -71.10928562894908,-32.85550006541148,0 -71.10653246449134,-32.85434203905852,0 -71.10350637347803,-32.85371767264095,0 -71.10035882175774,-32.85307141744148,0 -71.09722229289743,-32.85244175767952,0 -71.09410646578165,-32.85181538032593,0 -71.09093460468442,-32.85116707627278,0 -71.08784443140786,-32.85055473582496,0 -71.08472484075503,-32.84991082729285,0 -71.08144907686305,-32.84923263159641,0 -71.07847430072025,-32.8486340110051,0 -71.07538049159162,-32.84800054799995,0 -71.0722772414729,-32.84736110883555,0 -71.06920505498873,-32.84675338318239,0 -71.06611257897474,-32.84609992830175,0 -71.062951527199,-32.84546945907837,0 -71.05984289199745,-32.84483040222933,0 -71.05677619007054,-32.84420433869058,0 -71.05363809537158,-32.84356813378781,0 -71.05046983100119,-32.84290418200774,0 -71.04736654901774,-32.84228763581923,0 -71.04296529115878,-32.84139352448993,0 -71.03875333370176,-32.84051302693285,0 -71.03615920267852,-32.84085392084103,0 -71.03172597137983,-32.84143826855637,0 -71.02857944039911,-32.84185517197018,0 -71.0258724657684,-32.84221863563707,0 -71.02127141880894,-32.84281215553178,0 -71.01913126154993,-32.8431312302212,0 -71.01602158795697,-32.84349389973019,0 -71.01330772460068,-32.84351984088085,0 -71.01293611692886,-32.84335242197307,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
