@@ -98,7 +98,7 @@ const Legend = () => {
   return (
     <div style={{
       position: 'absolute',
-      bottom: '180px',
+      bottom: '130px',
       right: '10px',
       background: 'rgba(255, 255, 255, 0.8)',
       padding: '10px',
@@ -524,80 +524,33 @@ useEffect(() => {
 
       <Menu setSelectedLayer={setSelectedLayer} />
 
-    {/* Popup Linea KMZ */}
-{popupVisible && (
-  <div
-    id="popup"
-    style={{
-      position: 'absolute',
-      top: '5%',
-      left: '45%',
-      zIndex: 1000,
-      background: 'rgba(255, 255, 255, 0.9)',
-      padding: '15px',
-      borderRadius: '8px',
-      boxShadow: '0 4px 8px rgba(0,0,0,0.2)',
-      display: 'flex',
-      alignItems: 'center',
-      maxWidth: '400px',
-      color: '#333',
-      fontFamily: 'Arial, sans-serif',
-    }}
-  >
-    {/* Botón de cierre en forma de "X" */}
-    <button
-      onClick={() => setPopupVisible(false)}
-      style={{
-        position: 'absolute',
-        top: '5px',
-        right: '5px',
-        background: 'none',
-        border: 'none',
-        fontSize: '16px',
-        fontWeight: 'bold',
-        cursor: 'pointer',
-      }}
-    >
-      &times;
-    </button>
+      {/* Popup liviano */}
+      {popupVisible && (
+        <div
+          id="popup"
+          style={{
+            position: 'absolute',
+            top: '5%',
+            left: '45%',
+            zIndex: 1000,
+            background: 'rgba(255, 255, 255, 0.8)',
+            padding: '10px',
+            borderRadius: '5px',
+            boxShadow: '0 0 5px rgba(0,0,0,0.2)',
+          }}
+        >
+          <h2>Información</h2>
+          <p>{popupContent}</p>
+          <button onClick={() => setPopupVisible(false)}>Cerrar</button>
+        </div>
+      )}
 
-    {/* Información de las lineas al clickearlas */}
-    {(() => {
-      const probabilidad = parseInt(popupContent.match(/Probabilidad: (\d+)%/)[1]);
-      const nombreLinea = popupContent.match(/Capa: (.*),/)[1];
-      
-      return (
-        <>
-          <div
-            style={{
-              width: '25%',
-              textAlign: 'center',
-              fontSize: '24px',
-              fontWeight: 'bold',
-              color: probabilidad > 70 ? 'red' : '#007bff',
-            }}
-          >
-            {probabilidad}%
-          </div>
-
-          <div style={{ width: '75%', paddingLeft: '10px' }}>
-            <p style={{ margin: 0 }}>{nombreLinea}</p>
-          </div>
-        </>
-      );
-    })()}
-  </div>
-)}
-
-
-
-
-      {/* Popup información siguiente 3 horas*/}
+      {/* Forecast Popup reintegrado */}
       <div
         id="forecast-popup"
         style={{
           position: 'absolute',
-          top: '389px',
+          top: '390px',
           left: '10px',
           zIndex: 1000,
           background: 'rgba(255, 255, 255, 0.8)',
@@ -609,13 +562,12 @@ useEffect(() => {
         <div id="forecast-content"></div>
       </div>
 
-    {/* Popup selección de lineas*/}
       <div
         id="line-selection-popup"
         style={{
           position: 'absolute',
           bottom: '30px',
-          left: '10px',
+          right: '10px',
           zIndex: 1000,
           background: 'rgba(255, 255, 255, 0.8)',
           padding: '10px',
@@ -644,19 +596,19 @@ useEffect(() => {
               />
                <label>
     {(() => {
-       switch (group) {
+      switch (group) {
         case 'Group1':
-          return <span style={{ color: '#333' }}>Chilquinta</span>;
+          return 'Chilquinta';
         case 'Group2':
-          return <span style={{ color: '#333' }}>CTNG</span>;
+          return 'CTNG';
         case 'Group3':
-          return <span style={{ color: 'green', fontWeight: 'bold' }}>44kV-66kV</span>;
+          return '44kV-66kV';
         case 'Group4':
-          return <span style={{ color: 'orange', fontWeight: 'bold' }}>110kV</span>;
+          return '110kV';
         case 'Group5':
-          return <span style={{ color: 'red', fontWeight: 'bold' }}>220kV</span>;
+          return '220kV';
         default:
-          return <span style={{ color: '#333' }}>Grupo desconocido</span>;
+          return 'Grupo desconocido';
       }
     })()}
   </label>

@@ -16,31 +16,24 @@ const Menu = ({ setSelectedLayer, selectedLayer }) => {
     border: '1px solid #ccc',
     borderRadius: '5px',
     cursor: 'pointer',
-    fontFamily: 'Arial',
-    fontWeight: 'bold',
   };
 
   const iconStyle = {
-    width: '29px',
-    height: '29px',
+    width: '24px',
+    height: '24px',
     marginRight: '10px',
   };
 
-  // Cambia el estilo del botón si está activo
-  const isActive = (layer) => (
-    selectedLayer === layer
-      ? { backgroundColor: 'black', color: 'white' }
-      : {}
-  );
+  const isActive = (layer) => selectedLayer === layer ? { backgroundColor: '#d0d0d0' } : {};
 
   return (
     <div style={{ position: 'absolute', top: 10, left: 10, zIndex: 1000 }}>
       <button
-        style={{ ...buttonStyle, ...isActive('normal') }}
-        onClick={() => setSelectedLayer('normal')}
+        style={{ ...buttonStyle, ...isActive(null) }}
+        onClick={() => setSelectedLayer(null)}
       >
         <img src={VinaMap} alt="Default" style={iconStyle} />
-         Normal
+        Normal
       </button>
       <button
         style={{ ...buttonStyle, ...isActive('satellite') }}
@@ -80,7 +73,5 @@ const Menu = ({ setSelectedLayer, selectedLayer }) => {
     </div>
   );
 };
-
-
 
 export default Menu;
