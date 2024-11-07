@@ -597,7 +597,7 @@ useEffect(() => {
         id="forecast-popup"
         style={{
           position: 'absolute',
-          top: '390px',
+          top: '389px',
           left: '10px',
           zIndex: 1000,
           background: 'rgba(255, 255, 255, 0.8)',
