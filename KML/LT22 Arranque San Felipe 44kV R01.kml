@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT22 Arranque San Felipe 44kV R01.kmz</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin44">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin44</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin46</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin6100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin9100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin701</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin9600">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin9500</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin9500</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin46">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin701">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin9500">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin44">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin9100">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin9500">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>LT22 Arranque San Felipe 44kV</name>
+		<open>1</open>
+		<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+		<Folder>
+			<name>C1</name>
+			<open>1</open>
+			<Placemark>
+				<name>TAP OFF SAN FELIPE - SAN FELIPE 44KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 		CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT: 			TAP OFF SAN FELIPE - SAN FELIPE 44KV
+Tramo: 			TAP OFF SAN FELIPE - SAN FELIPE 44KV C1
+Nombre: 			TAP OFF SAN FELIPE - SAN FELIPE 44KV C1
+Circuito: 			C1
+ID Info: 			849
+Tipo Conductor: 		2 AWG Cu
+Año PES: 			1976</description>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-70.71667985770301,-32.76360043874742,0 -70.71639183260929,-32.76306865718736,0 -70.71539050057689,-32.76127706372429,0 -70.7153345373635,-32.76110995323416,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>C2</name>
+			<Placemark>
+				<name>TAP OFF SAN FELIPE - SAN FELIPE 44KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 		CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT: 			TAP OFF SAN FELIPE - SAN FELIPE 44KV
+Tramo: 			TAP OFF SAN FELIPE - SAN FELIPE 44KV C2
+Nombre: 			TAP OFF SAN FELIPE - SAN FELIPE 44KV C2
+Circuito: 			C2
+ID Info: 			1712
+Tipo Conductor: 		2 AWG Cu
+Año PES: 			1976</description>
+				<styleUrl>#msn_ylw-pushpin44</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-70.71664495699244,-32.76360910997766,0 -70.71636498569441,-32.76308083785279,0 -70.71536996936493,-32.76128828486177,0 -70.71527134153681,-32.76113306292466,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eje Trazado APAGAR</name>
+			<Placemark>
+				<name>LT22 Arranque San Felipe 44kV</name>
+				<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+				<styleUrl>#msn_ylw-pushpin9600</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-70.71666192002574,-32.76360698935549,0 -70.71636937309142,-32.7630595457066,0 -70.71538368091322,-32.7612890914535,0 -70.71532708339646,-32.76110702662832,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>San Felipe 44kV CTO1</name>
+				<styleUrl>#msn_ylw-pushpin6100</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-70.71538138292645,-32.76128834300234,0 -70.71526026479354,-32.76113827085729,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT63 Litoral Central San Jerónimo 66kV R01.kmz</name>
+	<Style id="inline02">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline02</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline71</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline71">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>LT63 Litoral Central San Jerónimo 66kV</name>
+		<open>1</open>
+		<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+		<Folder>
+			<name>C1</name>
+			<Placemark>
+				<name>LITORAL CENTRAL - SAN JERONIMO 66KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT:		LITORAL CENTRAL - SAN JERONIMO 66KV
+Tramo:          		LITORAL CENTRAL - SAN JERONIMO 66KV C1
+Nombre: 		LITORAL CENTRAL - SAN JERONIMO 66KV
+Circuito:		C1
+ID Info:		3878
+Tipo Conductor: 	AAAC BUTTE
+Año PES: 		2023</description>
+				<styleUrl>#inline60</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.59178311537556,-33.36774463504701,0 -71.59275800069764,-33.3680320293202,0 -71.59335523939734,-33.368090243465,0 -71.59351669686404,-33.36811328130742,0 -71.59367674899292,-33.36812885774928,0 -71.59379211325852,-33.36814334471903,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

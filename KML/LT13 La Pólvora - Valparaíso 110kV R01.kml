@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT13 La Pólvora - Valparaíso 110kV R01.kmz</name>
+	<StyleMap id="inline071">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2831</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline2331</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline2331">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline2721">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline650</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline3421</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline2831">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline3421">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline650">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin330">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin321</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin320</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin34">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin291</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin330</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin350">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin310</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin310</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin36">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin331</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin301</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin301">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin310">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin320">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin330">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin291">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin310">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin321">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin331">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>LT13 La Polvora Valparaiso 110kV</name>
+		<open>1</open>
+		<description>Coordenado por Oliver Cabezas
+Información Técnica de Transmisión</description>
+		<Folder>
+			<name>C1</name>
+			<Placemark>
+				<name>VALPARAISO – EST. E1 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		VALPARAISO – LA POLVORA 110KV
+Tramo:	                           VALPARAISO – LA POLVORA 110KV C1
+Nombre: 		VALPARAISO – EST. E1 110KV C1
+Circuito:		C1
+ID Info:		3898
+Tipo Conductor: 	2/0 AWG-Cu
+Año PES: 		1940</description>
+				<styleUrl>#msn_ylw-pushpin350</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.62755554540807,-33.0712527891668,0 -71.62743125042897,-33.07024734223383,0 -71.62721289592929,-33.06859746935648,0 -71.62701586865673,-33.06701332661255,0 -71.62685021649314,-33.06595691177996,0 -71.62591491560282,-33.06413820988652,0 -71.62487256724226,-33.06213978125161,0 -71.62411220729931,-33.06070081033618,0 -71.62323330213738,-33.05905851530066,0 -71.62239563852756,-33.05743763010457,0 -71.62207176471551,-33.05573873494669,0 -71.62211080027839,-33.05554176283898,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. E1 – LA POLVORA 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CASABLANCA TRANSMISORA DE ENERGÍA S.A
+Nombre   LT:		VALPARAISO – LA POLVORA 110KV
+Tramo:	                          VALPARAISO – LA POLVORA 110KV C1
+Nombre: 		EST. E1 – LA POLVORA 110KV C1
+Circuito:		C1
+ID Info:		3852
+Tipo Conductor: 	ACAR 500 MCM 253.06mm2
+Año PES: 		2022</description>
+				<styleUrl>#msn_ylw-pushpin34</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.6263859049652,-33.08658839503256,0 -71.625944574486,-33.08610839341527,0 -71.62667934561149,-33.08475981433614,0 -71.62900692668399,-33.08367285271081,0 -71.63003236803871,-33.08130695259525,0 -71.6290255296139,-33.07940011063844,0 -71.62836783323604,-33.078135038272,0 -71.62937666432768,-33.07425504262923,0 -71.62714293023011,-33.07216404427309,0 -71.62726995790995,-33.07136985918177,0 -71.62755493836251,-33.07125453329022,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>C2</name>
+			<Placemark>
+				<name>VALPARAISO – EST. E1 110KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		VALPARAISO – LA POLVORA 110KV
+Tramo:	                          VALPARAISO – LA POLVORA 110KV C2
+Nombre: 		VALPARAISO – EST. E1 110KV C2
+Circuito:		C2
+ID Info:		3899
+Tipo Conductor: 	2/0 AWG-Cu
+Año PES: 		1940</description>
+				<styleUrl>#msn_ylw-pushpin36</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.62746853091369,-33.07122665817852,0 -71.62739580137524,-33.07023641255656,0 -71.62715543250788,-33.06861949498522,0 -71.62694758644712,-33.06701701325627,0 -71.62678998726192,-33.06596396595361,0 -71.62585584349827,-33.06416466417927,0 -71.62480804494901,-33.06216001971404,0 -71.62405689568729,-33.0607289781675,0 -71.62317407098963,-33.05908802238267,0 -71.62232813595114,-33.05745229507805,0 -71.62203076111768,-33.05574366191744,0 -71.62197267800674,-33.05553184340873,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. E1 – LA POLVORA 110KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CASABLANCA TRANSMISORA DE ENERGÍA S.A
+Nombre   LT:		VALPARAISO – LA POLVORA 110KV
+Tramo:	                           VALPARAISO – LA POLVORA 110KV C2
+Nombre: 		EST. E1 – LA POLVORA 110KV C2
+Circuito:		C2
+ID Info:		3853
+Tipo Conductor: 	ACAR 500 MCM 253.06mm2
+Año PES: 		2022</description>
+				<styleUrl>#msn_ylw-pushpin330</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.6264544459921,-33.08655684127122,0 -71.62598005745899,-33.08610017397032,0 -71.62669197904502,-33.08477180958584,0 -71.62903510294733,-33.08367833723669,0 -71.6300534107731,-33.08129654384544,0 -71.62905139772759,-33.07938611635795,0 -71.62839773636381,-33.07812552844224,0 -71.62943171672268,-33.07424066856769,0 -71.62717450494105,-33.07214603236515,0 -71.627294439845,-33.07138082457464,0 -71.62746848922642,-33.07122839517058,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eje Trazado APAGAR</name>
+			<Placemark>
+				<name>LT13 La Polvora Valparaiso 110kV CTO2</name>
+				<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+				<styleUrl>#inline2721</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.62644471345432,-33.08656869937366,0 -71.62606132384556,-33.0860981022507,0 -71.6267126974911,-33.08478435586377,0 -71.62905410266421,-33.08370505799646,0 -71.63009251194821,-33.08128872753916,0 -71.62904799708706,-33.07936106516603,0 -71.62840991830151,-33.0781101568063,0 -71.62943392386332,-33.07421611788082,0 -71.62721653156028,-33.07212414816577,0 -71.62734790167498,-33.07139128905311,0 -71.62751766915758,-33.07125045041619,0 -71.62738319321124,-33.07025266267153,0 -71.62717241811669,-33.06860003379823,0 -71.62696693028417,-33.06696213181527,0 -71.62681157690695,-33.06596833983178,0 -71.625877378151,-33.0641442207052,0 -71.62480988429375,-33.06211505524347,0 -71.62407430581536,-33.06071933080641,0 -71.6231867744736,-33.05907325516021,0 -71.62234490188251,-33.05743903150564,0 -71.62203459769081,-33.05573534930169,0 -71.62195855780357,-33.05554051460618,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>LT13 La_Polvora_Valparaiso_110kV_CTO1</name>
+				<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+				<styleUrl>#inline071</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.62637533153357,-33.08661482656657,0 -71.62601805722663,-33.08609228052249,0 -71.62670651693676,-33.08478170515726,0 -71.62904589057624,-33.08369450341533,0 -71.6300836253003,-33.08129058933138,0 -71.62905026860336,-33.07938410344782,0 -71.628388835675,-33.07810817759875,0 -71.62941962751856,-33.07421967940635,0 -71.6271881886576,-33.07212671554005,0 -71.62731823116813,-33.07137501111097,0 -71.62754250911927,-33.07126164630458,0 -71.62741022788155,-33.07025644886506,0 -71.62720640450794,-33.06860299236018,0 -71.62698735864987,-33.06696013368094,0 -71.62683433234855,-33.06596411214392,0 -71.62590709943328,-33.06414540727525,0 -71.62409514766121,-33.06071356599016,0 -71.62320947707271,-33.05906618616577,0 -71.62237511072701,-33.05743879373663,0 -71.62206449196717,-33.05574622966168,0 -71.62210124617611,-33.05554504158241,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

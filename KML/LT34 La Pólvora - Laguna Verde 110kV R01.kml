@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT34 La Pólvora - Laguna Verde 110kV R01.kmz</name>
+	<Style id="inline101101">
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline121101">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline121201">
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1302001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline19111</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline121201</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline130211">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1911000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline121101</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline15301">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline101101</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline23201</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline1911000">
+		<LineStyle>
+			<color>ffffff00</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline19111">
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline23201">
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin67">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin67</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin69</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin68">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin65</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin68</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin68">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin69">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin65">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin67">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>LT34 La Polvora Laguna Verde 110kV</name>
+		<open>1</open>
+		<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+		<Folder>
+			<name>C1</name>
+			<Placemark>
+				<name>LA POLVORA - EST. LA7 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CASABLANCA TRANSMISORA DE ENERGÍA S.A
+Nombre   LT:		LA POLVORA – LAGUNA VERDE 110K
+Tramo:	          	LA POLVORA – LAGUNA VERDE 110KV C1
+Nombre: 		LA POLVORA - EST. LA7 110KV C1
+Circuito:		C1
+ID Info:		3846
+Tipo Conductor: 	466,3 MCM-Cairo. (ACAR)
+Año PES: 		2022</description>
+				<styleUrl>#msn_ylw-pushpin67</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.62703465420648,-33.0861892460652,0 -71.62674150192836,-33.08595103828575,0 -71.62692649425857,-33.08508712556851,0 -71.62944024246769,-33.08392121494727,0 -71.63225094939882,-33.08261964629767,0 -71.635708155952,-33.08238734944013,0 -71.63690546285822,-33.08201917825202,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. LA7 – LAGUNA VERDE 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario:                     CHILQUINTA TRANSMISIÓN S.A
+Nombre   LT:		LA POLVORA – LAGUNA VERDE 110K
+Tramo:	                           LA POLVORA – LAGUNA VERDE 110KV C1
+Nombre: 		EST. LA7 – LAGUNA VERDE 110KV C1
+Circuito:		C1
+ID Info:		3848
+Tipo Conductor: 	CU 2/0 AWG 7 hebras 
+Año PES: 		1939</description>
+				<styleUrl>#msn_ylw-pushpin67</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.67756327646443,-33.10353824536662,0 -71.67776539334471,-33.10371847543083,0 -71.67755450597568,-33.10444220775093,0 -71.67670903196387,-33.10478562335688,0 -71.67511553298698,-33.10410308547058,0 -71.67320206611588,-33.1032865084253,0 -71.67181251404762,-33.10269228591114,0 -71.6694497273197,-33.10167626762589,0 -71.6673633424399,-33.10079040866756,0 -71.66524304925547,-33.09988605950101,0 -71.66306298494938,-33.09894581090516,0 -71.65901775719017,-33.09722263612132,0 -71.65727752077328,-33.0964760897552,0 -71.65375892810863,-33.09497075828262,0 -71.65141119273396,-33.09395749800355,0 -71.6496190490989,-33.09316770489824,0 -71.6467802779993,-33.0919881038386,0 -71.64490956975131,-33.09117899441746,0 -71.64226152862707,-33.08813754842945,0 -71.64076115985468,-33.08642112471252,0 -71.63947012681471,-33.08494801378292,0 -71.63774927052388,-33.08298764501233,0 -71.63690309791035,-33.0820202764676,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>C2</name>
+			<Placemark>
+				<name>LA PÓLVORA - EST. LA9 110KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CASABLANCA TRANSMISORA DE ENERGÍA S.A
+Nombre   LT:		LA POLVORA – LAGUNA VERDE 110K
+Tramo:	                           LA POLVORA – LAGUNA VERDE 110KV C2
+Nombre: 		LA PÓLVORA - EST. LA9 110KV C2
+Circuito:		C2
+ID Info:		3847
+Tipo Conductor: 	466,3 MCM-Cairo.(ACAR)
+Año PES: 		2022</description>
+				<styleUrl>#msn_ylw-pushpin68</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.62694292310476,-33.08624527190869,0 -71.62671926985615,-33.0859525882006,0 -71.62691395708575,-33.08507252792332,0 -71.62942554827825,-33.08390025160593,0 -71.63225054052378,-33.08259740162922,0 -71.63570334097837,-33.08236574307396,0 -71.6369503694809,-33.08217723778011,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. LA9 – LAGUNA VERDE 110KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario:                    CHILQUINTA TRANSMISIÓN S.A
+Nombre   LT:		LA POLVORA – LAGUNA VERDE 110K
+Tramo:	                          LA POLVORA – LAGUNA VERDE 110KV C2
+Nombre: 		EST. LA9 – LAGUNA VERDE 110KV C2
+Circuito:		C2
+ID Info:		3849
+Tipo Conductor: 	CU 2/0 AWG 7 hebras 
+Año PES: 		1939</description>
+				<styleUrl>#msn_ylw-pushpin68</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.63695236219172,-33.08217551271185,0 -71.6377124936194,-33.08300035608215,0 -71.63944547058087,-33.08496490634563,0 -71.64074573376385,-33.08644243358845,0 -71.64222515259759,-33.08817948534205,0 -71.64489321276298,-33.09121942631517,0 -71.64676212967278,-33.09204815563704,0 -71.6496035779692,-33.09322789759378,0 -71.65138950961783,-33.09398772788146,0 -71.65374115963064,-33.09499792263246,0 -71.65726424444047,-33.09651025394984,0 -71.65898624668814,-33.09724556739874,0 -71.6630477586225,-33.09897689566268,0 -71.6652406765387,-33.0999067444631,0 -71.66735276791198,-33.10083842515304,0 -71.66943790947676,-33.10173678173559,0 -71.67180660980345,-33.10273441322177,0 -71.67318972739309,-33.10331859290811,0 -71.67510835226078,-33.10414698966965,0 -71.67671704435371,-33.10486362195472,0 -71.67759520203431,-33.10447353353234,0 -71.67780444478551,-33.10368740434532,0 -71.67768010955058,-33.10345665799831,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eje Trazado APAGAR</name>
+			<Placemark>
+				<name>CTO1 La Polvora Laguna Verde 110kV</name>
+				<styleUrl>#inline15301</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.62695057509708,-33.08624504763002,0 -71.62672516829734,-33.08595334955266,0 -71.62690299912714,-33.08505651563445,0 -71.62941451540908,-33.0838943648738,0 -71.63224248067688,-33.082567442133,0 -71.63569897896321,-33.08233582001043,0 -71.63689159825786,-33.08200010951884,0 -71.63776093501698,-33.08301241811895,0 -71.639461790276,-33.08494111980843,0 -71.64075850970858,-33.08642759657053,0 -71.64227558823127,-33.08815947103271,0 -71.64491751645868,-33.09119569036721,0 -71.64675287866989,-33.09198540188968,0 -71.64960501891052,-33.09318973330633,0 -71.65142051808985,-33.09397963631596,0 -71.65377673425189,-33.09499279685539,0 -71.65729317177519,-33.09649319034295,0 -71.659011812808,-33.09723103277912,0 -71.66307044010816,-33.09895481354447,0 -71.66526005804013,-33.09989333762424,0 -71.66736965400837,-33.10079929065851,0 -71.66945795026591,-33.10168705696514,0 -71.67181623908749,-33.10270463645548,0 -71.67320442869575,-33.10329843545703,0 -71.67511599300397,-33.1041106616663,0 -71.67670921886202,-33.10480891243502,0 -71.67756618767501,-33.10445217538341,0 -71.67778388161844,-33.10370359642749,0 -71.67768109855535,-33.10347416893865,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>CTO2 La Polvora Laguna Verde 110kV</name>
+				<styleUrl>#inline1302001</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.67757797098442,-33.10352159677816,0 -71.67779756780507,-33.1036991960018,0 -71.67757342204543,-33.10445626650203,0 -71.67670829209992,-33.10482549310041,0 -71.67511415179801,-33.10413521138433,0 -71.67320510745564,-33.10331988671143,0 -71.67181147226439,-33.10272147322617,0 -71.66943149161841,-33.10170490046665,0 -71.66736394127963,-33.10082040440049,0 -71.66525734309232,-33.09990986345923,0 -71.66305955877732,-33.09897257344031,0 -71.65900722007892,-33.09725484610927,0 -71.65727194052332,-33.09650006933704,0 -71.6537751804299,-33.09501290353123,0 -71.65142187321582,-33.09399759555885,0 -71.64959475857931,-33.09320631445866,0 -71.6467713880694,-33.09201756476581,0 -71.6449076443608,-33.09120598756375,0 -71.64224936887679,-33.08816735663971,0 -71.64074010964538,-33.08644959423888,0 -71.63944747096588,-33.08496901149911,0 -71.63774213875286,-33.08303047480987,0 -71.63694480830395,-33.0822006481738,0 -71.63569736851255,-33.08233699792271,0 -71.63224471222634,-33.08257071539902,0 -71.62941889135476,-33.08389349780867,0 -71.62690497507434,-33.08505860534718,0 -71.62672893064092,-33.0859502637204,0 -71.62702102626052,-33.08619138225257,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>CTO2 La Polvora Laguna Verde 110kV</name>
+				<styleUrl>#inline130211</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.67757797098442,-33.10352159677816,0 -71.67779756780507,-33.1036991960018,0 -71.67757342204543,-33.10445626650203,0 -71.67670829209992,-33.10482549310041,0 -71.67511415179801,-33.10413521138433,0 -71.67320510745564,-33.10331988671143,0 -71.67181147226439,-33.10272147322617,0 -71.66943149161841,-33.10170490046665,0 -71.66736394127963,-33.10082040440049,0 -71.66525734309232,-33.09990986345923,0 -71.66305955877732,-33.09897257344031,0 -71.65900722007892,-33.09725484610927,0 -71.65727194052332,-33.09650006933704,0 -71.6537751804299,-33.09501290353123,0 -71.65142187321582,-33.09399759555885,0 -71.64959475857931,-33.09320631445866,0 -71.6467713880694,-33.09201756476581,0 -71.6449076443608,-33.09120598756375,0 -71.64224936887679,-33.08816735663971,0 -71.64074010964538,-33.08644959423888,0 -71.63944747096588,-33.08496901149911,0 -71.63774213875286,-33.08303047480987,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

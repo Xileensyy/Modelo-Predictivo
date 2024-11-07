@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT43 Subterránea Ventanas - Quintero R01.kmz</name>
+	<StyleMap id="inline171100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline25000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline3500</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline25000">
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline3500">
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>LT43 Subt Ventanas Quintero_110kV</name>
+		<open>1</open>
+		<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+		<Placemark>
+			<name>LT Subt Ventanas Quintero 110kV</name>
+			<description>Gestión de Información Transmisión
+Nombre Propietario: 	COMPAÑÍA TRANSMISORA DEL NORTE GRANDE S.A.
+Nombre   LT:		VENTANAS - QUINTERO 110KV
+Tramo:		VENTANAS - QUINTERO 110KV C1
+Nombre:		VENTANAS - QUINTERO 110KV C1
+Circuito:		C1 SUBTERRANEO
+ID Info:		163
+Tipo Conductor: 	CABLE MONOPOLAR XLPE 750 MCM ((4) COBRE. XLPE)
+Año PES: 		2007</description>
+			<styleUrl>#inline171100</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.48394074325864,-32.75150655789131,0 -71.48394195828357,-32.75146891444706,0 -71.48372045671148,-32.7514575804893,0 -71.48361083495263,-32.75136348312018,0 -71.48362885687209,-32.7502697136304,0 -71.48159375957835,-32.75018761690049,0 -71.4814321622693,-32.74999074236553,0 -71.4810834291978,-32.75002272235437,0 -71.48085858095729,-32.74999646888863,0 -71.48076155021737,-32.74974315194287,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT26 Peñablanca - Miraflores C2 110kV R01.kmz</name>
+	<StyleMap id="msn_ylw-pushpin000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin111</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin002</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin013">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin011</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin101</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin280">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin260</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin38</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin002">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin101">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin38">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin011">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin111">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin260">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>LT26 Peñablanca - Miraflores C2 110kV</name>
+		<open>1</open>
+		<Folder>
+			<name>C1</name>
+			<open>1</open>
+			<Placemark>
+				<name>PEÑABLANCA - EST. 37 110 KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		PEÑABLANCA - MIRAFLORES 110KV
+Tramo:		PEÑABLANCA - TAP QUILPUE 110KV C2
+Nombre:		PEÑABLANCA - EST. 37 110 KV C1
+Circuito:		C2
+ID Info:		1809
+Tipo Conductor: 	AAAC-Flint 740MCM
+Año PES: 		2017</description>
+				<styleUrl>#msn_ylw-pushpin280</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.32811024510804,-33.04739309285355,0 -71.32881614922353,-33.04657870638592,0 -71.33005281571737,-33.04423594327154,0 -71.33005463821117,-33.0432373715937,0 -71.330182156148,-33.04139643428827,0 -71.33150803633431,-33.04071759924048,0 -71.3328721269305,-33.03986550952027,0 -71.33327397612123,-33.03821755993319,0 -71.33328254340744,-33.03819889324852,0 -71.33385047677093,-33.03584604827265,0 -71.33445014292366,-33.03326388596644,0 -71.33484951271001,-33.03165843893795,0 -71.3351553606781,-33.0303451276783,0 -71.33581387457129,-33.02778011228353,0 -71.33633959446325,-33.02555165959778,0 -71.33640315279635,-33.02420854305294,0 -71.33648907422209,-33.02278932481713,0 -71.3366380669471,-33.02046930609666,0 -71.33688479288114,-33.01847980240534,0 -71.33956385886557,-33.01729983343888,0 -71.33949765841636,-33.01539877442727,0 -71.33940073919543,-33.01335725780424,0 -71.33878347382259,-33.01159999255779,0 -71.33791441652789,-33.00983642888489,0 -71.33731874445925,-33.00846045945453,0 -71.33745028966845,-33.00641164150628,0 -71.33802210729392,-33.00424675008355,0 -71.33852662204534,-33.00215564106471,0 -71.33909170235346,-32.99992137418955,0 -71.33956960242827,-32.99800390174236,0 -71.34013320608739,-32.99579065339057,0 -71.3407979897007,-32.99315390389472,0 -71.34140175597011,-32.99068687395173,0 -71.34204261988252,-32.98813804726807,0 -71.3426714715667,-32.98564646907618,0 -71.3427419039927,-32.98387911216422,0 -71.34274087815635,-32.98229225871525,0 -71.34276282193446,-32.9808457301345,0 -71.3427616702761,-32.97901266149157,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. 37 - TAP QUILPUE 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		PEÑABLANCA - MIRAFLORES 110KV
+Tramo:		PEÑABLANCA - TAP QUILPUE 110KV C1
+Nombre:		EST. 37 - TAP QUILPUE 110KV C1
+Circuito:		C1
+ID Info:		1810
+Tipo Conductor: 	312.8MCM AASC-Butte
+Año PES: 		1922</description>
+				<styleUrl>#msn_ylw-pushpin280</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.34276166390595,-32.97901112080535,0 -71.34276245992747,-32.97863511825064,0 -71.34497397174803,-32.97930936482462,0 -71.34758315789161,-32.98008200439476,0 -71.3492837115988,-32.98057807127232,0 -71.35365029498801,-32.98186198133853,0 -71.35625785509777,-32.98267069165969,0 -71.35807027193491,-32.98318023121093,0 -71.36061556303204,-32.98395338034658,0 -71.3630307818437,-32.98465257159935,0 -71.36546794041099,-32.98536477689667,0 -71.36968347482811,-32.98660623957952,0 -71.3725149994678,-32.9874596960252,0 -71.37417620165732,-32.98794725164191,0 -71.3776212420758,-32.98896501772145,0 -71.37923450258045,-32.98944634362925,0 -71.38127619327369,-32.9900622957443,0 -71.38327511388445,-32.99066297316521,0 -71.38485442401046,-32.99112489474759,0 -71.38887501024168,-32.99231564503844,0 -71.3903955564144,-32.99276176553848,0 -71.39485947541583,-32.99408276293425,0 -71.39696623519147,-32.99470740758307,0 -71.40005920711693,-32.99561576279093,0 -71.40249149920687,-32.99633890057768,0 -71.40480360326565,-32.99703097252359,0 -71.40818251390833,-32.99804485023483,0 -71.41206532650196,-32.99919235029579,0 -71.41482744000467,-33.00000128430423,0 -71.41898168070037,-33.00121729637807,0 -71.4219246108928,-33.00208777643979,0 -71.42361384231258,-33.00260026882633,0 -71.42650787858518,-33.00344975502498,0 -71.42806978549031,-33.00467452595643,0 -71.43046069141946,-33.00653448579178,0 -71.43390704497446,-33.00923871165012,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>C2</name>
+			<open>1</open>
+			<Placemark>
+				<name>TAP OFF QUILPUE - TAP OFF ACHUPALLAS 110KV C2</name>
+				<description>Coordenado por Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		PEÑABLANCA - MIRAFLORES 110KV
+Tramo:		TAP QUILPUE - TAP ACHUPALLAS 110KV C2
+Nombre:	                          TAP OFF QUILPUE - TAP OFF ACHUPALLAS 110KV C2
+Circuito:		C2
+ID Info:		1152
+Tipo Conductor: 	312.8MCM AASC-Butte
+Fecha PES: 		1922</description>
+				<styleUrl>#msn_ylw-pushpin013</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.43390576667062,-33.00923990811237,0 -71.43709115787615,-33.01176034077664,0 -71.43860637821852,-33.0129310709242,0 -71.44001130783522,-33.01400604916097,0 -71.4422263554228,-33.01580048347107,0 -71.44471568935359,-33.01766873255617,0 -71.44642762111413,-33.01902423654125,0 -71.44871901830115,-33.0208524639341,0 -71.45026983986483,-33.02203748738871,0 -71.45094188698664,-33.02259889167038,0 -71.45369462087319,-33.02300373110748,0 -71.4556533359238,-33.02335576633391,0 -71.45718412131109,-33.02360041352083,0 -71.46196358128653,-33.02440747132253,0 -71.46375464555346,-33.02469421289388,0 -71.46756833083978,-33.02534380322857,0 -71.46885614526688,-33.0255771015285,0 -71.47290623246752,-33.02625669037251,0 -71.47662216156105,-33.02689238309545,0 -71.47956274698409,-33.02739961250565,0 -71.48280471920432,-33.02793325459396,0 -71.48624426616239,-33.02853554843088,0 -71.49041746419296,-33.02924533501722,0 -71.49188217614793,-33.02948411275722,0 -71.49440590197634,-33.0299348989208,0 -71.49645401861389,-33.03026534770711,0 -71.49953664134044,-33.030781199632,0 -71.50252855626906,-33.03127974370058,0 -71.50536735546395,-33.03175576282864,0 -71.50787109790613,-33.03208708175761,0 -71.50968516628872,-33.03240333215734,0 -71.5113189989515,-33.0326677508916,0 -71.51360334085015,-33.03303361942273,0 -71.51592920456038,-33.03338900932091,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>TAP OFF ACHUPALLAS - MIRAFLORES 110KV C2</name>
+				<description>Coordenado por Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		PEÑABLANCA - MIRAFLORES 110KV
+Tramo:		TAP ACHUPALLAS - MIRAFLORES 110KV C2
+Nombre:	           	TAP OFF ACHUPALLAS - MIRAFLORES 110KV C2
+Circuito:		C2
+ID Info:		1136
+Tipo Conductor: 	312.8MCM AASC-Butte
+Fecha PES: 		1922</description>
+				<styleUrl>#msn_ylw-pushpin000</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.51594044357509,-33.03339274421854,0 -71.51917245138713,-33.03391349063393,0 -71.52033542468466,-33.03410430584458,0 -71.52298562523325,-33.03450210312337,0 -71.52530825399988,-33.03465987689913,0 -71.52545140836141,-33.03458903890419,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

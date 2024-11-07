@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT45 Quillota - San Pedro 110kV R01.kmz</name>
+	<Style id="inline060">
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1111">
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline5201">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1111</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline060</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin58">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin580</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin630</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin590">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin57</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin620</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin620">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin630">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin57">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin580">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>LT45 Qullota San Pedro 110kV</name>
+		<open>1</open>
+		<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+		<Folder>
+			<name>C1</name>
+			<Placemark>
+				<name>SAN PEDRO - EST. N°1 110KV C1</name>
+				<description>Coordenado por Gestión de Información Transmisión
+Nombre Propietario:	COMPAÑÍA TRANSMISORA DEL NORTE GRANDE S.A..
+Nombre LT: 		SAN PEDRO - QUILLOTA 110KV
+Tramo: 		SAN PEDRO - QUILLOTA 110KV C1
+Nombre: 		SAN PEDRO - EST. N°1 110KV C1
+Circuito: 		C1
+ID Info: 		872
+Tipo Conductor: 	2xAASC 636 MCM (AAC)
+Fecha PES: 		1983</description>
+				<styleUrl>#msn_ylw-pushpin58</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.26495856856964,-32.93643772921488,0 -71.2643808572974,-32.93734860883691,0 -71.26368483913396,-32.93837340934579,0 -71.26202750616257,-32.94054788597464,0 -71.25974847030884,-32.94356812384817,0 -71.2570988058138,-32.94712020741422,0 -71.25510195486233,-32.94972808592603,0 -71.25321345786573,-32.95171779739817,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>C2</name>
+			<Placemark>
+				<name>SAN PEDRO - QUILLOTA 110KV C2- DESENERGIZADO</name>
+				<description>Coordenado por Gestión de Información Transmisión
+Nombre Propietario:	COMPAÑÍA TRANSMISORA DEL NORTE GRANDE S.A..
+Nombre LT: 		SAN PEDRO - QUILLOTA 110KV
+Tramo: 		SAN PEDRO - QUILLOTA 110KV C2
+Nombre: 		SAN PEDRO - QUILLOTA 110KV C2- DESENERGIZADO
+Circuito: 		C2
+ID Info: 		0000
+Tipo Conductor: 	2xAASC 636 MCM (AAC)
+Fecha PES: 		1983</description>
+				<styleUrl>#msn_ylw-pushpin590</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.25176645718264,-32.95258205349062,0 -71.25325383686734,-32.95172497956688,0 -71.2551409481556,-32.94972647577372,0 -71.25711031499935,-32.94712358757453,0 -71.2598009376692,-32.94356347202891,0 -71.2620783947407,-32.9405541836777,0 -71.26373434382346,-32.93837253895622,0 -71.26443001517602,-32.93735421035638,0 -71.26497709145055,-32.9364777129391,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eje Trazado APAGAR</name>
+			<Placemark>
+				<name>LT Quillota - San Pedro 110kV</name>
+				<description>Coordenado por Oliver Cabezas
+Información Técnica de Transmisión</description>
+				<styleUrl>#inline5201</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.26497173415862,-32.9364436984995,0 -71.26439570388911,-32.93736247050974,0 -71.26369894789232,-32.93838682960305,0 -71.26203887231813,-32.94056981698499,0 -71.2597614137772,-32.94358215730574,0 -71.25708072174419,-32.94714310484895,0 -71.25511385282549,-32.94973878947479,0 -71.25322591975416,-32.95172378626391,0 -71.25170269218016,-32.95259631596601,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

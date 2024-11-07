@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Modelo-Predictivo/static/css/main.b131532e.css",
+    "main.js": "/Modelo-Predictivo/static/js/main.69c5cc62.js",
+    "static/js/488.d62a59d9.chunk.js": "/Modelo-Predictivo/static/js/488.d62a59d9.chunk.js",
+    "static/media/Wind.png": "/Modelo-Predictivo/static/media/Wind.38fbcbe09cf593acc37e.png",
+    "static/media/Clouds.png": "/Modelo-Predictivo/static/media/Clouds.fd8692a9c56b2f17a9a6.png",
+    "static/media/Temperatura.png": "/Modelo-Predictivo/static/media/Temperatura.2420cda584e5c210363b.png",
+    "static/media/VinaMapa.png": "/Modelo-Predictivo/static/media/VinaMapa.fdfeb2425a2f7a2716cf.png",
+    "static/media/Satellite.png": "/Modelo-Predictivo/static/media/Satellite.f82db77567ff7d605bf2.png",
+    "index.html": "/Modelo-Predictivo/index.html",
+    "main.b131532e.css.map": "/Modelo-Predictivo/static/css/main.b131532e.css.map",
+    "main.69c5cc62.js.map": "/Modelo-Predictivo/static/js/main.69c5cc62.js.map",
+    "488.d62a59d9.chunk.js.map": "/Modelo-Predictivo/static/js/488.d62a59d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b131532e.css",
+    "static/js/main.69c5cc62.js"
+  ]
+}

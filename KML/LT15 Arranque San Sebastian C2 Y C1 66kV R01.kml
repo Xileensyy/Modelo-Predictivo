@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT15 Arranque San Sebastian C2 Y C1 66kV R01.kmz</name>
+	<StyleMap id="inline2921">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline42100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline5801</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline2922">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline421010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline5810</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline29220">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline42101</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline581</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline42100">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline42101">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline421010">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline5801">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline581">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline5810">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>LT15 Arranque San Sebastian C2 Y C1 66kV</name>
+		<open>1</open>
+		<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+		<Folder>
+			<name>C1</name>
+			<Placemark>
+				<name>TAP OFF SAN SEBASTIAN - SAN SEBASTIAN 66KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT:		TAP OFF SAN SEBASTIAN - SAN SEBASTIAN 66Kv
+Tramo:          		TAP SAN SEBASTIAN - SAN SEBASTIAN 66KV C1
+Nombre: 		TAP OFF SAN SEBASTIAN - SAN SEBASTIAN 66KV C1
+Circuito:		C1
+ID Info:		786
+Tipo Conductor: 	Cu N°2 AWG 
+Año PES: 		1969</description>
+				<styleUrl>#inline2921</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.58360190428745,-33.51106532869643,0 -71.58411724754018,-33.51120643894294,0 -71.58563833267516,-33.51161780474721,0 -71.58791443792613,-33.51227457175708,0 -71.58920177435861,-33.51303620291413,0 -71.59048944421156,-33.51378701751009,0 -71.59173031653155,-33.51450603513088,0 -71.59421467500442,-33.5159955179705,0 -71.59556543976485,-33.51679531212686,0 -71.59759776940109,-33.51804479934722,0 -71.59776842812879,-33.51802685664533,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>C2</name>
+			<Placemark>
+				<name>TAP OFF SAN SEBASTIAN - SAN SEBASTIAN 66KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT:		TAP OFF SAN SEBASTIAN - SAN SEBASTIAN 66Kv
+Tramo:          		TAP SAN SEBASTIAN - SAN SEBASTIAN 66KV C2
+Nombre: 		EST. 269 - TAP OFF SAN SEBASTIAN 66KV C2
+Circuito:		C2
+ID Info:		1612
+Tipo Conductor: 	Cu 1/0 AWG // Cu N°2 AWG
+Año PES: 		1969</description>
+				<styleUrl>#inline2922</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.58361677577557,-33.51102242389213,0 -71.58412317734711,-33.51117276331968,0 -71.58565555259577,-33.51156969928479,0 -71.58794898443986,-33.51224589575545,0 -71.58923372691041,-33.51300473227509,0 -71.59051210583071,-33.51376027662335,0 -71.5917497899584,-33.51448554281951,0 -71.59424090074209,-33.51596666108116,0 -71.59559205929955,-33.5167492358692,0 -71.59760425349316,-33.51801980113968,0 -71.59776257030137,-33.51797618365477,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. 269 - TAP OFF SAN SEBASTIAN 66KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT:		TAP OFF SAN SEBASTIAN - SAN SEBASTIAN 66Kv
+Tramo:          		TAP SAN SEBASTIAN - SAN SEBASTIAN 66KV C2
+Nombre: 		EST. 269 - TAP OFF SAN SEBASTIAN 66KV C2
+Circuito:		C2
+ID Info:		1611
+Tipo Conductor: 	Cu 1/0 AWG // Cu N°2 AWG
+Año PES: 		1969</description>
+				<styleUrl>#inline29220</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.58361383942308,-33.51102242381346,0 -71.58171538658206,-33.5105381346359,0 -71.58033698331418,-33.51015775387222,0 -71.57859444940192,-33.50964167418835,0 -71.57768972799626,-33.50936864996559,0 -71.57590096590768,-33.50885664500391,0 -71.57449389592139,-33.50846165000501,0 -71.57299546853031,-33.50802637508132,0 -71.57127584492065,-33.50752450593812,0 -71.57044487995034,-33.50728535716375,0 -71.56989621409265,-33.50713122874814,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

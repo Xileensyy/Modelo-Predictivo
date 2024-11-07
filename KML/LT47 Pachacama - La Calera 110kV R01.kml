@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT47 Pachacama - La Calera 110kV R01.kmz</name>
+	<Schema name="Línea de Transmisión" id="Línea de Transmisión_schema00001">
+		<SimpleField type="Variant " name="Línea de Transmisión"><displayName>Lineas_de_Transmisión</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Longitud km"><displayName>Longitud km</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Voltaje kV"><displayName>Voltaje kV</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Conductor"><displayName>Conductor</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Capacidad MVA"><displayName>Capacidad MVA</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Propietario"><displayName>Propietario</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Circuito 1"><displayName>Circuito 1</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Circuito 2"><displayName>Circuito 2</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Información Técnica"><displayName>Información Técnica</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="Línea 110 kV200001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default_copy6021020100002220</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#default_copy60270000113</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="Línea 110 kV2000010">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default_copy60210201000022200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#default_copy602700001130</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="default_copy6021020100002220">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon16.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ccffffff</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table WIDTH="200" border=0 cellpadding=0 cellspacing=1 bgcolor=#F3E2A9 summary="">
+				<tr>
+				<td width="100%" valign="middle" align="left">
+				<b>
+				<font face="Arial" color="#050000">
+				<h2.5>INFORMACIÓN DE INSTALACIONES</h2.5>
+				</font>
+				</b>
+				</td>
+				<td width="100%" valign="middle" align="right">
+				</tr>
+				</table>
+
+<table WIDTH="200" border=0 cellpadding=0 cellspacing=0
+
+<font face="Arial" size="3" color="#050000">   
+<table>
+ <tr>
+    <table border="1" padding="0">
+   <tr><td>Línea de Transmisión</td>=<td>$[Línea de Transmisión/Línea de Transmisión]</td></tr>
+   <tr><td>Longitud km</td>=<td>$[Línea de Transmisión/Longitud km]</td></tr>
+   <tr><td>Voltaje kV</td>=<td>$[Línea de Transmisión/Voltaje kV]</td></tr>
+    <tr><td>Conductor</td>=<td>$[Línea de Transmisión/Conductor]</td></tr>
+    <tr><td>Capacidad MVA</td>=<td>$[Línea de Transmisión/Capacidad MVA]</td></tr>
+    <tr><td>Propietario</td>=<td>$[Línea de Transmisión/Propietario]</td></tr>
+    <tr><td>Circuito 1</td>=<td>$[Línea de Transmisión/Circuito 1]</td></tr>	
+    <tr><td>Circuito 2</td>=<td>$[Línea de Transmisión/Circuito 2]</td></tr>
+	<tr><td>Información Técnica</td>=<td>$[Línea de Transmisión/Información Técnica]</td></tr>
+ </tr>
+</table></font>
+
+<table WIDTH="200" border=0 cellpadding=1 cellspacing=1 bgcolor=#F3E2A9 summary=""><tr>
+ <td width="100%" valign="middle" align="right"><img src="15ikvl_2_0.jpg" border="0" width="240" height="40" alt="" /></tr>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="default_copy60210201000022200">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon16.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ccffffff</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table WIDTH="200" border=0 cellpadding=0 cellspacing=1 bgcolor=#F3E2A9 summary="">
+				<tr>
+				<td width="100%" valign="middle" align="left">
+				<b>
+				<font face="Arial" color="#050000">
+				<h2.5>INFORMACIÓN DE INSTALACIONES</h2.5>
+				</font>
+				</b>
+				</td>
+				<td width="100%" valign="middle" align="right">
+				</tr>
+				</table>
+
+<table WIDTH="200" border=0 cellpadding=0 cellspacing=0
+
+<font face="Arial" size="3" color="#050000">   
+<table>
+ <tr>
+    <table border="1" padding="0">
+   <tr><td>Línea de Transmisión</td>=<td>$[Línea de Transmisión/Línea de Transmisión]</td></tr>
+   <tr><td>Longitud km</td>=<td>$[Línea de Transmisión/Longitud km]</td></tr>
+   <tr><td>Voltaje kV</td>=<td>$[Línea de Transmisión/Voltaje kV]</td></tr>
+    <tr><td>Conductor</td>=<td>$[Línea de Transmisión/Conductor]</td></tr>
+    <tr><td>Capacidad MVA</td>=<td>$[Línea de Transmisión/Capacidad MVA]</td></tr>
+    <tr><td>Propietario</td>=<td>$[Línea de Transmisión/Propietario]</td></tr>
+    <tr><td>Circuito 1</td>=<td>$[Línea de Transmisión/Circuito 1]</td></tr>	
+    <tr><td>Circuito 2</td>=<td>$[Línea de Transmisión/Circuito 2]</td></tr>
+	<tr><td>Información Técnica</td>=<td>$[Línea de Transmisión/Información Técnica]</td></tr>
+ </tr>
+</table></font>
+
+<table WIDTH="200" border=0 cellpadding=1 cellspacing=1 bgcolor=#F3E2A9 summary=""><tr>
+ <td width="100%" valign="middle" align="right"><img src="15ikvl_2_0.jpg" border="0" width="240" height="40" alt="" /></tr>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="default_copy60270000113">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon16.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ccffffff</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table WIDTH="200" border=0 cellpadding=0 cellspacing=1 bgcolor=#F3E2A9 summary="">
+				<tr>
+				<td width="100%" valign="middle" align="left">
+				<b>
+				<font face="Arial" color="#050000">
+				<h2.5>INFORMACIÓN DE INSTALACIONES</h2.5>
+				</font>
+				</b>
+				</td>
+				<td width="100%" valign="middle" align="right">
+				</tr>
+				</table>
+
+<table WIDTH="200" border=0 cellpadding=0 cellspacing=0
+
+<font face="Arial" size="3" color="#050000">   
+<table>
+ <tr>
+    <table border="1" padding="0">
+   <tr><td>Línea de Transmisión</td>=<td>$[Línea de Transmisión/Línea de Transmisión]</td></tr>
+   <tr><td>Longitud km</td>=<td>$[Línea de Transmisión/Longitud km]</td></tr>
+   <tr><td>Voltaje kV</td>=<td>$[Línea de Transmisión/Voltaje kV]</td></tr>
+    <tr><td>Conductor</td>=<td>$[Línea de Transmisión/Conductor]</td></tr>
+    <tr><td>Capacidad MVA</td>=<td>$[Línea de Transmisión/Capacidad MVA]</td></tr>
+    <tr><td>Propietario</td>=<td>$[Línea de Transmisión/Propietario]</td></tr>
+    <tr><td>Circuito 1</td>=<td>$[Línea de Transmisión/Circuito 1]</td></tr>	
+    <tr><td>Circuito 2</td>=<td>$[Línea de Transmisión/Circuito 2]</td></tr>
+	<tr><td>Información Técnica</td>=<td>$[Línea de Transmisión/Información Técnica]</td></tr>
+ </tr>
+</table></font>
+
+<table WIDTH="200" border=0 cellpadding=1 cellspacing=1 bgcolor=#F3E2A9 summary=""><tr>
+ <td width="100%" valign="middle" align="right"><img src="15ikvl_2_0.jpg" border="0" width="240" height="40" alt="" /></tr>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="default_copy602700001130">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pal4/icon16.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ccffffff</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table WIDTH="200" border=0 cellpadding=0 cellspacing=1 bgcolor=#F3E2A9 summary="">
+				<tr>
+				<td width="100%" valign="middle" align="left">
+				<b>
+				<font face="Arial" color="#050000">
+				<h2.5>INFORMACIÓN DE INSTALACIONES</h2.5>
+				</font>
+				</b>
+				</td>
+				<td width="100%" valign="middle" align="right">
+				</tr>
+				</table>
+
+<table WIDTH="200" border=0 cellpadding=0 cellspacing=0
+
+<font face="Arial" size="3" color="#050000">   
+<table>
+ <tr>
+    <table border="1" padding="0">
+   <tr><td>Línea de Transmisión</td>=<td>$[Línea de Transmisión/Línea de Transmisión]</td></tr>
+   <tr><td>Longitud km</td>=<td>$[Línea de Transmisión/Longitud km]</td></tr>
+   <tr><td>Voltaje kV</td>=<td>$[Línea de Transmisión/Voltaje kV]</td></tr>
+    <tr><td>Conductor</td>=<td>$[Línea de Transmisión/Conductor]</td></tr>
+    <tr><td>Capacidad MVA</td>=<td>$[Línea de Transmisión/Capacidad MVA]</td></tr>
+    <tr><td>Propietario</td>=<td>$[Línea de Transmisión/Propietario]</td></tr>
+    <tr><td>Circuito 1</td>=<td>$[Línea de Transmisión/Circuito 1]</td></tr>	
+    <tr><td>Circuito 2</td>=<td>$[Línea de Transmisión/Circuito 2]</td></tr>
+	<tr><td>Información Técnica</td>=<td>$[Línea de Transmisión/Información Técnica]</td></tr>
+ </tr>
+</table></font>
+
+<table WIDTH="200" border=0 cellpadding=1 cellspacing=1 bgcolor=#F3E2A9 summary=""><tr>
+ <td width="100%" valign="middle" align="right"><img src="15ikvl_2_0.jpg" border="0" width="240" height="40" alt="" /></tr>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin70">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin66</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin55</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin71">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin61</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin54</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin54">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin55">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin61">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin66">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>LT47 Pachacama La Calera 110kV</name>
+		<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+		<Folder>
+			<name>C1</name>
+			<Placemark>
+				<name>TAP PACHACAMA - TAP CERRO CALERA 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 		COMPAÑÍA TRANSMISORA DEL NORTE GRANDE S.A
+Nombre LT: 			TAP OFF PACHACAMA - LA CALERA 110KV
+Tramo: 			TAP PACHACAMA - TAP CERRO CALERA 110KV C1
+Nombre: 			TAP OFF PACHACAMA - TAP OFF CERRO CALERA 110KV C1
+Circuito: 			C1
+ID Info: 			4726
+Tipo Conductor: 		AAAC - Rede 420 MCM
+Año PES: 			1938</description>
+				<styleUrl>#msn_ylw-pushpin71</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.15444475741828,-32.85563480962688,0 -71.15469364627097,-32.85550902987902,0 -71.15471185023199,-32.85541896502342,0 -71.15485724646678,-32.85497180880179,0 -71.15496716341508,-32.85459747221919,0 -71.15535869926313,-32.85317459959042,0 -71.15563542066391,-32.85234564986406,0 -71.156617836286,-32.84927283979531,0 -71.15722504790531,-32.84748572065467,0 -71.15749623965566,-32.84659782540349,0 -71.15907033465896,-32.84157369712968,0 -71.15923878242002,-32.84097674781393,0 -71.16132113359055,-32.83454309713176,0 -71.16172643147938,-32.83412393476791,0 -71.16518670631248,-32.83084412565848,0 -71.16594582166823,-32.83011287169539,0 -71.16814833651333,-32.82807646833886,0 -71.17102290164316,-32.82537110514657,0 -71.17204346078735,-32.82449989443148,0 -71.17437399719277,-32.8222373082554,0 -71.17690635324116,-32.81981860492427,0 -71.17887526241211,-32.8180265307267,0 -71.18133231868245,-32.81573143110178,0 -71.18239377200155,-32.81466478067533,0 -71.18374367775982,-32.81343151758132,0 -71.18707847998115,-32.81033246740274,0 -71.18789220773614,-32.80962542980117,0 -71.18848037232688,-32.80901269290251,0 -71.19080589791758,-32.80688118030515,0 -71.19102148605302,-32.80614572726144,0 -71.19162353212312,-32.80422106349485,0 -71.19223006499648,-32.80234697917989,0 -71.19271734901434,-32.80093118385693,0 -71.19430159634214,-32.79842181090623,0 -71.19547128596784,-32.79655370147226,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>TAP OFF CERRO CALERA - LA CALERA 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: COMPAÑÍA TRANSMISORA DEL NORTE GRANDE S.A
+Nombre TAP OFF PACHACAMA - LA CALERA 110KV
+Tramo: TAP OFF CERRO CALERA - LA CALERA 110KV C1
+Nombre: TAP OFF CERRO CALERA - LA CALERA 110KV C1
+Circuito: C1
+ID Info: 4727
+Tipo Conductor: AAAC - Rede 420 MCM
+Año PES: 1938</description>
+				<styleUrl>#msn_ylw-pushpin71</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.19546996445838,-32.79655469809355,0 -71.19554247948774,-32.79644526806214,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>C2</name>
+			<Placemark>
+				<name>TAP PACHACAMA - TAP CERRO CALERA 110KV C2</name>
+				<description>Gestión de Información Transmisión	
+Nombre Propietario: 		COMPAÑÍA TRANSMISORA DEL NORTE GRANDE S.A
+Nombre LT: 			TAP OFF PACHACAMA - LA CALERA 110KV
+Tramo: 			TAP PACHACAMA - TAP CERRO CALERA 110KV C2
+Nombre: 			TAP OFF PACHACAMA - TAP OFF CERRO CALERA 110KV C2
+Circuito: 			C2
+ID Info: 			4728
+Tipo Conductor: 		AAAC - Rede 420 MCM 
+Año PES: 			1938</description>
+				<styleUrl>#msn_ylw-pushpin70</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.15441801328282,-32.85566487715355,0 -71.15479054190691,-32.85586661375108,0 -71.1548004897524,-32.85543406917954,0 -71.15487565974885,-32.85500411568462,0 -71.15540131062376,-32.85321496099277,0 -71.15567777067336,-32.852370670614,0 -71.1566512377143,-32.84929818712921,0 -71.15724023428082,-32.84755550186446,0 -71.15754506721439,-32.84661585861221,0 -71.15911318541872,-32.8415891458871,0 -71.15932477873433,-32.84090588632933,0 -71.16140839277973,-32.83457628062173,0 -71.1617899273643,-32.83416554079673,0 -71.16522570118066,-32.83095163350174,0 -71.16596897504014,-32.83027098496451,0 -71.16820616163439,-32.82816810589237,0 -71.17106693841498,-32.8254632923197,0 -71.17206813220353,-32.82460494086422,0 -71.17439071366046,-32.82235787057594,0 -71.17693962242866,-32.81993430134094,0 -71.17894400998618,-32.81809491989526,0 -71.18142766818718,-32.81579255879172,0 -71.18244570627981,-32.81481102006126,0 -71.18380264059883,-32.81357332628188,0 -71.18712044241332,-32.81038185888417,0 -71.18792769633158,-32.80967682259169,0 -71.18852853441578,-32.80906488154977,0 -71.19085425410061,-32.80691471666807,0 -71.19115135822405,-32.80596881391652,0 -71.19171978033327,-32.80413460382587,0 -71.19234561673518,-32.80228169507386,0 -71.19280297070165,-32.80097784214824,0 -71.19439607514084,-32.79844177701599,0 -71.19551781031328,-32.79658617678582,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>TAP OFF CERRO CALERA - LA CALERA 110KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: COMPAÑÍA TRANSMISORA DEL NORTE GRANDE S.A
+Nombre TAP OFF PACHACAMA - LA CALERA 110KV
+Tramo: TAP OFF CERRO CALERA - LA CALERA 110KV C2
+Nombre: TAP OFF CERRO CALERA - LA CALERA 110KV C2
+Circuito: C2
+ID Info: 4729
+Tipo Conductor: AAAC - Rede 420 MCM
+Año PES: 1938</description>
+				<styleUrl>#msn_ylw-pushpin70</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.19551770072155,-32.79658590075671,0 -71.19564843119981,-32.79649905843316,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eje Trazado APAGAR</name>
+			<open>1</open>
+			<Placemark>
+				<name>San Pedro - Las Vegas _ La Calera 110kV</name>
+				<styleUrl>#Línea 110 kV2000010</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#Línea de Transmisión_schema00001">
+						<SimpleData name="Línea de Transmisión">San Pedro - Las Vegas _ La Calera</SimpleData>
+						<SimpleData name="Longitud km"></SimpleData>
+						<SimpleData name="Voltaje kV">110</SimpleData>
+						<SimpleData name="Conductor"></SimpleData>
+						<SimpleData name="Capacidad MVA"></SimpleData>
+						<SimpleData name="Propietario"></SimpleData>
+						<SimpleData name="Calificación"></SimpleData>
+						<SimpleData name="Circuito 1"></SimpleData>
+						<SimpleData name="Circuito 2"></SimpleData>
+						<SimpleData name="Información Técnica">http://bit.ly/1qKpTWr</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.19559795346134,-32.79647267377324,0 -71.19550469421796,-32.79656665546501,0 -71.19431361070215,-32.79848615938626,0 -71.19275498079904,-32.80096919706232,0 -71.19224185354609,-32.80244625540225,0 -71.19163926630057,-32.80428559523688,0 -71.19099970964351,-32.80630891763401,0 -71.19082241241767,-32.80691040722305,0 -71.18845166305489,-32.80908706777998,0 -71.18787564975601,-32.80968628051073,0 -71.18707029864886,-32.81038733059204,0 -71.18374141605868,-32.81354138917724,0 -71.18239170157067,-32.81477741680268,0 -71.18133901867786,-32.81580077058312,0 -71.17883899178337,-32.81812243084706,0 -71.17741026681234,-32.81942820022012,0 -71.17686355471793,-32.8199407675347,0 -71.17431307710193,-32.82236006414581,0 -71.17200343686673,-32.82458542847238,0 -71.17098224671938,-32.82546828486579,0 -71.16814422445121,-32.82815157263678,0 -71.16593416604738,-32.83021209536705,0 -71.16517105161374,-32.83093148716122,0 -71.16170203801481,-32.8342001606262,0 -71.16136139386001,-32.8345581302077,0 -71.15925854995494,-32.84103234657533,0 -71.15908567609394,-32.84161283405093,0 -71.15749731509821,-32.84667423108688,0 -71.15721233231979,-32.84757890831574,0 -71.1566264580343,-32.84931572688837,0 -71.15564507079448,-32.85239412240217,0 -71.15536889209078,-32.85323198785372,0 -71.15486091672001,-32.85502123416332,0 -71.15478528036515,-32.85543831702589,0 -71.15478055705715,-32.85584882012018,0 -71.15444988707637,-32.85566598506495,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Ruta sin título</name>
+				<styleUrl>#Línea 110 kV200001</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.15444852917722,-32.85566254892643,0 -71.15469010031634,-32.85552501451133,0 -71.15470612668281,-32.85544282760317,0 -71.15487177787725,-32.85498764457447,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

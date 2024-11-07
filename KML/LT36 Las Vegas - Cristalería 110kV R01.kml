@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT36 Las Vegas - Cristalería 110kV R01.kmz</name>
+	<Style id="inline1032">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline1241">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2521</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1032</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline2312">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline831</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline922</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline2521">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline831">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline922">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin76">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin75</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin77</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin9700">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin960</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin9600</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin77">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin9600">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin75">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin960">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>LT36 Las Vegas Cristaleria 110kV</name>
+		<open>1</open>
+		<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+		<Folder>
+			<name>C1</name>
+			<Placemark>
+				<name>LAS VEGAS - CRISTALERIA CHILE 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 		CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT: 			LAS VEGAS - CRISTALERIAS CHILE 110KV
+Tramo: 			LAS VEGAS - CRISTALERIA CHILE 110KV C1
+Nombre: 			LAS VEGAS - CRISTALERIA CHILE 110KV C1
+Circuito: 			C1
+ID Info: 			873
+Tipo Conductor: 		AAAC ALLIANCE
+Año PES: 			2006</description>
+				<styleUrl>#msn_ylw-pushpin76</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.01187041502018,-32.84322973003454,0 -71.01170724210188,-32.84393104313239,0 -71.00954333532502,-32.84393199077789,0 -71.00845321372672,-32.84395977104031,0 -71.00773000593196,-32.84396497847472,0 -71.00728587237202,-32.84397014177699,0 -71.00646119452695,-32.84397103144789,0 -71.0051478594275,-32.84403349344404,0 -71.0028444063946,-32.84407754491133,0 -71.00137988298124,-32.84411300745842,0 -70.99993831601357,-32.8441461254967,0 -70.99852216289372,-32.8441763379168,0 -70.99718752810004,-32.84420872903296,0 -70.99571351147642,-32.8442333645006,0 -70.99422871757858,-32.84426696215846,0 -70.99280742645915,-32.84430003127065,0 -70.99066338086644,-32.84429253613912,0 -70.98893367389933,-32.84433059892171,0 -70.98702178200131,-32.84436415517582,0 -70.98548642664591,-32.84385807308563,0 -70.98366724849987,-32.84431860520666,0 -70.98262620214774,-32.8444956068444,0 -70.98020034696292,-32.84490552188549,0 -70.97789440871307,-32.84527598465466,0 -70.97600874844869,-32.84555230047197,0 -70.97411536375412,-32.84582972786955,0 -70.97280455108113,-32.84600897845194,0 -70.97148054437817,-32.84617346287654,0 -70.96968137814177,-32.84551520758254,0 -70.96853260990599,-32.84603061450927,0 -70.96688890597775,-32.84633808969513,0 -70.96436756285738,-32.84618818218073,0 -70.96258193869483,-32.84608331781898,0 -70.96045013179513,-32.84596637106258,0 -70.95778715222977,-32.84577976897279,0 -70.95541219417233,-32.84561255928776,0 -70.95291765942021,-32.84543319088521,0 -70.95161087088589,-32.84560793247902,0 -70.95022986261304,-32.84637603656029,0 -70.94818434038939,-32.84767913010601,0 -70.94759747822948,-32.8480847946886,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>LT36 LACCh (Fase A)</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 		CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT: 			LAS VEGAS - CRISTALERIAS CHILE 110KV
+Tramo: 			LAS VEGAS - CRISTALERIA CHILE 110KV C1
+Nombre: 			LAS VEGAS - CRISTALERIA CHILE 110KV C1
+Circuito: 			C1
+ID Info: 			873
+Tipo Conductor: 		AAAC ALLIANCE
+Año PES: 			2006</description>
+				<styleUrl>#inline1241</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-70.97147780896316,-32.84617375966134,0 -70.96967004554401,-32.84555040265,0 -70.9685364864974,-32.84603017140938,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>LT36 LACCh (Fase C)</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 		CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT: 			LAS VEGAS - CRISTALERIAS CHILE 110KV
+Tramo: 			LAS VEGAS - CRISTALERIA CHILE 110KV C1
+Nombre: 			LAS VEGAS - CRISTALERIA CHILE 110KV C1
+Circuito: 			C1
+ID Info: 			873
+Tipo Conductor: 		AAAC ALLIANCE
+Año PES: 			2006</description>
+				<styleUrl>#inline2312</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-70.97148139785178,-32.84616741516046,0 -70.96966432962363,-32.84546236575513,0 -70.96852150372909,-32.84603015285841,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eje Trazado APAGAR</name>
+			<Placemark>
+				<name>LT36 Las Vegas Cristalerias Chile</name>
+				<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+				<styleUrl>#msn_ylw-pushpin9700</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.01190975618107,-32.84321811636576,0 -71.01170789384436,-32.84393041197644,0 -71.00954153524312,-32.84392992126013,0 -71.00845549262604,-32.84395811738968,0 -71.00772521432889,-32.84396475643584,0 -71.00729538573115,-32.84396771777705,0 -71.00646031250352,-32.84396885300047,0 -71.00514225720953,-32.84403690185464,0 -71.00284434196197,-32.84408056497151,0 -71.00139096113242,-32.84411227525513,0 -70.99994535116502,-32.84414338517558,0 -70.99852403965957,-32.84417666034513,0 -70.99716851164212,-32.84420929814024,0 -70.99570601478095,-32.84423382682996,0 -70.99423729280888,-32.84426694178293,0 -70.99281029386783,-32.84429908458769,0 -70.99065515453728,-32.84429197216747,0 -70.98894007677283,-32.84432848526616,0 -70.98702426995651,-32.84436544599659,0 -70.98548744944826,-32.84385554812536,0 -70.98366367977364,-32.84432005109736,0 -70.98262642055822,-32.84449453419572,0 -70.98018998243649,-32.84490271420774,0 -70.97789361919358,-32.84527656234388,0 -70.97601172998804,-32.84554932558485,0 -70.97411145433786,-32.84582954497532,0 -70.97280554680124,-32.84600562265796,0 -70.97147533205677,-32.84617151985983,0 -70.96966430672421,-32.84550700684406,0 -70.96854358319058,-32.8460282921468,0 -70.96689125907888,-32.84634160617011,0 -70.96436158500755,-32.84618643740828,0 -70.96260293153649,-32.84608454745686,0 -70.96045383901003,-32.84596290953537,0 -70.95779901199772,-32.84578089800921,0 -70.95541549802,-32.84561289135848,0 -70.9529119299264,-32.8454353599275,0 -70.95161154198246,-32.84560615448162,0 -70.95023346063824,-32.84637173592159,0 -70.94818179086855,-32.84767793111171,0 -70.94759610484637,-32.84808349182745,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

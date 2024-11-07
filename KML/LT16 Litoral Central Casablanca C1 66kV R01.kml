@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT16 Litoral Central Casablanca C1 66kV R01.kmz</name>
+	<Style id="inline2821">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="inline3312">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline2821</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline63000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline43">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline57</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline55</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline44">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline46">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline47">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline48">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline47</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline44</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline49">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline55">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline56">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline46</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline49</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline57">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline63000">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin311">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin370</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin201</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin380">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin350</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin350</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin39">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin38</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin31</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin201">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin31">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin350">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin350">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin370">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin38">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>LT16 Litoral Central Casablanca CTO1 66kV</name>
+		<open>1</open>
+		<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+		<Folder>
+			<name>C1</name>
+			<open>1</open>
+			<Placemark>
+				<name>LITORAL CENTRAL- EST. 2A -  66KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		CASABLANCA - LITORAL CENTRAL 66KV
+Tramo:	          	CASABLANCA - LITORAL CENTRAL 66KV C1
+Nombre: 	          	LITORAL CENTRAL- EST. 2A -  66KV C1
+Circuito:		C1
+ID Info:		3875
+Tipo Conductor: 	246,9 MCM AACS-Alliance (AAAC BUTTE)
+Año PES: 		1964</description>
+				<styleUrl>#msn_ylw-pushpin380</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.59105581440726,-33.36756237734596,0 -71.59144112575878,-33.3676268306963,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST. 2A - EST. 67  66KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		CASABLANCA - LITORAL CENTRAL 66KV
+Tramo:	          	CASABLANCA - LITORAL CENTRAL 66KV C1
+Nombre: 	          	EST. 2A - EST. 67  66KV C1
+Circuito:		C1
+ID Info:		3874
+Tipo Conductor: 	246,9 MCM AACS-Alliance (AAAC)
+Año PES: 		1964</description>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.44638891975399,-33.3299126914149,0 -71.4487097113735,-33.33113837025146,0 -71.45109170988316,-33.33241145622281,0 -71.45293416761345,-33.3333780565066,0 -71.45535431422211,-33.33464406074252,0 -71.45744003328885,-33.33574515781233,0 -71.46034649035751,-33.33728092296592,0 -71.46184577155003,-33.33808677503767,0 -71.4627105002275,-33.33853359357492,0 -71.46609668478712,-33.34032127131874,0 -71.46685196348714,-33.34070900700609,0 -71.46949883502651,-33.34267387211335,0 -71.46998199346076,-33.34305117263159,0 -71.47170220419879,-33.34431195804505,0 -71.47434442667769,-33.34628913092158,0 -71.47750523489098,-33.34862644898056,0 -71.47796799412826,-33.34896945432575,0 -71.48098504616826,-33.35120039996992,0 -71.48274094115708,-33.35250996970958,0 -71.48559346891179,-33.35462508728123,0 -71.48667734623302,-33.35543677908939,0 -71.4872438212286,-33.35552013312647,0 -71.49012853903044,-33.35584188474973,0 -71.49225341374,-33.35610462737255,0 -71.49330169782799,-33.35623063581319,0 -71.49731585029974,-33.35669462852714,0 -71.49885102142036,-33.356880867492,0 -71.50009797739796,-33.35699394378072,0 -71.50289500306123,-33.35734880710251,0 -71.50569975108459,-33.35768317080714,0 -71.5080061580652,-33.35795087930219,0 -71.50946696929002,-33.35813442503622,0 -71.5121031352588,-33.3584336976113,0 -71.51542359946109,-33.35883041334834,0 -71.51928216881285,-33.35928076800145,0 -71.52183091626819,-33.35958856127906,0 -71.52464902785245,-33.35991430334759,0 -71.52733026309849,-33.36024710045392,0 -71.52904274633076,-33.36041723786513,0 -71.53131633188363,-33.36069832423756,0 -71.53332097790008,-33.36093096872582,0 -71.53658917711179,-33.36130612500903,0 -71.53962325000678,-33.36168492431886,0 -71.54321921087426,-33.36210968634468,0 -71.54459675457909,-33.36227784158756,0 -71.54701271171851,-33.36254687247965,0 -71.54943270886497,-33.3628265289266,0 -71.5516056405427,-33.3630806527441,0 -71.55378438531652,-33.36334413104762,0 -71.55591625638071,-33.36358341433357,0 -71.55847384676052,-33.36390210871451,0 -71.56045194433281,-33.36412341659211,0 -71.56304564199966,-33.36443985292967,0 -71.56512196246396,-33.36466693612169,0 -71.56770670251321,-33.36496854424699,0 -71.570114497029,-33.36523867163656,0 -71.5726156155077,-33.36552430408759,0 -71.57498646407589,-33.36581994918064,0 -71.57759349232084,-33.36611637115752,0 -71.57961937369105,-33.36635986769107,0 -71.58085429777803,-33.3663651622922,0 -71.58327412713592,-33.36664146362043,0 -71.58500760017057,-33.36684689788615,0 -71.58775118141608,-33.36716657879733,0 -71.58971362802058,-33.36739443350636,0 -71.59105507702212,-33.36755819026322,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST.67 - EST.77A  66KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		CASABLANCA - LITORAL CENTRAL 66KV
+Tramo:	          	CASABLANCA - LITORAL CENTRAL 66KV C1
+Nombre: 	          	 EST.67 - CASABLANCA  66KV C1
+Circuito:		C1
+ID Info:		0000
+Tipo Conductor: 	246,9 MCM AACS-Alliance (AAAC)
+Año PES: 		1964</description>
+				<styleUrl>#msn_ylw-pushpin311</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.42051124841115,-33.31682915557982,0 -71.42098110247981,-33.31704735048373,0 -71.42405657575993,-33.31847452221644,0 -71.42715263751285,-33.31993200649067,0 -71.42872549137363,-33.32276071384908,0 -71.43031672796972,-33.3255588798778,0 -71.43200521126539,-33.32853615644859,0 -71.43358772505938,-33.33132932279427,0 -71.43475273938537,-33.33118704576311,0 -71.43713727657484,-33.3309260760626,0 -71.44110746461924,-33.33048083831335,0 -71.44638879075332,-33.32991570013962,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST.77A a ML B1</name>
+				<styleUrl>#msn_ylw-pushpin39</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.4205143832463,-33.31682917511495,0 -71.42119161957437,-33.31614373350979,0 -71.42177843521806,-33.31554239216227,0 -71.42238621753309,-33.3147998315377,0 -71.4230780080585,-33.31397789925693,0 -71.42399786096723,-33.31381709606524,0 -71.42506415015788,-33.31327472200886,0 -71.42614931037816,-33.31271329226232,0 -71.42738275472064,-33.31208323434283,0 -71.42763888423907,-33.31255293393191,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>ML B2 a EST.77A</name>
+				<styleUrl>#inline48</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.42771232693956,-33.31252474358065,0 -71.42739155080167,-33.31205287505237,0 -71.42612961154705,-33.31269475493901,0 -71.42505034501418,-33.31325056330557,0 -71.42397973105855,-33.31379835558801,0 -71.423060523328,-33.31396750792867,0 -71.42236485544429,-33.31478955106114,0 -71.42174272469515,-33.31554092760596,0 -71.42116204242598,-33.3161414076589,0 -71.42049074214729,-33.31682103025955,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST.77A a EST.78/125</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre   LT:		CASABLANCA - LITORAL CENTRAL 66KV
+Tramo:	          	CASABLANCA - LITORAL CENTRAL 66KV C1
+Nombre: 	          	 EST.77A a EST.78/125  66KV C1
+Circuito:		C1
+ID Info:		5130
+Tipo Conductor: 	246,9 MCM AACS-Alliance (AAAC)
+Año PES: 		1964</description>
+				<styleUrl>#inline43</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.42048374435538,-33.31680970900476,0 -71.41809458952613,-33.31569186906714,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>EST78/125 a MLB1 CASABLANCA</name>
+				<styleUrl>#inline56</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.41809502517812,-33.31569108818454,0 -71.41794901153909,-33.31552389366825,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eje Trazado APAGAR</name>
+			<Placemark>
+				<name>LT16 Litoral Central Casablanca CTO1 66kV</name>
+				<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+				<styleUrl>#inline3312</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.59143693517153,-33.36761807289121,0 -71.59104587252608,-33.36755582588944,0 -71.58970192062515,-33.3674106113321,0 -71.58771479497669,-33.36716937659354,0 -71.58500373643045,-33.3668533256614,0 -71.58326329319738,-33.366652069907,0 -71.58084587819029,-33.36636328836128,0 -71.57961627372038,-33.36637243667328,0 -71.5775847066011,-33.36612363242799,0 -71.57498030265673,-33.36583553367596,0 -71.57260219389914,-33.36552221413542,0 -71.57008895733456,-33.36524948682775,0 -71.56769797055992,-33.36496977667368,0 -71.56512366141979,-33.36467961079061,0 -71.56303603361275,-33.36445279486921,0 -71.56046000221913,-33.36412683033677,0 -71.5584764974828,-33.36390426380974,0 -71.55592335638158,-33.36359458209643,0 -71.55378088528988,-33.36334884971818,0 -71.5516062486173,-33.36308691307619,0 -71.54944099933614,-33.36283457759428,0 -71.54701110752312,-33.36256079434549,0 -71.54458896672288,-33.36228567192684,0 -71.54323857649867,-33.36211651336622,0 -71.53962206674366,-33.36169320346083,0 -71.53656450333878,-33.36131181599793,0 -71.53330838283863,-33.36093612545594,0 -71.53130120363089,-33.36070336275334,0 -71.52903416748514,-33.36042707142109,0 -71.5273264010163,-33.36024986698948,0 -71.52464897789301,-33.35992906547566,0 -71.52183109986416,-33.35959533564725,0 -71.51927305010494,-33.35929104511203,0 -71.51542196215938,-33.35883869763489,0 -71.51210585710442,-33.35844105986496,0 -71.50945720432986,-33.35813798916614,0 -71.50800959861206,-33.35795069480969,0 -71.50568024237226,-33.35769283308848,0 -71.50289617606398,-33.35736366167674,0 -71.50009917015177,-33.35700918063842,0 -71.49884434242065,-33.35689370120855,0 -71.49729664947401,-33.35670170659839,0 -71.49330393013626,-33.35623953585832,0 -71.49224599741058,-33.35611376643392,0 -71.4901141628736,-33.355850585553,0 -71.48723488014653,-33.35551799884909,0 -71.48667113988282,-33.35544118738204,0 -71.48557615523833,-33.35462328683411,0 -71.48273390546541,-33.35251789020396,0 -71.48098008770229,-33.35121209421304,0 -71.47795266301942,-33.34896426753678,0 -71.47750691122002,-33.34864078200764,0 -71.47433843238959,-33.34629016021093,0 -71.47169206329909,-33.34432411247396,0 -71.46997702982001,-33.34304539403587,0 -71.46949021318767,-33.34267734248909,0 -71.46683989895898,-33.34072220161637,0 -71.46610672724442,-33.34033320266976,0 -71.46270403555765,-33.33852873161887,0 -71.46183804665573,-33.3380860128886,0 -71.46033064126296,-33.33728226086088,0 -71.45742912559665,-33.33574715619152,0 -71.45535595160214,-33.3346493278958,0 -71.45294151507662,-33.33338801032198,0 -71.45111398069182,-33.33242276368839,0 -71.44870360372171,-33.33115244675253,0 -71.446420773592,-33.32994414904935,0 -71.44117403829644,-33.33051383288791,0 -71.43718024693071,-33.33093843772981,0 -71.43477782243188,-33.33120862171705,0 -71.43358145505046,-33.3313240925286,0 -71.43201282654044,-33.32856671629468,0 -71.43031839239882,-33.32553952979251,0 -71.42873134011576,-33.32276087323786,0 -71.42714789836867,-33.31993304116373,0 -71.42407460076629,-33.31850555347665,0 -71.42098778250656,-33.3170443296664,0 -71.418108566472,-33.31568934744688,0 -71.41796232479712,-33.31553649175527,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

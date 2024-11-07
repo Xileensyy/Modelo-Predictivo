@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT21 Arranque San Rafael 110kV R00.kmz</name>
+	<open>1</open>
+	<Style id="inline1720">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline212">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline52">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline212</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1720</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>LT21 Arranque San Rafael 110kV</name>
+		<open>1</open>
+		<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+		<Placemark>
+			<name>LT21 Arranque San Rafael 110kV</name>
+			<description>Gestión de Información Transmisión
+Nombre Propietario: 		CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT: 			EST. 0001 - SAN RAFAEL C3 110KV
+Tramo: 			EST. 0001 - SAN RAFAEL C3 110KV C3
+Nombre: 			EST. 0001 - SAN RAFAEL C3 110KV C3
+Circuito: 			C3
+ID Info: 			0000
+Tipo Conductor: 		2 AWG Cu
+Año PES: 			2015</description>
+			<styleUrl>#inline52</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.61324298053246,-32.82401402532671,0 -70.61316028583315,-32.82387943259159,0 -70.61301832623587,-32.82396844105064,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

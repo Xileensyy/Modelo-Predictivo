@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LT51 Arranque Mayaca 110kV R01.kmz</name>
+	<Style id="inline35000">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline3620">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline3710">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline3620</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline35000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin170001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2200000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin210000000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin87">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin88</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin84</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin88">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin87</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin85</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin210000000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2.7</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin84">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin85">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2200000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>2.7</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin87">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin88">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>LT51 Arranque Mayaca 110 kV</name>
+		<open>1</open>
+		<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+		<Folder>
+			<name>C1</name>
+			<Placemark>
+				<name>TAP OFF MAYACA - TAP OFF LA PALMA 110KV C1</name>
+				<description>Coordenado por Gestión de Información Transmisión
+Nombre Propietario: 		CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT: 			TAP OFF MAYACA - TAP OFF LA PALMA 110KV
+Tramo: 			TAP OFF MAYACA - TAP OFF LA PALMA 110KV C1
+Nombre: 			TAP OFF MAYACA - TAP OFF LA PALMA 110KV C1
+Circuito: 			C1
+ID Info: 			3275
+Tipo Conductor: 		312.8 AASC-Butte (AAAC 6201 T81 Butte)
+Año PES: 			2019</description>
+				<styleUrl>#msn_ylw-pushpin88</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.17915562845626,-32.86624352795254,0 -71.18065128431194,-32.86652168543401,0 -71.18098796494736,-32.86660502952491,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>TAP OFF MAYACA - MAYACA 110KV C1</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT: 		MAYACA - TAP OFF MAYACA 110KV
+Tramo: 		MAYACA - TAP OFF MAYACA 110KV C1
+Nombre: 		TAP OFF MAYACA - MAYACA 110KV C1
+Circuito: 		C1
+ID Info: 		2987
+Tipo Conductor: 	312.8 AASC-Butte (AAAC 6201 T81 Butte)
+Año PES: 		2019</description>
+				<styleUrl>#msn_ylw-pushpin88</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.18113736421802,-32.86662845332433,0 -71.1815242887763,-32.86661402164737,0 -71.18459836310348,-32.86698467195541,0 -71.18701302815373,-32.8662301596492,0 -71.19053202964338,-32.86529824354103,0 -71.19285414832505,-32.86444171826786,0 -71.19563170515707,-32.86404140920133,0 -71.19775917203741,-32.86378225412667,0 -71.19900865579886,-32.86425227109461,0 -71.20065198689268,-32.86357921666899,0 -71.20229448211987,-32.86374830175102,0 -71.20518251582125,-32.86293935741646,0 -71.20673436781766,-32.86190243350489,0 -71.21113450875335,-32.86163110719288,0 -71.21373666413871,-32.86150083004912,0 -71.2152594773591,-32.86178340934422,0 -71.21825651021528,-32.86157706285061,0 -71.21843439407219,-32.86307254971388,0 -71.21865737497546,-32.86482350897236,0 -71.22014847202877,-32.86467456012191,0 -71.2227336958218,-32.86476523639911,0 -71.22301902733513,-32.86624815992741,0 -71.2233292285418,-32.86801037531563,0 -71.22487685962956,-32.86800865572654,0 -71.22825825031028,-32.86885872129672,0 -71.2296360895818,-32.8677981397522,0 -71.22995468592259,-32.86775067426986,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>C2</name>
+			<Placemark>
+				<name>TAP OFF MAYACA - TAP OFF LA PALMA 110KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 		CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT: 			TAP OFF MAYACA - TAP OFF LA PALMA 110KV
+Tramo: 			TAP OFF MAYACA - TAP OFF LA PALMA 110KV C2
+Nombre: 			TAP OFF MAYACA - TAP OFF LA PALMA 110KV C2
+Circuito: 			C2
+ID Info: 			3276
+Tipo Conductor: 		312.8 AASC-Butte (AAAC 6201 T81 Butte)
+Año PES: 			2019</description>
+				<styleUrl>#msn_ylw-pushpin87</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.17906889876012,-32.86614071528483,0 -71.18069785033795,-32.86644127213515,0 -71.18097335692364,-32.86651356434019,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>TAP OFF MAYACA - MAYACA 110KV C2</name>
+				<description>Gestión de Información Transmisión
+Nombre Propietario: 	CHILQUINTA TRANSMISIÓN S.A.
+Nombre LT: 		MAYACA - TAP OFF MAYACA 110KV
+Tramo: 		MAYACA - TAP OFF MAYACA 110KV C2
+Nombre: 		TAP OFF MAYACA - MAYACA 110KV C2
+Circuito: 		C2
+ID Info: 		2988
+Tipo Conductor: 	312.8 AASC-Butte (AAAC 6201 T81 Butte)
+Año PES: 		2019</description>
+				<styleUrl>#msn_ylw-pushpin87</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.18114201192782,-32.86653866124438,0 -71.18158000131892,-32.86656241289988,0 -71.18458545710951,-32.86688961274994,0 -71.19056168347726,-32.86514425743932,0 -71.19281425318556,-32.86433925573125,0 -71.19561995935528,-32.86394485585485,0 -71.19777583721434,-32.86366674338726,0 -71.19901607959925,-32.86415210777157,0 -71.20067936435581,-32.86346881067071,0 -71.20229140894951,-32.86363222059251,0 -71.20521572996121,-32.86281799300878,0 -71.20675402471633,-32.86175381461178,0 -71.21115124131671,-32.86150826209445,0 -71.21375891894269,-32.8613418297025,0 -71.2152771593927,-32.86161972656576,0 -71.21836884158708,-32.86139269209961,0 -71.21855865280818,-32.86307777767622,0 -71.21874417305996,-32.86470384191829,0 -71.2202289430803,-32.86455391807826,0 -71.22280053970337,-32.86465718422763,0 -71.22310441391585,-32.86622133779892,0 -71.22340008625433,-32.86791524981774,0 -71.2248777535371,-32.8679057095337,0 -71.22823254177851,-32.8687789802644,0 -71.22962442368295,-32.86772725099106,0 -71.22996889948361,-32.8676559075393,0 -71.22996439768293,-32.86765997921205,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Eje Trazado APAGAR</name>
+			<Placemark>
+				<name>LT51 Tap Mayaca 110kV</name>
+				<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+				<styleUrl>#inline3710</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.1791121269986,-32.86619524294762,0 -71.18068170148238,-32.86648796214058,0 -71.18097667695181,-32.866555392935,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>LT51 Tap Mayaca-Mayaca 110kV</name>
+				<description>Coordenado por Oliver Cabezas
+Gestión de Información Transmisión</description>
+				<styleUrl>#msn_ylw-pushpin170001</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-71.1811406840631,-32.86658439385333,0 -71.1815317605361,-32.86658881841293,0 -71.18462022028945,-32.86693868550699,0 -71.18699213447999,-32.86618860908946,0 -71.1905345031191,-32.86522320632493,0 -71.19283741001759,-32.86438270636144,0 -71.19557478755861,-32.86399959623661,0 -71.19778461435756,-32.86373531372367,0 -71.19900399364913,-32.86421565553614,0 -71.20067076898314,-32.86351626460166,0 -71.2022992739583,-32.86369666622598,0 -71.20521319100396,-32.86286904758916,0 -71.20675369543945,-32.8618216374073,0 -71.21114872292696,-32.86156857123953,0 -71.21376067272907,-32.86141388676899,0 -71.21530870755259,-32.86170491187834,0 -71.21830542658834,-32.86146640031754,0 -71.21849074627242,-32.86312358523218,0 -71.21868810986653,-32.86477197543686,0 -71.2202563922185,-32.86460764929881,0 -71.2227725116911,-32.86471121708373,0 -71.22307481193478,-32.86631034695328,0 -71.22335541925057,-32.86796833130819,0 -71.22489047278829,-32.86795326485794,0 -71.22825567196223,-32.86882844266713,0 -71.22962119400016,-32.86776938023303,0 -71.22996567699003,-32.86770424407269,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
